@@ -1,2 +1,6 @@
-# whatrocks
-source code for my blog
+# charlie's blog
+
+```bash
+yarn install
+gatsby develop
+```

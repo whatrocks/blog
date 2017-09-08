@@ -16,6 +16,7 @@
     "gatsby-transformer-javascript-static-exports": "^1.3.5",
     "gatsby-transformer-remark": "^1.7.7",
     "gatsby-transformer-sharp": "^1.6.5",
+    "gh-pages": "^1.0.0",
     "moment": "^2.18.1",
     "react-syntax-highlighter": "^5.7.0",
     "typeface-hind": "^0.0.35",
@@ -27,8 +28,9 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "build": "rm -rf public/*.html && gatsby build && cp -r public ../whatrocks.github.io",
+    "build": "rm -rf public/*.html && gatsby build",
     "develop": "gatsby develop",
+    "deploy": "yarn build && gh-pages -d public",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -26,13 +26,33 @@ export default function Post({ pathContext }) {
 
 // This is where you write the post!
 class CustomPost extends Component {
+  state = {
+    stars: [],
+    twinkleStars: []
+  }
+
+  componentWillMount() {
+    let newStars = [];
+    let twinkleStars = [];
+    for (var i = 0; i < 20; i++) {
+      var star = { x: Math.random() * 700, y: (Math.random() * 400), timeBetweenSteps: 200 }
+      newStars.push(star);
+      twinkleStars.push(star);
+    }
+    this.setState({ stars: newStars, twinkleStars: twinkleStars });
+  }
+
+
+
   render() {
     const { images } = this.props;
+    const { stars, twinkleStars } = this.state;
     return (
       <div>
         <p>Subclassing in JavaScript is quite useful. I used JavaScript subclasses to create this Star Wars inspired game.</p>
         <img alt="aluminum-falcon" src="img/subclasswars.gif" />
         <p>You can <a href="http://whatrocks.github.io/aluminum-falcon">play it right now</a>, or <a href="https://github.com/whatrocks/subclasswars.js">check out the code</a> on Github. The rest of this insanely long post will demonstrate how to use JavaScript subclassing to build the foundations of a similar game or visualization.</p>
+        <p><i>Another note - when I originally wrote this post I was using the Pelican static site generator and wrote these interactive examples in jQuery. I've recently moved to a Gatsby/React static site, so I had to rewrite these visualizations in React. But the jQuery code blocks should still work as good examples of what's going on here.</i></p>
         <h3>Subclassing overview</h3>
         <p>A class can be written to create fleets of similar objects with shared properties and methods. For example, if you're building the game Frogger, you can create a class called Vehicle that will produce a single instance of one of those pesky little cars. Let's imagine that your Vehicle class has one property (location, to track a car's current location) and one method (move, to drive a car forward). Based on the difficulty of the game level, you can use your Vehicle class to produce as many cars as you want to hinder that frog from its goal.</p>
         <p>But what if you get the idea to introduce a new type of vehicle that nefariously changes lanes at random, or a friendly car that scoops up the froggie and brings him to the pond? You could certainly add those features to your original Vehicle class, but then all instances of Vehicle would have those new properties and methods, and it may prove difficult to track and turn them on for certain Vehicle instances based on your game design (e.g. produce one and only one friendly car per level).</p>
@@ -50,6 +70,20 @@ class CustomPost extends Component {
           </pre>
         </code>
 
+        <div style={{
+          "height": 400,
+          "width": 700,
+          "backgroundColor": "black",
+          "position": "relative"
+        }}>
+          {
+            stars &&
+            stars.map((star, index) => {
+              return <Star key={index} x={star.x} y={star.y} timeBetweenSteps={star.timeBetweenSteps} />
+            })
+          }
+        </div>
+
         <p>Hello, stars!! Note that I've used the pseudoclassical instantiation pattern (rather than the functional or prototypal patterns) to build the Star class, so new stars need to be instantiated with the "new" keyword. Another important detail for this and any other HTML visualizations is that the origin (the [0,0] location) of any HTML element or document is the upper left corner.</p>
         <p>Now, let's make those stars twinkle to show you how subclassing works. We will need to refactor our base Star class slightly:</p>
 
@@ -58,6 +92,21 @@ class CustomPost extends Component {
             {code2}
           </pre>
         </code>
+
+        <div style={{
+          "height": 400,
+          "width": 700,
+          "backgroundColor": "black",
+          "position": "relative"
+        }}>
+          {
+            twinkleStars &&
+            twinkleStars.map((star, index) => {
+              return <TwinkleStar key={index} x={star.x} y={star.y} timeBetweenSteps={star.timeBetweenSteps} />
+            })
+          }
+        </div>
+
         <p>Wow! Now we're getting somewhere. Reload the page if you want another random astrology sign constellation.</p>
         <p>A lot happened in the last in the last iteration of code, and it's important to highlight some things now. First, we introduced a new method to our base Star class called 'step' that essentially mimics a game loop with the native JS function setTimeout. This is a little hacky and definitely not what you want to use for a real game, but this is just a demo, and hey, it's me.</p>
         <img alt="stars" src="img/hey.gif" />
@@ -408,3 +457,59 @@ const code4 =
    this.$node.css({height: size, width: size});
    MoveStar.prototype.step.call(this);
  };`
+
+class Star extends Component {
+  state = {
+    x: '',
+    y: '',
+    timeBetweenSteps: ''
+  }
+
+  componentWillMount() {
+    this.setState(this.props);
+  }
+
+  render() {
+    const { x, y, timeBetweenSteps } = this.props;
+    return <span style={{ top: y, left: x, border: "2px", borderStyle: "solid", borderColor: "white", borderRadius: "2px", position: "absolute" }} />
+  }
+
+}
+
+class TwinkleStar extends Component {
+  state = {
+    x: '',
+    y: '',
+    timeBetweenSteps: '',
+    timer: null,
+    display: 'inline'
+  }
+
+  componentDidMount() {
+    const { x, y, timeBetweenSteps } = this.props;
+    this.step();
+    this.setState({ x: x, y: y, timeBetweenSteps: timeBetweenSteps });
+  }
+
+  step() {
+    const { timeBetweenSteps, display } = this.state;
+    let newDisplay;
+    let timer = setTimeout(() => {
+      newDisplay = (display === "inline") ? "none" : "inline";
+      this.setState({ display: newDisplay });
+      this.step();
+    }, timeBetweenSteps);
+    this.setState({ timer: timer });
+  }
+
+  componentWillUnmount() {
+    const { timer } = this.state;
+    clearInterval(timer);
+  }
+
+  render() {
+    const { x, y, timeBetweenSteps, display } = this.state;
+    return <span style={{ top: y, left: x, border: "2px", borderStyle: "solid", borderColor: "white", borderRadius: "2px", position: "absolute", display: display }} />
+  }
+
+}

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Template from "../../templates/blog-post";
-import p5 from "p5";
 
 export const data = {
   fullPath: "2015-10-26-pseudoclassical-star-wars",

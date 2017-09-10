@@ -61,6 +61,7 @@ export default function Index({ data }) {
             >
               <Link
                 to={post.frontmatter.path}
+                className="indexLink"
                 style={{
                   border: "2px solid rgb(238, 238, 238)",
                   padding: "2rem",
@@ -75,6 +76,18 @@ export default function Index({ data }) {
                 <h5 style={{ textAlign: "center" }}>
                   {moment(new Date(post.frontmatter.date)).format("DD MMMM YYYY")}
                 </h5>
+                {
+                  post.frontmatter.title === "Pseudoclassical Star Wars"
+                  &&
+                  <img
+                    style={{
+                      maxHeight: "450px",
+                      marginTop: "1rem",
+                      marginBottom: "0",
+                    }}
+                    src={"img/subclasswars.gif"}
+                  />
+                }
                 {
                   post.indexImage
                   &&

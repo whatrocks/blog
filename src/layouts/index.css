@@ -44,7 +44,8 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-  text-decoration: none;
+  /* text-decoration: none; */
+  text-decoration-color: green;
   color: rgb(51, 51, 51);
 }
 a:active,
@@ -52,6 +53,17 @@ a:hover {
   outline-width: 0;
   color: green;
 }
+
+a.indexLink {
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+}
+
+/* a.indexLink:active,
+a.indexLink:hover {
+  /* text-decoration: underline dashed green;
+} */
+
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;

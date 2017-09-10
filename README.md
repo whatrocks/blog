@@ -1,6 +1,6 @@
 # charlie's blog
 
 ```bash
-yarn install
-gatsby develop
+npm install
+npm run develop
 ```

@@ -18,8 +18,6 @@
     "gatsby-transformer-sharp": "^1.6.5",
     "gh-pages": "^1.0.0",
     "moment": "^2.18.1",
-    "p5": "^0.5.14",
-    "react-p5-wrapper": "^0.0.4",
     "react-syntax-highlighter": "^5.7.0",
     "typeface-hind": "^0.0.35",
     "typeface-raleway": "^0.0.35"
@@ -32,7 +30,7 @@
   "scripts": {
     "build": "rm -rf public/*.html && gatsby build",
     "develop": "gatsby develop",
-    "deploy": "yarn build && gh-pages -d public",
+    "deploy": "npm run build && gh-pages -d public",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

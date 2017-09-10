@@ -19,7 +19,7 @@ The Alcatraz Challenge is a 1.5 mile swim from Alcatraz Island to the northern s
 I paid over $100 dollars to give it a shot.
 
 ![Sean Connery in the Rock](./images/connery.png)
-*You know… you’re almost the only evidence that I exist.*
+<div style="text-align:center;padding-bottom:10px">You know… you’re almost the only evidence that I exist.</div>
 
 I arrived at the East Beach of Crissy Field around 5 AM. The sky was dark grey, the water quiet and serene. All was calm at the transition area. A few people chitter-chattered while applying Body Glide. I looked for someone to chitter-chatter with myself, but no takers. Instead, I jumped on an early shuttle to the appointed ferry building at 5:45 AM instead of my scheduled 6 AM departure. I closed my eyes as we made our way across the city amid the warming sunrise.
 It sounded like a bunch of 8th graders were on the bus behind me. I turned around — a bunch of 8th graders were on the bus behind me. My confidence boosted — *if they could make the swim with their tiny 8th grade arms* — until I remembered their parents. I am 30 years old and I barely told my parents I was swimming this race. These kids must be future Olympians.
@@ -57,3 +57,5 @@ Eventually I saw the beach and then the color of people’s shirts on the beach 
 I’d made it — I survived. I still had a seven mile run over the Golden Gate Bridge and back, but nothing else mattered. Fortune, revenge, and Mercédès awaited.
 
 ![Finisher pic of Charlie Harrington](./images/success.png)
+
+<div style="text-align:center;padding-bottom:10px">Hey, Mercédès.</div>

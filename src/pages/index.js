@@ -89,6 +89,18 @@ export default function Index({ data }) {
                   />
                 }
                 {
+                  post.frontmatter.title === "Space Time Travel with Wormie"
+                  &&
+                  <img
+                    style={{
+                      maxHeight: "450px",
+                      marginTop: "1rem",
+                      marginBottom: "0",
+                    }}
+                    src={"img/WormieLive.gif"}
+                  />
+                }
+                {
                   post.indexImage
                   &&
                   <img

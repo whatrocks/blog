@@ -9,6 +9,12 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-transformer-javascript-static-exports`,
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-59298979-1',
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/pages`,

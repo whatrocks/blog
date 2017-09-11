@@ -10,8 +10,6 @@ image: "WormieLive.gif"
 excerpt: "The cool thing about cool things is..."
 ---
 
-## Introducing Wormie
-
 ![Live](./images/logo.png)
 
 [Wormie](http://www.wormieapp.com/) is an iOS app to connect you with people in the places you want to see.

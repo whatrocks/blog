@@ -4,6 +4,10 @@
       "path---lendup-critters-5c58eae62697fb726dce.js",
       "path---lendup-critters-5c58eae62697fb726dce.js.map"
     ],
+    "path---rim-2-rim-2-rim": [
+      "path---rim-2-rim-2-rim-aeb381523343b284fecf.js",
+      "path---rim-2-rim-2-rim-aeb381523343b284fecf.js.map"
+    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-23db5e2a83bef6442f0b.js",
       "component---src-pages-index-js-23db5e2a83bef6442f0b.js.map"
@@ -21,8 +25,8 @@
       "path---pseudoclassical-star-wars-c67cabcf66e3be9a3baf.js.map"
     ],
     "path---terminal-man-live-in-nyc": [
-      "path---terminal-man-live-in-nyc-76169f219566ca116349.js",
-      "path---terminal-man-live-in-nyc-76169f219566ca116349.js.map"
+      "path---terminal-man-live-in-nyc-109aa1c9d1529ddd27c7.js",
+      "path---terminal-man-live-in-nyc-109aa1c9d1529ddd27c7.js.map"
     ],
     "component---src-templates-blog-post-js": [
       "component---src-templates-blog-post-js-c2e7710a01d8277ca512.js",
@@ -41,8 +45,8 @@
       "path---2015-10-26-pseudoclassical-star-wars-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
-      "path---index-1d47482f1a39e7b1a5a7.js",
-      "path---index-1d47482f1a39e7b1a5a7.js.map"
+      "path---index-2a2e30223e27540bb7c0.js",
+      "path---index-2a2e30223e27540bb7c0.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -56,15 +60,31 @@
       "component---src-pages-2015-10-26-pseudoclassical-star-wars-index-js-940e52dcb465c69b8cba.js",
       "component---src-pages-2015-10-26-pseudoclassical-star-wars-index-js-940e52dcb465c69b8cba.js.map"
     ],
+    "path---terminal-man-one-day-lord-shardik-will-return": [
+      "path---terminal-man-one-day-lord-shardik-will-return-842c5628c86863f60ab8.js",
+      "path---terminal-man-one-day-lord-shardik-will-return-842c5628c86863f60ab8.js.map"
+    ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---terminal-man-upside-down": [
+      "path---terminal-man-upside-down-a314884319ddc7c292be.js",
+      "path---terminal-man-upside-down-a314884319ddc7c292be.js.map"
+    ],
+    "path---terminal-man-written-in-water": [
+      "path---terminal-man-written-in-water-3ad4476d9c6b02b033af.js",
+      "path---terminal-man-written-in-water-3ad4476d9c6b02b033af.js.map"
+    ],
     "app": [
-      "app-e851ff3b7504c890afca.js",
+      "app-dc6551794ca59c49ce49.js",
       "build-js-styles.css",
-      "app-e851ff3b7504c890afca.js.map",
+      "app-dc6551794ca59c49ce49.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---glass-steagall-act-farewell-show": [
+      "path---glass-steagall-act-farewell-show-1df6a3f8ea72462967e4.js",
+      "path---glass-steagall-act-farewell-show-1df6a3f8ea72462967e4.js.map"
     ],
     "path---merlins-advice": [
       "path---merlins-advice-57ec30e2397aff44c0d8.js",

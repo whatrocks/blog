@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "charlie-harrington-blog",
+  "description": "Charlie Harrington's Blog",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Charlie Harrington <charlie@whatrocks.org>",
   "dependencies": {
     "gatsby": "^1.9.17",
     "gatsby-link": "^1.6.15",

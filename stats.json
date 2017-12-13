@@ -44,6 +44,10 @@
       "path---terminal-man-over-water-under-you-588f7fd0b5c29e5b7e33.js",
       "path---terminal-man-over-water-under-you-588f7fd0b5c29e5b7e33.js.map"
     ],
+    "path---terminal-man-auri": [
+      "path---terminal-man-auri-157a3e58f8040dc25004.js",
+      "path---terminal-man-auri-157a3e58f8040dc25004.js.map"
+    ],
     "path---pseudoclassical-star-wars": [
       "path---pseudoclassical-star-wars-c67cabcf66e3be9a3baf.js",
       "path---pseudoclassical-star-wars-c67cabcf66e3be9a3baf.js.map"
@@ -69,8 +73,8 @@
       "path---2015-10-26-pseudoclassical-star-wars-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
-      "path---index-524cf1d8bd02457c0ac7.js",
-      "path---index-524cf1d8bd02457c0ac7.js.map"
+      "path---index-161d359113a278529284.js",
+      "path---index-161d359113a278529284.js.map"
     ],
     "path---terminal-man-golden-olden": [
       "path---terminal-man-golden-olden-17f7f6e13d9728179943.js",
@@ -105,9 +109,9 @@
       "path---terminal-man-written-in-water-25f4e7b80c11be78c688.js.map"
     ],
     "app": [
-      "app-9b9f4235010c999c2514.js",
+      "app-bde4e8297c9ba4c4e71f.js",
       "build-js-styles.css",
-      "app-9b9f4235010c999c2514.js.map",
+      "app-bde4e8297c9ba4c4e71f.js.map",
       "build-js-styles.css.map"
     ],
     "path---meet-von-chomp": [

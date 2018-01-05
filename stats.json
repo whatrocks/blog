@@ -65,16 +65,16 @@
       "path---space-time-travel-with-wormie-b0b49345d20dd363814b.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-f93adc4525086346a0a0.js",
-      "component---src-layouts-index-js-f93adc4525086346a0a0.js.map"
+      "component---src-layouts-index-js-0b90c386c29558481c72.js",
+      "component---src-layouts-index-js-0b90c386c29558481c72.js.map"
     ],
     "path---2015-10-26-pseudoclassical-star-wars": [
       "path---2015-10-26-pseudoclassical-star-wars-a0e39f21c11f6a62c5ab.js",
       "path---2015-10-26-pseudoclassical-star-wars-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
-      "path---index-161d359113a278529284.js",
-      "path---index-161d359113a278529284.js.map"
+      "path---index-a37260d30f485252ab90.js",
+      "path---index-a37260d30f485252ab90.js.map"
     ],
     "path---terminal-man-golden-olden": [
       "path---terminal-man-golden-olden-17f7f6e13d9728179943.js",
@@ -100,6 +100,10 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---terminal-man-ghost-2": [
+      "path---terminal-man-ghost-2-e6a80a6bbc65dcb36951.js",
+      "path---terminal-man-ghost-2-e6a80a6bbc65dcb36951.js.map"
+    ],
     "path---terminal-man-upside-down": [
       "path---terminal-man-upside-down-4a6b2f7f16c59eec1ff1.js",
       "path---terminal-man-upside-down-4a6b2f7f16c59eec1ff1.js.map"
@@ -109,9 +113,9 @@
       "path---terminal-man-written-in-water-25f4e7b80c11be78c688.js.map"
     ],
     "app": [
-      "app-bde4e8297c9ba4c4e71f.js",
+      "app-0a00b510b39e6e1bdc19.js",
       "build-js-styles.css",
-      "app-bde4e8297c9ba4c4e71f.js.map",
+      "app-0a00b510b39e6e1bdc19.js.map",
       "build-js-styles.css.map"
     ],
     "path---meet-von-chomp": [

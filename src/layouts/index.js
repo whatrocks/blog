@@ -74,7 +74,7 @@ const TemplateWrapper = ({ children }) =>
           style={{
             fontSize: "0.8rem"
           }}
-        >This is my site, and I'm Charlie Harrington. Say hello at @whatrocks on <a href="https://www.github.com/whatrocks">GitHub</a>, <a href="https://www.twitter.com/whatrocks">Twitter</a>, or <a href="https://www.floydhub.com/whatrocks">FloydHub</a>. Or all three.</span>
+        >Copyright © Charlie Harrington, 2018. Say hello at @whatrocks on <a href="https://www.github.com/whatrocks">GitHub</a>, <a href="https://www.twitter.com/whatrocks">Twitter</a>, or <a href="https://www.floydhub.com/whatrocks">FloydHub</a>. Or all three.</span>
       </div>
     </div>
   </div>;

@@ -96,6 +96,16 @@ export default function Index({ data }) {
                       src={"img/subclasswars.gif"}
                     />
                   )}
+                  {post.frontmatter.title === "Teaching My Robot With TensorFlow" && (
+                    <img
+                      style={{
+                        maxHeight: "450px",
+                        marginTop: "1rem",
+                        marginBottom: "0"
+                      }}
+                      src={"img/cozmo-paparazzi.gif"}
+                    />
+                  )}
                   {post.frontmatter.title ===
                     "Space Time Travel with Wormie" && (
                     <img

@@ -21,8 +21,8 @@
       "path---rim-2-rim-2-rim-4b226f11bbd376f34635.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-95d958a0faf916dca0c2.js",
-      "component---src-pages-index-js-95d958a0faf916dca0c2.js.map"
+      "component---src-pages-index-js-38664b7ea3292a094683.js",
+      "component---src-pages-index-js-38664b7ea3292a094683.js.map"
     ],
     "path---edcrunch-in-moscow": [
       "path---edcrunch-in-moscow-7e4ae4c3cf82aebae08e.js",
@@ -73,8 +73,8 @@
       "path---2015-10-26-pseudoclassical-star-wars-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
-      "path---index-a37260d30f485252ab90.js",
-      "path---index-a37260d30f485252ab90.js.map"
+      "path---index-4ce38013c034fb4126d2.js",
+      "path---index-4ce38013c034fb4126d2.js.map"
     ],
     "path---terminal-man-golden-olden": [
       "path---terminal-man-golden-olden-17f7f6e13d9728179943.js",
@@ -100,6 +100,10 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---teaching-my-robot-with-tensorflow": [
+      "path---teaching-my-robot-with-tensorflow-d78c966ed3f40db5fd22.js",
+      "path---teaching-my-robot-with-tensorflow-d78c966ed3f40db5fd22.js.map"
+    ],
     "path---terminal-man-ghost-2": [
       "path---terminal-man-ghost-2-e6a80a6bbc65dcb36951.js",
       "path---terminal-man-ghost-2-e6a80a6bbc65dcb36951.js.map"
@@ -113,9 +117,9 @@
       "path---terminal-man-written-in-water-25f4e7b80c11be78c688.js.map"
     ],
     "app": [
-      "app-0a00b510b39e6e1bdc19.js",
+      "app-4dfe8a81dc6a9163a865.js",
       "build-js-styles.css",
-      "app-0a00b510b39e6e1bdc19.js.map",
+      "app-4dfe8a81dc6a9163a865.js.map",
       "build-js-styles.css.map"
     ],
     "path---meet-von-chomp": [

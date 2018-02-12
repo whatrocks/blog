@@ -4,14 +4,16 @@ import Link from "gatsby-link";
 import Helmet from "react-helmet";
 import moment from "moment";
 
-require('typeface-hind');
-require('typeface-raleway');
+require("typeface-hind");
+require("typeface-raleway");
 import "./index.css";
 
-const Header = () =>
-  <div style={{
-    marginBottom: "2rem",
-  }}>
+const Header = () => (
+  <div
+    style={{
+      marginBottom: "2rem"
+    }}
+  >
     <div
       style={{
         margin: "0 auto",
@@ -21,7 +23,7 @@ const Header = () =>
         flexDirection: "row",
         justifyContent: "center",
         alignItems: "center",
-        borderBottom: "2px solid rgb(238, 238, 238)",
+        borderBottom: "2px solid rgb(238, 238, 238)"
       }}
     >
       <Link
@@ -30,25 +32,45 @@ const Header = () =>
           textDecoration: "none"
         }}
       >
-        <h1 style={{ fontFamily: 'Raleway' }}>¶</h1>
+        <h1 style={{ fontFamily: "Raleway" }}>¶</h1>
       </Link>
     </div>
-  </div>;
+  </div>
+);
 
-const TemplateWrapper = ({ children }) =>
+const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
       title="Charlie Harrington - @whatrocks"
       meta={[
-        { name: "description", content: "Charlie Harrington - Software Engineer - @whatrocks" },
+        {
+          name: "description",
+          content: "Charlie Harrington - Software Engineer - @whatrocks"
+        },
         {
           name: "keywords",
-          content:
-          "charlie harrington, whatrocks, javascript, learning"
+          content: "charlie harrington, whatrocks, javascript, learning"
         }
       ]}
-      link={[
-        { rel: "shortcut icon", href: "/img/favicon.ico" }
+      link={[{ rel: "shortcut icon", href: "/img/favicon.ico" }]}
+      script={[
+        {
+          type: "text/javascript",
+          innerHTML: `
+            window.productHuntUpcoming = {
+              appId: 2422,
+              position: 'bottomLeft',
+            };
+          
+            (function(doc, scr, src, a, b) {
+              a = doc.createElement(scr);
+              b = doc.getElementsByTagName(scr)[0];
+              a.async = true;
+              a.src = src;
+              b.parentNode.insertBefore(a, b);
+            })(document, 'script', 'https://assets.producthunt.com/assets/upwigloader.js');
+          `
+        }
       ]}
     />
     <Header />
@@ -74,10 +96,17 @@ const TemplateWrapper = ({ children }) =>
           style={{
             fontSize: "0.8rem"
           }}
-        >Copyright © Charlie Harrington, 2018. Say hello at @whatrocks on <a href="https://www.github.com/whatrocks">GitHub</a>, <a href="https://www.twitter.com/whatrocks">Twitter</a>, or <a href="https://www.floydhub.com/whatrocks">FloydHub</a>. Or all three.</span>
+        >
+          Copyright © Charlie Harrington, 2018. Say hello at @whatrocks on{" "}
+          <a href="https://www.github.com/whatrocks">GitHub</a>,{" "}
+          <a href="https://www.twitter.com/whatrocks">Twitter</a>, or{" "}
+          <a href="https://www.floydhub.com/whatrocks">FloydHub</a>. Or all
+          three.
+        </span>
       </div>
     </div>
-  </div>;
+  </div>
+);
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func

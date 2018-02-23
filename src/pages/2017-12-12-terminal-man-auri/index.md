@@ -4,7 +4,7 @@ path: "/terminal-man-auri"
 markdown: true
 date: "2017-12-12"
 author: "Charles Harrington"
-title: "Terminal Man - Auri"
+title: "Auri"
 category: "Music"
 image: "willow.jpg"
 excerpt: "The cool thing about cool things is..."

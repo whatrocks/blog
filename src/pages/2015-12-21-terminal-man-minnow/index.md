@@ -4,7 +4,7 @@ path: "/terminal-man-minnow"
 markdown: true
 date: "2015-12-21"
 author: "Charlie Harrington"
-title: "Terminal Man - Minnow"
+title: "Minnow"
 category: "Music"
 image: "minnow.jpg"
 excerpt: "The cool thing about cool things is..."

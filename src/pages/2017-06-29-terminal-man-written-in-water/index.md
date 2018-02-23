@@ -4,7 +4,7 @@ path: "/terminal-man-written-in-water"
 markdown: true
 date: "2017-06-29"
 author: "Charlie Harrington"
-title: "Terminal Man - Written in Water"
+title: "Written in Water"
 category: "Music"
 image: "waverace.jpg"
 excerpt: "The cool thing about cool things is..."

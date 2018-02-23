@@ -4,7 +4,7 @@ path: "/terminal-man-one-day-lord-shardik-will-return"
 markdown: true
 date: "2016-12-06"
 author: "Charlie Harrington"
-title: "Terminal Man - One Day Lord Shardik Will Return"
+title: "One Day Lord Shardik Will Return"
 category: "Music"
 image: "bear.jpg"
 excerpt: "The cool thing about cool things is..."

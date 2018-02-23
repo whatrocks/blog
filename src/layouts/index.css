@@ -59,10 +59,29 @@ a.indexLink {
   text-decoration: none;
 }
 
-/* a.indexLink:active,
+a.indexLink:active,
 a.indexLink:hover {
-  /* text-decoration: underline dashed green;
-} */
+  /* text-decoration: underline green; */
+  color: green;
+}
+
+@media only screen and (min-width: 768px) {
+  a.indexLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  a.indexLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 abbr[title] {
   border-bottom: none;

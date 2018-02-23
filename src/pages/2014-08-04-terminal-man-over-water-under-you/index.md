@@ -4,7 +4,7 @@ path: "/terminal-man-over-water-under-you"
 markdown: true
 date: "2014-08-04"
 author: "Charlie Harrington"
-title: "Terminal Man - Over Water, Under You"
+title: "Over Water, Under You"
 category: "Music"
 image: "water.jpg"
 excerpt: "The cool thing about cool things is..."

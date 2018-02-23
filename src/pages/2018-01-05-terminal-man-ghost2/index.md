@@ -4,7 +4,7 @@ path: "/terminal-man-ghost2"
 markdown: true
 date: "2018-01-05"
 author: "Charles Harrington"
-title: "Terminal Man - Ghost2"
+title: "Ghost2"
 category: "Music"
 image: "crab.jpg"
 excerpt: "The cool thing about cool things is..."

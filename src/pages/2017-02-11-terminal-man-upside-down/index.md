@@ -4,7 +4,7 @@ path: "/terminal-man-upside-down"
 markdown: true
 date: "2017-02-11"
 author: "Charlie Harrington"
-title: "Terminal Man - Upside Down"
+title: "Upside Down"
 category: "Music"
 image: "troll.jpg"
 excerpt: "The cool thing about cool things is..."

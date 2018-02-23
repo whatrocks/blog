@@ -4,7 +4,7 @@ path: "/terminal-man-too-much"
 markdown: true
 date: "2016-02-10"
 author: "Charlie Harrington"
-title: "Terminal Man - Too Much"
+title: "Too Much"
 category: "Music"
 image: "space.jpg"
 excerpt: "The cool thing about cool things is..."

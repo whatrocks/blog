@@ -4,7 +4,7 @@ path: "/terminal-man-golden-olden"
 markdown: true
 date: "2015-08-04"
 author: "Charlie Harrington"
-title: "Terminal Man - Golden Olden"
+title: "Golden Olden"
 category: "Music"
 image: "forest.jpg"
 excerpt: "The cool thing about cool things is..."

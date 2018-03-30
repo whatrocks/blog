@@ -70,6 +70,13 @@ a.indexLink:hover {
   /* text-decoration-color: #f2e200; */
 }
 
+.ch-name:active,
+.ch-name:hover {
+  text-decoration: underline #f2e200;
+}
+
+
+
 @media only screen and (min-width: 768px) {
   a.indexLink {
     display: flex;

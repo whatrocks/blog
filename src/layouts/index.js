@@ -32,7 +32,27 @@ const Header = () => (
           textDecoration: "none"
         }}
       >
-        <h1 style={{ fontFamily: "Raleway" }}>¶</h1>
+        <h1>
+          <span
+            style={{
+              fontFamily: "Raleway",
+              fontWeight: 800,
+            }}
+          >
+            ¶&nbsp;&nbsp;
+          </span>
+          <span
+            className="ch-name"
+            style={{
+              fontFamily: "Raleway",
+              fontWeight: 900,
+              letterSpacing: "0.05rem",
+              fontSize: "1.75rem"
+            }}
+          >
+            CHARLIE HARRINGTON
+          </span>
+        </h1>
       </Link>
     </div>
   </div>
@@ -53,25 +73,6 @@ const TemplateWrapper = ({ children }) => (
         }
       ]}
       link={[{ rel: "shortcut icon", href: "/img/favicon.ico" }]}
-      script={[
-        {
-          type: "text/javascript",
-          innerHTML: `
-            window.productHuntUpcoming = {
-              appId: 2422,
-              position: 'bottomLeft',
-            };
-          
-            (function(doc, scr, src, a, b) {
-              a = doc.createElement(scr);
-              b = doc.getElementsByTagName(scr)[0];
-              a.async = true;
-              a.src = src;
-              b.parentNode.insertBefore(a, b);
-            })(document, 'script', 'https://assets.producthunt.com/assets/upwigloader.js');
-          `
-        }
-      ]}
     />
     <Header />
     <div

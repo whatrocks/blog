@@ -9,7 +9,7 @@ category: "Running"
 image: "qp-fast.jpg"
 excerpt: "The cool thing about cool things is..."
 ---
-We ran ~38 miles of the Zion Traverse this past Saturday, including the I-can't-believe-this-actually-allowed Angels Landing climb. 
+We ran ~38 miles of the Zion Traverse this past Saturday, including the I-can't-believe-this-is-actually-allowed Angels Landing climb.
 
 Here's video proof:
 

@@ -233,7 +233,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em 'Hind', sans-serif;
+  font: 112.5%/1.45em 'Lora', serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -248,7 +248,7 @@ html {
 }
 body {
   color: rgb(51, 51, 51);
-  font-family: 'Hind', sans-serif;
+  font-family: 'Lora', serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -277,7 +277,7 @@ h1 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 0.5rem;
-  font-family: 'Hind', sans-serif;
+  font-family: 'Lora', serif;
   font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 2rem;
@@ -293,7 +293,7 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.5rem;
   color: inherit;
-  font-family: 'Hind', sans-serif;
+  font-family: 'Lora', serif;
   font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 2rem;
@@ -309,7 +309,7 @@ h3 {
   padding-top: 0;
   margin-bottom: 1rem;
   color: inherit;
-  font-family: 'Hind', sans-serif;
+  font-family: 'Lora', serif;
   font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 1.75rem;
@@ -325,7 +325,7 @@ h4 {
   padding-top: 0;
   margin-bottom: 0.25rem;
   color: inherit;
-  font-family: 'Hind', sans-serif;
+  font-family: 'Lora', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.5rem;
@@ -341,7 +341,7 @@ h5 {
   padding-top: 0;
   margin-bottom: 0.25rem;
   color: inherit;
-  font-family: 'Hind', sans-serif;
+  font-family: 'Lora', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.25rem;
@@ -357,7 +357,7 @@ h6 {
   padding-top: 0;
   margin-bottom: 0.25rem;
   color: inherit;
-  font-family: 'Hind', sans-serif;
+  font-family: 'Lora', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -428,7 +428,7 @@ p {
   padding-top: 0;
   margin-bottom: 1.25rem;
   line-height: 1.9rem;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
 }
 figure {
   margin-left: 0;
@@ -559,21 +559,21 @@ th {
 }
 li {
   margin-bottom: calc(1.45rem / 2);
-  font-size: 1.25rem;
+  font-size: 1.1rem;
 }
 ol li {
   padding-left: 0;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
 }
 ul li {
   padding-left: 0;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
 }
 li > ol {
   margin-left: 1.45rem;
   margin-bottom: calc(1.45rem / 2);
   margin-top: calc(1.45rem / 2);
-  font-size: 1.25rem;
+  font-size: 1.1rem;
 }
 li > ul {
   margin-left: 1.45rem;

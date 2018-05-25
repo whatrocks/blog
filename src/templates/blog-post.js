@@ -26,7 +26,8 @@ export default function Template({ data, children }) {
           style={{
             color: "hsla(0, 0%, 0%, .3)",
             textAlign: "center",
-            marginBottom: "1.5rem"
+            marginBottom: "1.5rem",
+            fontSize: "1.45rem"
           }}
         >
           {moment(new Date(post.frontmatter.date)).format("DD MMMM YYYY")}

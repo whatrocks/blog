@@ -5,6 +5,7 @@ import Helmet from "react-helmet";
 import moment from "moment";
 
 require("typeface-hind");
+require("typeface-lora");
 require("typeface-raleway");
 import "./index.css";
 
@@ -32,11 +33,17 @@ const Header = () => (
           textDecoration: "none"
         }}
       >
-        <h1>
+        <h1 style={{
+          display: 'flex',
+          flexDirection: 'row',
+          alignItems: 'center',
+          justifyContent: 'center'
+        }}>
           <span
             style={{
               fontFamily: "Raleway",
               fontWeight: 800,
+              fontSize: "1.35rem"
             }}
           >
             ¶&nbsp;&nbsp;
@@ -45,9 +52,9 @@ const Header = () => (
             className="ch-name"
             style={{
               fontFamily: "Raleway",
-              fontWeight: 900,
+              fontWeight: 800,
               letterSpacing: "0.05rem",
-              fontSize: "1.75rem"
+              fontSize: "1.45rem"
             }}
           >
             CHARLIE HARRINGTON

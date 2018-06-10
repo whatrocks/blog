@@ -31,9 +31,8 @@
   "scripts": {
     "build": "rm -rf public/*.html && gatsby build",
     "develop": "gatsby develop",
-    "deploy": "npm run build && gh-pages -d public",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "yarn build && gh-pages -d public",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'"
   },
   "devDependencies": {
     "prettier": "^1.6.1"

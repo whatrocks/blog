@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
 import Helmet from "react-helmet";
-import moment from "moment";
 
 export default function Template({ data, children }) {
   const { markdownRemark: post } = data;
@@ -30,7 +29,7 @@ export default function Template({ data, children }) {
             fontSize: "1.45rem"
           }}
         >
-          {moment(new Date(post.frontmatter.date)).format("DD MMMM YYYY")}
+          { post.frontmatter.date }
         </h3>
         <hr
           style={{
@@ -71,7 +70,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD MMMM YYYY")
         path
         title
         author

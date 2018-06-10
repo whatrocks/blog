@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "gatsby-link";
-import moment from "moment";
 
 export default function Index({ data }) {
   const { edges: mdPosts } = data.allMarkdownRemark;
@@ -32,9 +31,7 @@ export default function Index({ data }) {
                       </span>
                     </div>
                     <div style={{ fontSize: "1rem" }}>
-                      {moment(new Date(post.frontmatter.date)).format(
-                        "DD MMMM YYYY"
-                      )}
+                      {post.frontmatter.date}
                     </div>
                   </Link>
                 </div>
@@ -56,7 +53,7 @@ export const pageQuery = graphql`
           frontmatter {
             fullPath
             title
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "DD MMMM YYYY")
             path
             author
             category
@@ -71,7 +68,7 @@ export const pageQuery = graphql`
           data {
             fullPath
             path
-            date
+            date(formatString: "DD MMMM YYYY")
             author
             title
             category

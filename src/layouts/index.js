@@ -32,12 +32,14 @@ const Header = () => (
           textDecoration: "none"
         }}
       >
-        <h1 style={{
-          display: 'flex',
-          flexDirection: 'row',
-          alignItems: 'center',
-          justifyContent: 'center'
-        }}>
+        <h1
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+            justifyContent: "center"
+          }}
+        >
           <span
             style={{
               fontFamily: "Raleway",
@@ -91,6 +93,60 @@ const TemplateWrapper = ({ children }) => (
       }}
     >
       {children()}
+      <div
+        style={{
+          marginTop: "1rem",
+          borderTop: "2px solid rgb(238, 238, 238)",
+          paddingTop: "0.75rem",
+          textAlign: "center"
+        }}
+      >
+        <form
+          style={{
+            border: '1px solid rgb(238, 238, 238)',
+            borderRadius: '6px',
+            padding: '3px',
+            textAlign: 'center'
+          }}
+          action="https://tinyletter.com/whatrocks"
+          method="post"
+          target="popupwindow"
+          onSubmit={() => {
+            window.open('https://tinyletter.com/whatrocks', 'popupwindow', 'scrollbars=yes,width=800,height=600');
+            return true;
+          }}
+        >
+          <p
+            style={{
+              marginTop: '1rem',
+              fontSize: "1rem"
+            }}
+          >
+            <label for="tlemail">👋 Join my almost-never newsletter for updates on projects, writing, mascots.</label>
+          </p>
+          <p>
+            <input 
+              type="text"
+              placeholder="ripley@weyland-yutani.com"
+              style={{
+                padding: '0.5rem',
+                'minWidth': '340px',
+              }}
+              name="email"
+              id="tlemail"
+            />
+          </p>
+          <input type="hidden" value="1" name="embed" />
+          <input type="submit" value="Subscribe" />
+          <p style={{
+              fontSize: "0.75rem"
+            }}>
+            <a href="https://tinyletter.com" target="_blank">
+              powered by TinyLetter
+            </a>
+          </p>
+        </form>
+      </div>
       <div
         style={{
           marginTop: "1rem",

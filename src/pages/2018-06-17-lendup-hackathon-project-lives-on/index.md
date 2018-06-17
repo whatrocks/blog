@@ -20,6 +20,10 @@ Here it is, in all its cartoon-y glory: the [LendUp Education](https://www.lendu
 
 ![app](./images/confetti.gif)
 
-Pooja, Beckman, and I'm pretty sure one other person who I can't remember right now (sorry!) built this feature in a little less than a day, thanks to the power and glory and ergonomic bliss of [React Native](https://facebook.github.io/react-native/). 
+Pooja, Ray, Lise, and I built this cute little feature in a little less than a day, thanks to the power and glory and ergonomic bliss of [React Native](https://facebook.github.io/react-native/). Now it's one of the top-billed features in the app. 
 
-Somehow, we lost the hackathon to a chatbot. I'm not *that* bitter. I definitely would have enjoyed the taste of victory (and some of that oh-so-comfy LendUp swag), but at least our feature got released 🙏.
+![features](./images/features.png)
+
+I wonder what else we could have built for the Arrow Card app if we were just allowed to make stuff more independently.
+
+Also, somehow, we lost the hackathon to a chatbot project. I'm not *that* bitter. I definitely would have enjoyed the taste of victory (and some of that oh-so-comfy LendUp hackaday winner swag), but at least our feature got released 🙏.

@@ -4,7 +4,7 @@ import Link from "gatsby-link";
 import Helmet from "react-helmet";
 
 require("typeface-hind");
-require("typeface-lora");
+require("typeface-lato");
 require("typeface-raleway");
 import "./index.css";
 

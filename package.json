@@ -20,7 +20,7 @@
     "gh-pages": "^1.0.0",
     "react-syntax-highlighter": "^5.7.0",
     "typeface-hind": "^0.0.35",
-    "typeface-lora": "^0.0.54",
+    "typeface-lato": "^0.0.54",
     "typeface-raleway": "^0.0.35"
   },
   "keywords": [

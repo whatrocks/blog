@@ -18,7 +18,7 @@ I'm happy to report that after a little bit of NLP using Markov chains (and a wh
 
 >They listened to someone who makes nothing but flaming hot Cheetos.
 
-[If you're interested in reading more about the specifics of my project, I wrote about it in detail on on the FloydHub blog](https://blog.floydhub.com/markov-chains), or you can try it out now:
+[If you're interested in reading more about the specifics of my project, I wrote about it in detail on the FloydHub blog](https://blog.floydhub.com/markov-chains), or you can try it out now:
 
 [![Run on FloydHub](https://static.floydhub.com/button/button.svg)](https://floydhub.com/run?template=https://github.com/whatrocks/markov-commencement-speech)
 

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Template from "../../templates/blog-post";
 
-export const data = {
+export const frontmatter = {
   fullPath: "2015-10-26-pseudoclassical-star-wars",
   path: "/pseudoclassical-star-wars",
   date: "2015-10-26",
@@ -13,7 +13,7 @@ export const data = {
   excerpt: "I think I can remove this"
 };
 
-const template = { markdownRemark: { frontmatter: data } };
+const template = { markdownRemark: { frontmatter } };
 
 export default function Post({ pathContext }) {
   const { imagesInPost } = pathContext
@@ -392,7 +392,6 @@ const code3 =
 `
 
 const code4 =
-
   `
 /**
  *  TieFighter class

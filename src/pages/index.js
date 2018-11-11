@@ -1,23 +1,18 @@
 import React from "react";
-import Link from "gatsby-link";
+import { Link, graphql } from "gatsby";
+import Layout from '../layouts';
 
 export default function Index({ data }) {
   const { edges: mdPosts } = data.allMarkdownRemark;
-  const { edges: jsPosts } = data.allJsFrontmatter;
-  let frontmatteredJsPosts = jsPosts
-    .filter(post => post.node.data.title)
-    .map(post => {
-      post.node.frontmatter = post.node.data;
-      return post;
-    });
+  const { edges: jsPosts } = data.allJavascriptFrontmatter;
+  let frontmatteredJsPosts = jsPosts.filter(post => post.node.frontmatter.title);
   const sortedPosts = mdPosts.concat(frontmatteredJsPosts).sort((a, b) => {
     return (
       new Date(b.node.frontmatter.date) - new Date(a.node.frontmatter.date)
     );
   });
   return (
-    <div>
-      <div style={{ marginTop: "1rem" }}>
+    <Layout>
         {sortedPosts
           .filter(post => post.node.frontmatter.title.length > 0)
           .map(({ node: post }, index) => {
@@ -38,8 +33,7 @@ export default function Index({ data }) {
               )
             );
           })}
-      </div>
-    </div>
+    </Layout>
   );
 }
 
@@ -61,11 +55,11 @@ export const pageQuery = graphql`
         }
       }
     }
-    allJsFrontmatter(sort: { order: DESC, fields: [data___date] }) {
+    allJavascriptFrontmatter(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
           id
-          data {
+          frontmatter {
             fullPath
             path
             date(formatString: "DD MMMM YYYY")

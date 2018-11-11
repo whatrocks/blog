@@ -47,13 +47,13 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 
       // Fetch JavaScript posts
       return graphql(`{
-        allJsFrontmatter(
-          sort: { order: DESC, fields: [data___date]}
+        allJavascriptFrontmatter(
+          sort: { order: DESC, fields: [frontmatter___date]}
         ) {
             edges {
               node {
                 id
-                data {
+                frontmatter {
                   fullPath
                   path
                   date
@@ -72,12 +72,8 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
           // Copy the "data" to "frontmatter" for all JS pages
           // so that our "blog-post.js" template can simply
           // refer to a post's "frontmatter"
-          javascriptPosts = result.data.allJsFrontmatter.edges
-            .filter(post => post.node.data.title)
-            .map(post => {
-              post.node.frontmatter = post.node.data;
-              return post;
-            });
+          javascriptPosts = result.data.allJavascriptFrontmatter.edges
+            .filter(post => post.node.frontmatter.title);
 
           // Combine and sort the posts by date descending
           combinedPosts = markdownPosts.concat(javascriptPosts).sort((a, b) => {
@@ -158,11 +154,11 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
                 } else {
                   // Create the Javascript pages, injecting
                   // its images as context so they can be displayed
-                  const imagesInPost = imageMap[node.data.fullPath];
+                  const imagesInPost = imageMap[node.frontmatter.fullPath];
                   createPage({
-                    path: node.data.path,
+                    path: node.frontmatter.path,
                     component: path.resolve(
-                      `./src/pages/${node.data.fullPath}/index.js`
+                      `./src/pages/${node.frontmatter.fullPath}/index.js`
                     ),
                     context: { imagesInPost }
                   });

@@ -1,10 +1,12 @@
 import React from "react";
-import Link from "gatsby-link";
 import Helmet from "react-helmet";
+import { graphql } from 'gatsby'
+import Layout from '../layouts'
 
 export default function Template({ data, children }) {
   const { markdownRemark: post } = data;
   return (
+    <Layout>
     <div className="blog-post-container">
       <Helmet
         title={`${post.frontmatter.title} - Charlie Harrington - @whatrocks`}
@@ -62,6 +64,7 @@ export default function Template({ data, children }) {
         </div>
       </div>
     </div>
+    </Layout>
   );
 }
 

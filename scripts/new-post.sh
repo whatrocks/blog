@@ -78,7 +78,7 @@ mkdir "src/pages/${fullPath}/images"
 echo "import React, { Component } from \"react\";
 import Template from \"../../templates/blog-post\";
 
-export const data = {
+export const frontmatter = {
   fullPath: \"${fullPath}\",
   path: \"${path}\",
   date: \"${date}\",
@@ -90,7 +90,7 @@ export const data = {
   excerpt: \"${excerpt}\"
 };
 
-const template = { markdownRemark: { frontmatter: data } };
+const template = { markdownRemark: { frontmatter } };
 
 export default function Post({pathContext}) {
   const { imagesInPost } = pathContext

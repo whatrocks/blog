@@ -7,7 +7,7 @@ module.exports = {
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-transformer-javascript-static-exports`,
+    `gatsby-transformer-javascript-frontmatter`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

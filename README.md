@@ -12,10 +12,10 @@ npm install
 ./scripts/new-post.sh
 ```
 
-### Deploy to GitHub Pages
-```bash
-npm run deploy
-```
+# Deployment
+
+Netlify deploys automatically from the `master` branch
+
 
 ### To-do / fixes
 

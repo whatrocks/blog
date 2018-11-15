@@ -1,14 +1,9 @@
 import React from "react";
+import s from './style.module.scss';
 
 export default () => (
   <form
-    style={{
-      border: "1px solid rgb(238, 238, 238)",
-      borderRadius: "6px",
-      padding: "3px",
-      backgroundColor: "grey",
-      textAlign: "center"
-    }}
+    className={s.subscribe}
     action="https://tinyletter.com/whatrocks"
     method="post"
     target="popupwindow"

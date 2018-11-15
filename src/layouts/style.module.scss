@@ -1,0 +1,103 @@
+// Variables
+$grey: rgb(238, 238, 238);
+
+// Overrides
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 16px;
+  font-family: Menlo,monospace;
+  line-height: 2;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  line-height: 32px;
+}
+
+// Custom
+
+.leftPanel {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #202020;
+}
+.rightPanel {
+  max-width: 38rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.siteLogo {
+  font-size: 6rem;
+}
+
+.siteHeadline {
+  font-size: 2rem;
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe {
+  display: none;
+}
+.footer {
+  display: none;
+}
+
+@media (min-width: 50em) {
+  .leftPanel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 18rem;
+    text-align: left;
+    padding: 0 2rem;
+    border-right: 4px solid $grey;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .rightPanel {
+    margin-left: 23rem;
+    margin-right: 4rem;
+    max-width: 38rem;
+  }
+  .siteHeadline {
+    font-size: 1.8rem;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .subscribe {
+    display: block;
+    border: 2px solid rgb(238, 238, 238);
+    border-radius: 6px;
+    padding: 3px;
+    text-align: center;
+  }
+  .footer {
+    display: block;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    margin: 1rem 0;
+  }
+}

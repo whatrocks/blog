@@ -24,7 +24,7 @@ p {
 
 .leftPanel {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 0.5rem;
   color: rgba(255, 255, 255, 0.5);
   background-color: #202020;
 }
@@ -39,11 +39,12 @@ p {
 }
 
 .siteLogo {
-  font-size: 6rem;
+  font-size: 2rem;
+  margin-right: 1rem;
 }
 
 .siteHeadline {
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
   color: white;
   flex-direction: row;
@@ -78,13 +79,21 @@ p {
     margin-right: 4rem;
     max-width: 38rem;
   }
+  .siteLink {
+    margin-top: 1rem;
+  }
+  .siteLogo {
+    font-size: 6rem;
+    margin-right: 0.5rem;
+  }
   .siteHeadline {
-    font-size: 1.8rem;
+    font-size: 1.75rem;
     display: flex;
     color: white;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    line-height: 1.15;
   }
   .subscribe {
     display: block;
@@ -93,6 +102,24 @@ p {
     padding: 3px;
     text-align: center;
   }
+
+  .subscribeText {
+    font-size: 1rem;
+  }
+  .subscribeInput {
+    padding: 0.5rem;
+    width: 225px;
+    font-size: 1rem;
+    border-radius: 6px;
+  }
+  .subscribeButton {
+    padding: 0.5rem;
+    width: 245px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 6px;
+  }
+
   .footer {
     display: block;
     font-size: 1rem;

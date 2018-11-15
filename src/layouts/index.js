@@ -12,9 +12,7 @@ const LeftPanel = () => (
   <div className={s.leftPanel}>
     <Link
       to="/"
-      style={{
-        textDecoration: "none"
-      }}
+      className={s.siteLink}
     >
       <h1 className={s.siteHeadline}>
         <span className={s.siteLogo} role="img" aria-label="evergreen-tree">

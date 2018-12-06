@@ -16,7 +16,7 @@ const LeftPanel = () => (
     >
       <h1 className={s.siteHeadline}>
         <span className={s.siteLogo} role="img" aria-label="evergreen-tree">
-          🌲
+         🎄
         </span>
         <span>CHARLIE HARRINGTON</span>
       </h1>

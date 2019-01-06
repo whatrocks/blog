@@ -21,8 +21,7 @@ export default () => (
         <span role="img" aria-label="wave">
           👋
         </span>
-        Join my almost-never newsletter for updates on projects, writing,
-        mascots.
+        The almost-never newsletter.
       </label>
     </p>
     <p>

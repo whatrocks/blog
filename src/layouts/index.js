@@ -28,10 +28,6 @@ const LeftPanel = () => (
   </div>
 );
 
-{/* <a href="https://www.github.com/whatrocks">GitHub</a>,
-<a href="https://www.twitter.com/whatrocks">Twitter</a>, or
-<a href="https://www.floydhub.com/whatrocks">FloydHub</a>. Or all three. */}
-
 const Footer = () => (
   <div className={s.footer}>
     © 2019 Charlie Harrington

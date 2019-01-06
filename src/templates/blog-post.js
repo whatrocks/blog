@@ -11,11 +11,13 @@ export default function Template({ data, children }) {
       <Helmet
         title={`${post.frontmatter.title} - Charlie Harrington - @whatrocks`}
       />
-      <h2 className={s.title}>{post.frontmatter.title}</h2>
-      <h3 className={s.subtitle}>{post.frontmatter.date}</h3>
+      <div className={s.titleRow}>
+        <h2 className={s.title}>{post.frontmatter.title}</h2>
+        <h3 className={s.subtitle}>{post.frontmatter.date}</h3>
+      </div>
       <hr className={s.borderLine} />
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      <div>{children}</div>
+      <div className={s.post} dangerouslySetInnerHTML={{ __html: post.html }} />
+      <div className={s.post}>{children}</div>
     </Layout>
   );
 }

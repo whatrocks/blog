@@ -16,7 +16,7 @@ const LeftPanel = () => (
     >
       <h1 className={s.siteHeadline}>
         <span className={s.siteLogo} role="img" aria-label="evergreen-tree">
-         🎄
+        🌲
         </span>
         <span>CHARLIE HARRINGTON</span>
       </h1>
@@ -34,7 +34,7 @@ const LeftPanel = () => (
 
 const Footer = () => (
   <div className={s.footer}>
-    © 2018 Charlie Harrington
+    © 2019 Charlie Harrington
   </div>
 );
 

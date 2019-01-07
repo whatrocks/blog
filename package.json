@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Charlie Harrington (@whatrocks)",
   "dependencies": {
+    "@jamesdanylik/gatsby-source-goodreads": "^0.1.0",
     "gatsby": "^2.0.45",
     "gatsby-cli": "^2.4.5",
     "gatsby-plugin-catch-links": "^2.0.8",

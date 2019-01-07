@@ -16,6 +16,13 @@ module.exports = {
       },
     },
     {
+      resolve: `@jamesdanylik/gatsby-source-goodreads`,
+      options: {
+        key: process.env.GOODREADS_API_KEY,
+        id: process.env.GOODREADS_USER_ID
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/pages`,

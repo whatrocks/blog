@@ -17,7 +17,7 @@ export default () => (
     }}
   >
     <p>
-      <label for="tlemail">
+      <label htmlFor="tlemail">
         <span role="img" aria-label="wave">
           👋
         </span>

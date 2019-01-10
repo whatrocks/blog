@@ -1,0 +1,33 @@
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 50em) {
+    .grid {
+        justify-content: flex-start;
+    }
+}
+
+.label {
+    margin: 0;
+    font-weight: 500;
+    color: black;
+}
+
+.box {
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 4px;
+    &:hover {
+        background-color: rgb(219,226,234);
+    }
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+}

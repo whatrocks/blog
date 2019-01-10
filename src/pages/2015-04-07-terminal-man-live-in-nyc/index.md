@@ -4,7 +4,7 @@ path: "/terminal-man-live-in-nyc"
 markdown: true
 date: "2015-04-07"
 author: "Charlie Harrington"
-title: "Live in NYC"
+title: "Terminal Man Lives"
 category: "music"
 image: "skull.png"
 excerpt: "The cool thing about cool things is..."

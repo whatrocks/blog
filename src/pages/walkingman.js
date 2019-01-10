@@ -11,7 +11,13 @@ export default function Index({ data }) {
       <h2 className={s.title}>#walkingman</h2>
       <div className={s.grid}>
         {edges.map((edge, i) => (
-          <a href={edge.node.link} target="_blank" className={s.box} key={i}>
+          <a
+            href={edge.node.link}
+            rel="noopener noreferrer"
+            target="_blank"
+            className={s.box}
+            key={i}
+          >
             <Img
               style={{
                 marginRight: "0.75rem",

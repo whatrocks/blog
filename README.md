@@ -2,21 +2,22 @@
 
 Source code for my static site/blog. 
 
-Posts can be written in either Markdown or React. 
+## Local setup
 
-Why both? Welp, the React posts can handle any cool interactive / animation stuff I want to include.
+```bash
+yarn install
+yarn develop
+```
 
-### Write a new post (in either Markdown or React)
+## Write a new post
+
+Posts can be written in either Markdown or React.
+
 ```bash
 npm install
 ./scripts/new-post.sh
 ```
 
-# Deployment
+## Deployment
 
 Netlify deploys automatically from the `master` branch
-
-
-### To-do / fixes
-
-* Gifs are manually included right now because not available via Sharp

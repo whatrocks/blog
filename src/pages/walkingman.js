@@ -31,7 +31,7 @@ export default function Index({ data }) {
 export const pageQuery = graphql`
   query myQuery {
     allInstagramContent(
-      filter: { caption: { text: { regex: "/#walkingman/" } } }
+      filter: { caption: { text: { regex: "/#walking/" } } }
     ) {
       edges {
         node {

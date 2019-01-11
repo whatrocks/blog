@@ -1,0 +1,32 @@
+.index {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.blogLink {
+    padding: 1rem;
+    border: 1px solid #eee;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    margin-right: 1rem;
+    cursor: pointer;
+    &:hover {
+        background-color: rgba(random(255), random(255), random(255), 1);
+    }
+}
+
+.title {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 500;
+}
+
+.date {
+    font-size: 1rem;
+    color: hsla(0, 0%, 0%, .3);
+    margin-left: 0.5rem;
+}

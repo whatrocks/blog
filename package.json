@@ -39,7 +39,7 @@
   "main": "n/a",
   "scripts": {
     "build": "rm -rf public/*.html && gatsby build",
-    "develop": "gatsby develop",
+    "develop": "source env.sh && gatsby develop",
     "serve": "gatsby serve",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'"
   },

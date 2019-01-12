@@ -22,7 +22,6 @@ const LeftPanel = () => (
       </h1>
     </Link>
     <div>
-      <Subscribe />
       <Footer />
     </div>
   </div>

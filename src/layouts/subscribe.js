@@ -16,23 +16,22 @@ export default () => (
       return true;
     }}
   >
-    <p>
+    <h4>
       <label htmlFor="tlemail">
         <span role="img" aria-label="wave">
           👋
         </span>
         The almost-never newsletter.
       </label>
-    </p>
-    <p>
-      <input
-        className={s.subscribeInput}
-        type="text"
-        placeholder="ripley@weyland-yutani.com"
-        name="email"
-        id="tlemail"
-      />
-    </p>
+    </h4>
+    <p>I'll share updates on my writing and coding projects here.</p>
+    <input
+      className={s.subscribeInput}
+      type="text"
+      placeholder="ripley@weyland-yutani.com"
+      name="email"
+      id="tlemail"
+    />
     <input type="hidden" value="1" name="embed" />
     <input className={s.subscribeButton} type="submit" value="Subscribe" />
     <p>

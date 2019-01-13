@@ -1,7 +1,6 @@
 ---
 fullPath: "2015-05-02-introducing-knerds"
 path: "/introducing-knerds"
-markdown: true
 isBlogPost: true
 date: "2015-05-02"
 title: "Introducing Knerds"

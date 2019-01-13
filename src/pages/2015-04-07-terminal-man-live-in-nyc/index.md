@@ -1,7 +1,6 @@
 ---
 fullPath: "2015-04-07-terminal-man-live-in-nyc"
 path: "/terminal-man-live-in-nyc"
-markdown: true
 isBlogPost: true
 date: "2015-04-07"
 title: "Terminal Man - Live in Concert"

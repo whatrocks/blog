@@ -13,8 +13,6 @@ yarn develop
 
 ## Write a new post
 
-Posts can be written in either Markdown or React.
-
 ```bash
 npm install
 ./scripts/new-post.sh

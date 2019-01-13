@@ -1,7 +1,6 @@
 ---
 fullPath: "2018-07-23-using-nlp-to-write-graduation-speeches"
 path: "/using-nlp-to-write-graduation-speeches"
-markdown: true
 isBlogPost: true
 date: "2018-07-23"
 title: "Using NLP to Write Graduation Speeches"

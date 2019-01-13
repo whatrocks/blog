@@ -1,7 +1,6 @@
 ---
 fullPath: "2018-07-30-humans-of-machine-learning"
 path: "/humans-of-machine-learning"
-markdown: true
 isBlogPost: true
 date: "2018-07-30"
 title: "Humans of Machine Learning"

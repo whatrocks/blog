@@ -1,7 +1,6 @@
 ---
 fullPath: "2017-05-07-rim-2-rim-2-rim"
 path: "/rim-2-rim-2-rim"
-markdown: true
 isBlogPost: true
 date: "2017-05-07"
 title: "Rim 2 Rim 2 Rim"

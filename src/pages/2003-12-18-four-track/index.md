@@ -1,7 +1,6 @@
 ---
 fullPath: "2003-12-18-four-track"
 path: "/four-track"
-markdown: true
 date: "2003-12-18"
 title: "Four Track"
 isBlogPost: true

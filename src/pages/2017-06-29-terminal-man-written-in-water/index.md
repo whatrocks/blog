@@ -1,7 +1,6 @@
 ---
 fullPath: "2017-06-29-terminal-man-written-in-water"
 path: "/terminal-man-written-in-water"
-markdown: true
 isBlogPost: true
 date: "2017-06-29"
 title: "Written in Water"

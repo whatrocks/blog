@@ -1,7 +1,6 @@
 ---
 fullPath: "2015-06-09-noah-conference-in-berlin"
 path: "/noah-conference-in-berlin"
-markdown: true
 isBlogPost: true
 date: "2015-06-09"
 title: "NOAH Conference in Berlin"

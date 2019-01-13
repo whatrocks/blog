@@ -1,7 +1,6 @@
 ---
 fullPath: "2019-01-10-the-walkingman-collection"
 path: "/the-walkingman-collection"
-markdown: true
 isBlogPost: true
 date: "2019-01-10"
 title: "The Walkingman Collection"

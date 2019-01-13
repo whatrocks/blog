@@ -1,7 +1,6 @@
 ---
 fullPath: "2015-08-04-terminal-man-golden-olden"
 path: "/terminal-man-golden-olden"
-markdown: true
 isBlogPost: true
 date: "2015-08-04"
 title: "Golden Olden"

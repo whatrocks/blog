@@ -1,7 +1,6 @@
 ---
 fullPath: "2017-12-12-terminal-man-auri"
 path: "/terminal-man-auri"
-markdown: true
 isBlogPost: true
 date: "2017-12-12"
 title: "Auri"

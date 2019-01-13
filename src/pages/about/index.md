@@ -1,7 +1,6 @@
 ---
 fullPath: "about"
 path: "/about"
-markdown: true
 isBlogPost: false
 date: ""
 title: "About"

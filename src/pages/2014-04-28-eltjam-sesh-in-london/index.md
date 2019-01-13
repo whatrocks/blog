@@ -1,7 +1,6 @@
 ---
 fullPath: "2014-04-28-eltjam-sesh-in-london"
 path: "/eltjam-sesh-in-london"
-markdown: true
 isBlogPost: true
 date: "2014-04-28"
 title: "ELTJam Sesh in London"

@@ -1,7 +1,6 @@
 ---
 fullPath: "2016-02-10-terminal-man-too-much"
 path: "/terminal-man-too-much"
-markdown: true
 isBlogPost: true
 date: "2016-02-10"
 title: "Too Much"

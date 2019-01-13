@@ -1,7 +1,6 @@
 ---
 fullPath: "2016-12-16-alcatraz-challenge-2016-review"
 path: "/alcatraz-challenge-2016-review"
-markdown: true
 isBlogPost: true
 date: "2016-12-16"
 title: "Alcatraz Challenge 2016 - Review"

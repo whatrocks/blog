@@ -1,7 +1,6 @@
 ---
 fullPath: "2014-10-18-edcrunch-in-moscow"
 path: "/edcrunch-in-moscow"
-markdown: true
 isBlogPost: true
 date: "2014-10-18"
 title: "edCrunch in Moscow"

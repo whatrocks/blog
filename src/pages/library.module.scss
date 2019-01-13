@@ -1,6 +1,40 @@
 // Bulma inspired
 // https://bulma.io/documentation/elements/table/
 
+.table {
+    display: none;
+}
+
+.cards {
+    display: block;
+}
+
+.card {
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+.date {
+    font-size: .85rem;
+    font-weight: 600;
+}
+
+@media (min-width: 50em) {  
+    .table {
+        display: table;
+    }
+    .cards {
+        display: none;
+    }
+}
+
 table {
     width: 100%;
     border-collapse: collapse;

@@ -21,22 +21,20 @@ export default function Index({ data }) {
             const diff = today.diff(dateOfPost, "days").toObject();
             const isNew = diff.days < 14;
             return (
-              post.frontmatter.path !== "/react-post" && (
-                <div key={index} className={s.blogLink}>
-                  <Link to={post.frontmatter.path} className={s.linkContents}>
-                    <span className={s.title}>{post.frontmatter.title}</span>
-                    <span className={s.date}>{post.frontmatter.date}</span>
-                    {isNew && (
-                      <span className={s.badge}>
-                        <span className={s.emoji} role="img" aria-label="new">
-                          ⚡
-                        </span>
-                        <span className={s.new}>NEW</span>
+              <div key={index} className={s.blogLink}>
+                <Link to={post.frontmatter.path} className={s.linkContents}>
+                  <span className={s.title}>{post.frontmatter.title}</span>
+                  <span className={s.date}>{post.frontmatter.date}</span>
+                  {isNew && (
+                    <span className={s.badge}>
+                      <span className={s.emoji} role="img" aria-label="new">
+                        ⚡
                       </span>
-                    )}
-                  </Link>
-                </div>
-              )
+                      <span className={s.new}>NEW</span>
+                    </span>
+                  )}
+                </Link>
+              </div>
             );
           })}
       </div>

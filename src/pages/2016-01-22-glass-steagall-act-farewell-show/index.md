@@ -1,7 +1,6 @@
 ---
 fullPath: "2016-01-22-glass-steagall-act-farewell-show"
 path: "/glass-steagall-act-farewell-show"
-markdown: true
 isBlogPost: true
 date: "2016-01-22"
 title: "Glass-Steagall Act Farewell Show"

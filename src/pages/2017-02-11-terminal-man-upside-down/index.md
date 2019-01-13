@@ -1,7 +1,6 @@
 ---
 fullPath: "2017-02-11-terminal-man-upside-down"
 path: "/terminal-man-upside-down"
-markdown: true
 isBlogPost: true
 date: "2017-02-11"
 title: "Upside Down"

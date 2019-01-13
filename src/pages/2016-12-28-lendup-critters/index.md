@@ -1,7 +1,6 @@
 ---
 fullPath: "2016-12-28-lendup-critters"
 path: "/lendup-critters"
-markdown: true
 isBlogPost: true
 date: "2016-12-28"
 title: "LendUp Critters"

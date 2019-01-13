@@ -1,7 +1,6 @@
 ---
 fullPath: "2014-08-04-terminal-man-over-water-under-you"
 path: "/terminal-man-over-water-under-you"
-markdown: true
 isBlogPost: true
 date: "2014-08-04"
 title: "Over Water, Under You"

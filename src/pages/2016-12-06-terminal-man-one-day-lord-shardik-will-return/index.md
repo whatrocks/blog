@@ -1,7 +1,6 @@
 ---
 fullPath: "2016-12-06-terminal-man-one-day-lord-shardik-will-return"
 path: "/terminal-man-one-day-lord-shardik-will-return"
-markdown: true
 isBlogPost: true
 date: "2016-12-06"
 title: "One Day Lord Shardik Will Return"

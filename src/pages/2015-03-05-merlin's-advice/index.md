@@ -1,7 +1,6 @@
 ---
 fullPath: "2015-03-05-merlin's-advice"
 path: "/merlin's-advice"
-markdown: true
 isBlogPost: true
 date: "2015-03-05"
 title: "Merlin's Advice"

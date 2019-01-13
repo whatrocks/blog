@@ -1,7 +1,6 @@
 ---
 fullPath: "2018-01-05-terminal-man-ghost2"
 path: "/terminal-man-ghost2"
-markdown: true
 isBlogPost: true
 date: "2018-01-05"
 title: "Ghost2"

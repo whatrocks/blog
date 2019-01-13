@@ -1,7 +1,6 @@
 ---
 fullPath: "2018-01-06-teaching-my-robot-with-tensorflow"
 path: "/teaching-my-robot-with-tensorflow"
-markdown: true
 isBlogPost: true
 date: "2018-01-06"
 title: "Teaching My Robot With TensorFlow"

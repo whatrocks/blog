@@ -1,7 +1,6 @@
 ---
 fullPath: "2016-01-02-space-time-travel-with-wormie"
 path: "/space-time-travel-with-wormie"
-markdown: true
 isBlogPost: true
 date: "2016-01-02"
 title: "Space Time Travel with Wormie"

@@ -1,7 +1,6 @@
 ---
 fullPath: "2018-04-28-the-long-hour"
 path: "/the-long-hour"
-markdown: true
 isBlogPost: true
 date: "2018-04-28"
 title: "The Long Hour"

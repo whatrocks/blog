@@ -1,7 +1,6 @@
 ---
 fullPath: "2013-01-21-cape-seafood-logo"
 path: "/cape-seafood-logo"
-markdown: true
 isBlogPost: true
 date: "2013-01-21"
 title: "Cape Seafood Logo"

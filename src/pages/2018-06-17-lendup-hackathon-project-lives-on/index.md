@@ -1,7 +1,6 @@
 ---
 fullPath: "2018-06-17-lendup-hackathon-project-lives-on"
 path: "/lendup-hackathon-project-lives-on"
-markdown: true
 isBlogPost: true
 date: "2018-06-17"
 title: "LendUp Hackathon Project Lives On"

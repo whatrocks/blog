@@ -1,7 +1,6 @@
 ---
 fullPath: "2018-07-24-penpals"
 path: "/penpals"
-markdown: true
 isBlogPost: true
 date: "2018-07-24"
 title: "Penpals"

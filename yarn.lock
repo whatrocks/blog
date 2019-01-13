@@ -5609,26 +5609,6 @@ gatsby-source-instagram-all@^2.0.3:
     node-fetch "^2.2.0"
     query-string "^6.1.0"
 
-gatsby-transformer-javascript-frontmatter@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-javascript-frontmatter/-/gatsby-transformer-javascript-frontmatter-2.0.4.tgz#ac603c560aa363d8f100cbe820f3cc087b996893"
-  integrity sha512-XNSeHFXW/ophT4tiESU5+26DNSg2bn+zUNn/uxzunuz81/oALhCljgNIKIABrsWjk5LY5AzBsTsN0HB/JiEDkg==
-  dependencies:
-    "@babel/parser" "^7.0.0"
-    "@babel/runtime" "^7.0.0"
-    "@babel/traverse" "^7.0.0"
-    bluebird "^3.5.0"
-
-gatsby-transformer-javascript-static-exports@^2.1.3:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-javascript-static-exports/-/gatsby-transformer-javascript-static-exports-2.1.3.tgz#52da51388f8b7e8a8d9dfec0fd2e392e12ef7f4b"
-  integrity sha512-tnJnmper77NRM1ZM90CmqQIxmRfcndrynKektIyGcX2WBCe00ZChT+iuXzycNBk/AQcfz8KsLvGlC3htOwsWxg==
-  dependencies:
-    "@babel/parser" "^7.0.0"
-    "@babel/runtime" "^7.0.0"
-    "@babel/traverse" "^7.0.0"
-    bluebird "^3.5.0"
-
 gatsby-transformer-remark@^2.1.12:
   version "2.1.12"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.1.12.tgz#192c87622bed497bb0f719e9bd8ea36f4290c8fc"
@@ -8254,6 +8234,16 @@ mdurl@^1.0.1:
   resolved "https://registry.yarnpkg.com/mdurl/-/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
   integrity sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4=
 
+mdx@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/mdx/-/mdx-0.3.1.tgz#08598f85c4e1c31c8f50c33126af04f285f4bd2a"
+  integrity sha1-CFmPhcThwxyPUMMxJq8E8oX0vSo=
+  dependencies:
+    meow "3.6.0"
+    mustache "2.2.1"
+    object-assign "4.0.1"
+    read-input "0.3.1"
+
 media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
@@ -8282,6 +8272,20 @@ memory-fs@^0.4.0, memory-fs@~0.4.1:
   dependencies:
     errno "^0.1.3"
     readable-stream "^2.0.1"
+
+meow@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/meow/-/meow-3.6.0.tgz#e7a535295cb89db0e0782428e55fa8615bf9e150"
+  integrity sha1-56U1KVy4nbDgeCQo5V+oYVv54VA=
+  dependencies:
+    camelcase-keys "^2.0.0"
+    loud-rejection "^1.0.0"
+    minimist "^1.1.3"
+    normalize-package-data "^2.3.4"
+    object-assign "^4.0.1"
+    read-pkg-up "^1.0.1"
+    redent "^1.0.0"
+    trim-newlines "^1.0.0"
 
 meow@^3.1.0, meow@^3.3.0, meow@^3.5.0, meow@^3.7.0:
   version "3.7.0"
@@ -8589,6 +8593,11 @@ multipipe@^0.1.2:
   integrity sha1-Ko8t33Du1WTf8tV/HhoTfZ8FB4s=
   dependencies:
     duplexer2 "0.0.2"
+
+mustache@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/mustache/-/mustache-2.2.1.tgz#2c40ca21c278f53150682bcf9090e41a3339b876"
+  integrity sha1-LEDKIcJ49TFQaCvPkJDkGjM5uHY=
 
 mute-stream@0.0.7, mute-stream@~0.0.4:
   version "0.0.7"
@@ -8941,6 +8950,11 @@ oauth-sign@~0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
   integrity sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==
+
+object-assign@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.0.1.tgz#99504456c3598b5cad4fc59c26e8a9bb107fe0bd"
+  integrity sha1-mVBEVsNZi1ytT8WcJuipuxB/4L0=
 
 object-assign@^2.0.0:
   version "2.1.1"
@@ -10450,6 +10464,11 @@ read-chunk@^3.0.0:
   dependencies:
     pify "^4.0.0"
     with-open-file "^0.1.3"
+
+read-input@0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/read-input/-/read-input-0.3.1.tgz#5b3169308013464ffda6ec92e58d2d3cea948df1"
+  integrity sha1-WzFpMIATRk/9puyS5Y0tPOqUjfE=
 
 read-pkg-up@^1.0.1:
   version "1.0.1"

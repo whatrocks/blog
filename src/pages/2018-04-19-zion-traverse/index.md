@@ -1,7 +1,6 @@
 ---
 fullPath: "2018-04-19-zion-traverse"
 path: "/zion-traverse"
-markdown: true
 isBlogPost: true
 date: "2018-04-19"
 title: "Zion Traverse"

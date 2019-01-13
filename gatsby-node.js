@@ -28,7 +28,6 @@ exports.createPages = ({ actions, graphql }) => {
               path
               title
               category
-              markdown
               image
               isBlogPost
             }

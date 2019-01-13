@@ -1,31 +1,40 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
+import { DateTime } from "luxon";
 import Layout from "../layouts";
 import s from "./index.module.scss";
 
 export default function Index({ data }) {
   const { edges: mdPosts } = data.allMarkdownRemark;
-  const sortedPosts = mdPosts.sort((a, b) => {
-    return (
-      new Date(b.node.frontmatter.date) - new Date(a.node.frontmatter.date)
-    );
-  });
+  const today = DateTime.local();
   return (
     <Layout>
       <div className={s.index}>
-        {sortedPosts
+        {mdPosts
           .filter(
             post =>
               post.node.frontmatter.title.length > 0 &&
               post.node.frontmatter.isBlogPost
           )
           .map(({ node: post }, index) => {
+            const dateOfPost = DateTime.fromISO(post.frontmatter.date);
+            const diff = today.diff(dateOfPost, "days").toObject();
+            const isNew = diff.days < 14;
+            console.log("isNew: ", isNew);
             return (
               post.frontmatter.path !== "/react-post" && (
                 <div key={index} className={s.blogLink}>
-                  <Link to={post.frontmatter.path} className="indexLink">
+                  <Link to={post.frontmatter.path} className={s.linkContents}>
                     <span className={s.title}>{post.frontmatter.title}</span>
                     <span className={s.date}>{post.frontmatter.date}</span>
+                    {isNew && (
+                      <span className={s.badge}>
+                        <span className={s.emoji} role="img" aria-label="new">
+                          ⚡
+                        </span>
+                        <span className={s.new}>NEW</span>
+                      </span>
+                    )}
                   </Link>
                 </div>
               )
@@ -46,7 +55,7 @@ export const pageQuery = graphql`
           frontmatter {
             fullPath
             title
-            date(formatString: "DD MMMM YYYY")
+            date
             path
             category
             isBlogPost

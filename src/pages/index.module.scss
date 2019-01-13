@@ -21,6 +21,13 @@
     }
 }
 
+.linkContents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .title {
     font-size: 1.2rem;
     color: black;
@@ -31,4 +38,34 @@
     font-size: 1rem;
     color: hsla(0, 0%, 0%, .5);
     margin-left: 0.5rem;
+}
+
+.badge {
+    margin-left: 0.5rem;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    cursor: pointer;
+    // width: 50px;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    display: inline-flex;
+    padding: 0rem 0.5rem;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.emoji {
+    font-size: 1rem;
+    height: 28px;
+    // margin-top: 1rem;
+}
+
+.new {
+    // font-size: 2rem;
+    font-weight: 600;
+    font-size: 0.9rem;
 }

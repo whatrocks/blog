@@ -128,15 +128,19 @@ p {
     padding: 1rem 0.5rem;
     width: 225px;
     font-size: 1rem;
-    border: 1px solid $grey;
+    border: 2px solid #0edad9;
+    background-color: lighten(#0edad9, 50%);
     border-right: none;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
+    &:focus {
+      outline: 0;
+    }
   }
   .subscribeButton {
     font-size: 1rem;
     background-color: #0edad9;
-    border: 1px solid $darkborder;
+    border: 2px solid $darkborder;
     color: #363636;
     cursor: pointer;
     font-weight: 600;

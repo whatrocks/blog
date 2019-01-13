@@ -2,12 +2,11 @@
 fullPath: "2015-04-07-terminal-man-live-in-nyc"
 path: "/terminal-man-live-in-nyc"
 markdown: true
+isBlogPost: true
 date: "2015-04-07"
-author: "Charlie Harrington"
-title: "Terminal Man Lives"
+title: "Terminal Man - Live in Concert"
 category: "music"
 image: "skull.png"
-excerpt: "The cool thing about cool things is..."
 ---
 
 Last week, streaming live from London, **TERMINAL MAN** performed its first show ever, appearing live in New York City at the Knewton Talent Show. This may have been the first musical performance for a Double Robotics robot ever, but I certainly hope it's not the last.

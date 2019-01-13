@@ -6,8 +6,8 @@ const path = require("path");
  * and the images within these folders using GraphQL, and then
  * build the pages with the appropriate metadata (e.g. frontmatter)
  */
-exports.createPages = ({ boundActionCreators, graphql }) => {
-  const { createPage } = boundActionCreators;
+exports.createPages = ({ actions, graphql }) => {
+  const { createPage } = actions;
 
   const blogPostTemplate = path.resolve(`src/templates/blog-post.js`);
 
@@ -31,10 +31,10 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               date
               path
               title
-              author
               category
               markdown
               image
+              isBlogPost
             }
           }
         }
@@ -57,12 +57,11 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
                   fullPath
                   path
                   date
-                  author
                   title
                   category
                   markdown
-                  excerpt
                   image
+                  isBlogPost
                 }
               }
             }

@@ -2,12 +2,11 @@
 fullPath: "2016-12-28-lendup-critters"
 path: "/lendup-critters"
 markdown: true
+isBlogPost: true
 date: "2016-12-28"
-author: "Charlie Harrington"
 title: "LendUp Critters"
 category: "Design"
 image: "cubicle.png"
-excerpt: "The cool thing about cool things is..."
 ---
 
 Every good app needs a mascot. Meet some of the critters behind [LendUp](https://www.lendup.com)'s internal tools (co-designed with [Lise Statelman](http://lisestatelman.com/) and [Chau Nguyen](https://www.linkedin.com/in/ctn017/)).

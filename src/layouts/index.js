@@ -22,9 +22,11 @@ const LeftPanel = () => (
       <Link className={s.linkItem} to="/about">
         About
       </Link>
+      <span>•</span>
       <Link className={classnames(s.linkItem, s.leftMargin)} to="/library">
         Library
       </Link>
+      <span>•</span>
       <a
         className={classnames(s.linkItem, s.leftMargin)}
         href="https://twitter.com/whatrocks"

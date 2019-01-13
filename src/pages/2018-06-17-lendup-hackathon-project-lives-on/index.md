@@ -2,12 +2,11 @@
 fullPath: "2018-06-17-lendup-hackathon-project-lives-on"
 path: "/lendup-hackathon-project-lives-on"
 markdown: true
+isBlogPost: true
 date: "2018-06-17"
-author: "Charles Harrington"
 title: "LendUp Hackathon Project Lives On"
 category: "Coding"
 image: "qp-fast.jpg"
-excerpt: "The cool thing about cool things is..."
 ---
 
 I recently logged into my [Arrow Card iOS app](https://itunes.apple.com/us/app/arrow-card/id1228440036?mt=8) to check my balance and was pumped to discover that my team's Spring 2017 Hackathon project branch was finally merged and released.

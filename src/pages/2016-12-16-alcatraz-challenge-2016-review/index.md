@@ -2,12 +2,11 @@
 fullPath: "2016-12-16-alcatraz-challenge-2016-review"
 path: "/alcatraz-challenge-2016-review"
 markdown: true
+isBlogPost: true
 date: "2016-12-16"
-author: "Charlie Harrington"
-title: "Alcatraz Challenge 2016 Review"
+title: "Alcatraz Challenge 2016 - Review"
 category: "Fitness"
 image: "connery.png"
-excerpt: "The cool thing about cool things is..."
 ---
 
 This was a much smaller race than I expected. Only 116 souls according to the official results. I felt lucky to have snagged a race number when I did — the website warned it would be capped at 500 swimmers. That was enough for me. I frantically entered my credit card details and breathed a sigh of terrible relief at what I’d done.

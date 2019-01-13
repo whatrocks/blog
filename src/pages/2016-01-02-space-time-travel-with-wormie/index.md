@@ -2,12 +2,11 @@
 fullPath: "2016-01-02-space-time-travel-with-wormie"
 path: "/space-time-travel-with-wormie"
 markdown: true
+isBlogPost: true
 date: "2016-01-02"
-author: "Charlie Harrington"
 title: "Space Time Travel with Wormie"
 category: "Projects"
 image: "WormieLive.gif"
-excerpt: "The cool thing about cool things is..."
 ---
 
 ![Live](./images/logo.png)

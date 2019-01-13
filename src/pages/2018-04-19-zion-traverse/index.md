@@ -2,12 +2,11 @@
 fullPath: "2018-04-19-zion-traverse"
 path: "/zion-traverse"
 markdown: true
+isBlogPost: true
 date: "2018-04-19"
-author: "Charles Harrington"
 title: "Zion Traverse"
 category: "Running"
 image: "qp-fast.jpg"
-excerpt: "The cool thing about cool things is..."
 ---
 We ran ~38 miles of the Zion Traverse this past Saturday, including the I-can't-believe-this-is-actually-allowed Angels Landing climb.
 

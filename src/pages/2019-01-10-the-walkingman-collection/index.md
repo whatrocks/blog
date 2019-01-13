@@ -2,12 +2,11 @@
 fullPath: "2019-01-10-the-walkingman-collection"
 path: "/the-walkingman-collection"
 markdown: true
+isBlogPost: true
 date: "2019-01-10"
-author: "Charles Harrington"
 title: "The Walkingman Collection"
 category: "Photography"
 image: "qp-fast.jpg"
-excerpt: "The cool thing about cool things is..."
 ---
 
 I've pulled all my [Instagram #walkingman](https://instagram.com/whatrocks) photos into a handy little page. [Check it out](/walkingman). 

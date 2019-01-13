@@ -1,0 +1,60 @@
+// Bulma inspired
+// https://bulma.io/documentation/elements/table/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: table;
+    border-color: grey;
+}
+
+thead {
+    background-color: transparent;
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+th {
+    border: 1px solid #dbdbdb;
+    padding: .5em .75em;
+    text-align: left;
+    vertical-align: top;
+    border-width: 0 0 2px;
+}
+
+td {
+    padding: .5em .75em;
+    border: 1px solid #dbdbdb;
+    border-width: 0 0 1px;
+    vertical-align: middle;
+}
+
+tfoot {
+    display: table-footer-group;
+    vertical-align: middle;
+    border-color: inherit;
+    background-color: transparent;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+
+.title {
+    font-weight: 600;
+}
+
+.bookCover {
+    margin-top: 0.5rem;
+}

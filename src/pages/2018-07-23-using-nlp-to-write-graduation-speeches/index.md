@@ -31,8 +31,6 @@ The `speech_maker` notebook has three sections for you to try, where you'll gene
 2. Filtering to only the top ten schools by count of speeches given
 3. Filtering to one school at a time using a Jupyter widget extension
 
-<br />
-
 ### Where can I read actual good speeches?
 
 [Right here](https://whatrocks.github.io/commencement-db/). I put together this simple Gatsby.js static site with the raw text (and some YouTube links) of the speeches in my dataset. [PRs are open for the dataset](https://github.com/whatrocks/commencement-db) if anyone's interested in contributing. Right now, the best we have is the NPR "Best of" commencement speech website, which hasn't been updated since 2015. It would be great to find a way to make a new home for great speeches on the web.

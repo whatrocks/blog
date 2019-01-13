@@ -1,5 +1,4 @@
 import React from "react";
-import classnames from "classnames";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
 import Helmet from "react-helmet";
@@ -22,13 +21,13 @@ const LeftPanel = () => (
       <Link className={s.linkItem} to="/about">
         About
       </Link>
-      <span>•</span>
-      <Link className={classnames(s.linkItem, s.leftMargin)} to="/library">
+      <span className={s.dot}>•</span>
+      <Link className={s.linkItem} to="/library">
         Library
       </Link>
-      <span>•</span>
+      <span className={s.dot}>•</span>
       <a
-        className={classnames(s.linkItem, s.leftMargin)}
+        className={s.linkItem}
         href="https://twitter.com/whatrocks"
         target="_blank"
         rel="noopener noreferrer"

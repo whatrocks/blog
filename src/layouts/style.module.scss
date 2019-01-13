@@ -3,6 +3,7 @@ $grey: rgb(238, 238, 238);
 $navBg: rgb(241, 245, 248);
 $darkBg: #202020;
 $font: rgb(34, 41, 47);
+$darkborder: darken(#0edad9, 2%);
 
 // Overrides
 a {
@@ -65,8 +66,8 @@ p {
   font-weight: 600;
 }
 
-.leftMargin {
-  margin-left: 1rem;
+.dot {
+  padding: 0 .5rem;
 }
 
 @media (min-width: 50em) {  
@@ -109,29 +110,55 @@ p {
     margin-bottom: 1rem;
   }
   .subscribe {
-    display: block;
-    border: 2px solid rgb(238, 238, 238);
-    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 2px solid $grey;
     padding: 3px;
+    padding-top: 1.5rem;
     text-align: center;
     max-width: 40rem;
+
   }
 
   .subscribeText {
     font-size: 1rem;
   }
   .subscribeInput {
-    padding: 0.5rem;
+    padding: 1rem 0.5rem;
     width: 225px;
     font-size: 1rem;
-    border-radius: 6px;
+    border: 1px solid $grey;
+    border-right: none;
+    // &:hover {
+    //   border-color: darken($grey, 10%);
+    // }
   }
   .subscribeButton {
-    padding: 0.5rem;
-    width: 245px;
-    cursor: pointer;
+    // height: 45px;
     font-size: 1rem;
-    border-radius: 6px;
+    background-color: #0edad9;
+    border: 1px solid $darkborder;
+    color: #363636;
+    cursor: pointer;
+    font-weight: 600;
+    justify-content: center;
+    padding-bottom: 0.75rem;
+    padding-left: .75em;
+    padding-right: .75em;
+    padding-top: .75rem;
+    text-align: center;
+    white-space: nowrap;
+    &:hover {
+      background-color: darken(#0edad9, 5%);
+      border-color: darken(#0edad9, 10%);
+    }
+  }
+
+  .warning {
+    font-size: 1rem;
+    margin-left: 0.25rem;
   }
 
   .footer {

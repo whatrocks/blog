@@ -2,6 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layouts";
+import Subscribe from '../layouts/subscribe';
 import s from "./style.module.scss";
 
 export default function Template({ data, children }) {
@@ -18,6 +19,7 @@ export default function Template({ data, children }) {
       <hr className={s.borderLine} />
       <div className={s.post} dangerouslySetInnerHTML={{ __html: post.html }} />
       <div className={s.post}>{children}</div>
+      <Subscribe />
     </Layout>
   );
 }

@@ -4,6 +4,8 @@ Source code for my static site/blog.
 
 ## Local setup
 
+Create `env.sh` with your env variables, then run these commands:
+
 ```bash
 yarn install
 yarn develop

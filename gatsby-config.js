@@ -12,8 +12,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-59298979-1',
+        trackingId: `${process.env.GOOGLE_ANALYTICS_ID}`,
       },
+    },
+    {
+      resolve: `@jamesdanylik/gatsby-source-goodreads`,
+      options: {
+        key: process.env.GOODREADS_API_KEY,
+        id: process.env.GOODREADS_USER_ID
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,

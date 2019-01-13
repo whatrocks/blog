@@ -5,3 +5,4 @@ public/
 .env
 .env.development
 .env.production
+env.sh

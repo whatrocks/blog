@@ -4,7 +4,7 @@ import Img from "gatsby-image";
 import Layout from "../layouts";
 import s from "./walkingman.module.scss";
 
-export default function Index({ data }) {
+export default function Walkingman({ data }) {
   const { edges } = data.allInstagramContent;
   return (
     <Layout>
@@ -35,7 +35,7 @@ export default function Index({ data }) {
 }
 
 export const pageQuery = graphql`
-  query myQuery {
+  query walkingmanData {
     allInstagramContent(
       filter: { caption: { text: { regex: "/#walking/" } } }
     ) {

@@ -4,6 +4,8 @@
   "version": "1.0.0",
   "author": "Charlie Harrington (@whatrocks)",
   "dependencies": {
+    "@jamesdanylik/gatsby-source-goodreads": "^0.1.0",
+    "classnames": "^2.2.6",
     "gatsby": "^2.0.45",
     "gatsby-cli": "^2.4.5",
     "gatsby-image": "^2.0.25",
@@ -38,7 +40,7 @@
   "main": "n/a",
   "scripts": {
     "build": "rm -rf public/*.html && gatsby build",
-    "develop": "gatsby develop",
+    "develop": "source env.sh && gatsby develop",
     "serve": "gatsby serve",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'"
   },

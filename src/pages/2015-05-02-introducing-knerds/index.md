@@ -2,12 +2,11 @@
 fullPath: "2015-05-02-introducing-knerds"
 path: "/introducing-knerds"
 markdown: true
+isBlogPost: true
 date: "2015-05-02"
-author: "Charlie Harrington"
 title: "Introducing Knerds"
 category: "Projects"
 image: "gang-close.png"
-excerpt: "The cool thing about cool things is..."
 ---
 
 Knerds is a simple and fun iOS game that helps you learn the names of your co-workers through brute force, cuddly mascots, and spaced repetition.

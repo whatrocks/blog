@@ -2,12 +2,11 @@
 fullPath: "2018-07-23-using-nlp-to-write-graduation-speeches"
 path: "/using-nlp-to-write-graduation-speeches"
 markdown: true
+isBlogPost: true
 date: "2018-07-23"
-author: "Charles Harrington"
 title: "Using NLP to Write Graduation Speeches"
 category: "Deep Learning"
 image: "qp-fast.jpg"
-excerpt: "The cool thing about cool things is..."
 ---
 
 I've always been a little bit obsessed with graduation speeches. Put simply, I like being reminded of the great possibility and great responsibility of living.
@@ -31,8 +30,6 @@ The `speech_maker` notebook has three sections for you to try, where you'll gene
 1. Using the entire dataset
 2. Filtering to only the top ten schools by count of speeches given
 3. Filtering to one school at a time using a Jupyter widget extension
-
-<br />
 
 ### Where can I read actual good speeches?
 

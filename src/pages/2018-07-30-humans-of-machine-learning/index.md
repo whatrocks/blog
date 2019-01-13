@@ -2,12 +2,11 @@
 fullPath: "2018-07-30-humans-of-machine-learning"
 path: "/humans-of-machine-learning"
 markdown: true
+isBlogPost: true
 date: "2018-07-30"
-author: "Charles Harrington"
 title: "Humans of Machine Learning"
 category: "Deep Learning"
 image: "qp-fast.jpg"
-excerpt: "The cool thing about cool things is..."
 ---
 
 I've started an interview series on the [FloydHub blog](https://blog.floydhub.com/tag/humans-of-ml/) called "Humans of Machine Learning." I'm hoping to talk with lots of real human beings who are doing fun, creative, interesting, and / or surprising things with machine learning and AI. Those things might be weekend projects, work projects, or school projects -- doesn't matter, just something that people are excited to talk about and share with the community. I'm eager to learn from them and be inspired by their creativity, focus, and ideas. Another tangential goal of mine is to get better at interviewing people.

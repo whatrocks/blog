@@ -2,12 +2,11 @@
 fullPath: "2017-05-07-rim-2-rim-2-rim"
 path: "/rim-2-rim-2-rim"
 markdown: true
+isBlogPost: true
 date: "2017-05-07"
-author: "Charlie Harrington"
 title: "Rim 2 Rim 2 Rim"
 category: "Races"
 image: "canyon.png"
-excerpt: "The cool thing about cool things is..."
 ---
 
 We ran the Grand Canyon, and I only got lost once.

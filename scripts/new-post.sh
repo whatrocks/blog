@@ -17,8 +17,6 @@ path=`echo /$joined`
 read -p "date: ($TODAY) " date
 date=${date:-$TODAY}
 fullPath=`join_by - $date $lowercasetitle`
-read -p "author: ($NAME) " author
-author=${author:-$NAME}
 read -p "category: (Deep Learning) " category
 category=${category:-Deep Learning}
 read -p "markdown: (true) " markdown
@@ -29,8 +27,6 @@ if [ "$markdown" == "true" ]; then
 fi
 read -p "image: (qp-fast.jpg) " image
 image=${image:-qp-fast.jpg}
-read -p "excerpt: (The cool thing about cool things is...) " excerpt
-excerpt=${excerpt:-The cool thing about cool things is...}
 
 echo " "
 echo "Thanks, here's what we've got:"
@@ -40,11 +36,9 @@ echo "title: $title"
 echo "path: $path"
 echo "date: $date"
 echo "fullPath: $fullPath"
-echo "author: $author"
 echo "category: $category"
 echo "markdown: $isMarkdown"
 echo "image: $image"
-echo "excerpt: $excerpt"
 
 echo " "
 
@@ -57,11 +51,10 @@ fullPath: \"${fullPath}\"
 path: \"${path}\"
 markdown: ${isMarkdown}
 date: \"${date}\"
-author: \"${author}\"
 title: \"${title}\"
 category: \"${category}\"
 image: \"${image}\"
-excerpt: \"${excerpt}\"
+isBlogPost: true
 ---
 
 ## This is an h2
@@ -82,18 +75,17 @@ export const frontmatter = {
   fullPath: \"${fullPath}\",
   path: \"${path}\",
   date: \"${date}\",
-  author: \"${author}\",
   title: \"${title}\",
   category: \"${category}\",
   markdown: false,
   image: \"${image}\",
-  excerpt: \"${excerpt}\"
+  isBlogPost: true
 };
 
 const template = { markdownRemark: { frontmatter } };
 
-export default function Post({pathContext}) {
-  const { imagesInPost } = pathContext
+export default function Post({pageContext}) {
+  const { imagesInPost } = pageContext
   return (
     <Template data={template}>
       <CustomPost images={imagesInPost} />

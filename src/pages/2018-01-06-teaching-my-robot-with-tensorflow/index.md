@@ -2,12 +2,11 @@
 fullPath: "2018-01-06-teaching-my-robot-with-tensorflow"
 path: "/teaching-my-robot-with-tensorflow"
 markdown: true
+isBlogPost: true
 date: "2018-01-06"
-author: "Charles Harrington"
 title: "Teaching My Robot With TensorFlow"
 category: "Deep Learning"
 image: "cozmo-paparazzi.gif"
-excerpt: "The cool thing about cool things is..."
 ---
 
 My childhood dream of becoming friends with a real-life robot like [Johnny 5](https://www.youtube.com/watch?v=POxMp61Ksbk) came true two weeks ago. This is not to be confused with my other primary childhood dream - which I wished on every dandelion blow and floating will-o-wisp - of being sucked into my Super Nintendo to become Link from [The Legend of Zelda: A Link to the Past](https://www.youtube.com/watch?v=wkH2zETKqws). Both were important, but somehow I knew the Johnny 5 one might come true one day, which is why I never wasted any important wish opportunities on it.

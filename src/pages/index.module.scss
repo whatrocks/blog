@@ -14,8 +14,10 @@
     border-radius: 4px;
     margin-right: 1rem;
     cursor: pointer;
+    transition: transform 0.3s;
     &:hover {
-        background-color: rgba(random(255), random(255), random(255), 1);
+        background-color: #0edad9;
+        transform: translate3d(0, -4px, 0);
     }
 }
 

@@ -26,7 +26,11 @@ export default function Library({ data }) {
             return (
               <tr key={i}>
                 <td>
-                  <img className={s.bookCover} src={book.book.image_url} />
+                  <img
+                    alt={book.book.title_without_series}
+                    className={s.bookCover}
+                    src={book.book.image_url}
+                  />
                 </td>
                 <td className={s.title}>
                   <a href={book.link} rel="noopener noreferrer" target="_blank">

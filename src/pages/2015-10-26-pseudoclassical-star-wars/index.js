@@ -5,12 +5,11 @@ export const frontmatter = {
   fullPath: "2015-10-26-pseudoclassical-star-wars",
   path: "/pseudoclassical-star-wars",
   date: "2015-10-26",
-  author: "Charlie Harrington",
   title: "Pseudoclassical Star Wars",
   category: "JavaScript",
   markdown: false,
-  image: "",
-  excerpt: "I think I can remove this"
+  isBlogPost: true,
+  image: ""
 };
 
 const template = { markdownRemark: { frontmatter } };

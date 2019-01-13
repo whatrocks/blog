@@ -14,11 +14,12 @@ export default function Index({ data }) {
       new Date(b.node.frontmatter.date) - new Date(a.node.frontmatter.date)
     );
   });
+  console.log("sortedPosts: ", sortedPosts[0])
   return (
     <Layout>
       <div className={s.index}>
         {sortedPosts
-          .filter(post => post.node.frontmatter.title.length > 0)
+          .filter(post => post.node.frontmatter.title.length > 0 && post.node.frontmatter.isBlogPost)
           .map(({ node: post }, index) => {
             return (
               post.frontmatter.path !== "/react-post" && (
@@ -48,8 +49,8 @@ export const pageQuery = graphql`
             title
             date(formatString: "DD MMMM YYYY")
             path
-            author
             category
+            isBlogPost
           }
         }
       }
@@ -64,10 +65,9 @@ export const pageQuery = graphql`
             fullPath
             path
             date(formatString: "DD MMMM YYYY")
-            author
             title
             category
-            excerpt
+            isBlogPost
           }
         }
       }

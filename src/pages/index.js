@@ -20,7 +20,6 @@ export default function Index({ data }) {
             const dateOfPost = DateTime.fromISO(post.frontmatter.date);
             const diff = today.diff(dateOfPost, "days").toObject();
             const isNew = diff.days < 14;
-            console.log("isNew: ", isNew);
             return (
               post.frontmatter.path !== "/react-post" && (
                 <div key={index} className={s.blogLink}>

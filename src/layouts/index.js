@@ -46,6 +46,7 @@ const Footer = () => <div className={s.footer}>© 2019 Charlie Harrington</div>;
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
+      htmlAttributes={{ lang: `en` }}
       title="Charlie Harrington - @whatrocks"
       meta={[
         {

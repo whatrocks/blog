@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Charlie Harrington`
+    title: `Charlie Harrington`,
+    siteUrl: `https://www.charlieharrington.com`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -8,6 +9,7 @@ module.exports = {
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

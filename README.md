@@ -1,4 +1,4 @@
-# charlie's blog
+# charlie's blog - [charlieharrington.com](https://www.charlieharrington.com)
 
 Source code for my static site/blog. 
 

@@ -3,9 +3,6 @@ import PropTypes from "prop-types";
 import { Link } from "gatsby";
 import Helmet from "react-helmet";
 import s from "./style.module.scss";
-require("typeface-hind");
-require("typeface-lato");
-require("typeface-raleway");
 
 const LeftPanel = () => (
   <div className={s.leftPanel}>

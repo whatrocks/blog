@@ -7,8 +7,8 @@ Source code for my static site/blog.
 Create `env.sh` with your env variables, then run these commands:
 
 ```bash
-yarn install
-yarn develop
+npm install
+npm develop
 ```
 
 ## Write a new post

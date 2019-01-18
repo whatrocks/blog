@@ -57,4 +57,4 @@ echo " "
 echo "Done!"
 echo " "
 echo "Let's start the blog dev server..."
-yarn develop
+npm run develop

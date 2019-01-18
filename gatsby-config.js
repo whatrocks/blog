@@ -1,7 +1,13 @@
 module.exports = {
   siteMetadata: {
     title: `Charlie Harrington`,
-    siteUrl: `https://www.charlieharrington.com`
+    siteUrl: `https://www.charlieharrington.com`,
+    description: 'Personal website and blog for software engineer and writer Charlie Harrington',
+    keywords: ['Charlie Harrington', 'Writer', 'Software Engineer'],
+    canonicalUrl: 'https://www.charlieharrington.com',
+    social: {
+      twitter: '@whatrocks'
+    }
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -1,5 +1,5 @@
 // Variables
-$grey: rgb(238, 238, 238);
+$grey: #eee;
 $navBg: rgb(241, 245, 248);
 $darkBg: #202020;
 $font: rgb(34, 41, 47);
@@ -8,10 +8,19 @@ $darkborder: darken(#0edad9, 2%);
 // Overrides
 a {
   text-decoration: none;
+  color: #0edad9;
+  &:hover {
+    color: darken(#0edad9, 5%);
+  }
+}
+
+a.gatsby-resp-image-link {
+  border-bottom: none !important;
 }
 
 html {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 body {
@@ -32,35 +41,48 @@ blockquote {
   font-weight: 300;
 }
 
+ol > li {
+  margin-bottom: 1rem;
+}
+
+ul > li {
+  margin-bottom: 1rem;
+}
+
 // Custom
 .leftPanel {
   text-align: center;
   padding: 0.5rem;
-  background-color: $navBg;
+  background-color: white;
+  border-bottom: 1px solid #eee;
 }
 .rightPanel {
   padding-left: 1rem;
   padding-right: 1rem;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 0.5rem;
   padding-bottom: 1rem;
 }
 
 .siteLogo {
-  font-size: 2rem;
+  font-size: 1.75rem;
   margin-right: 1rem;
+  &:hover {
+    color: #0edad9;
+  }
 }
 
 .siteHeadline {
   font-size: 1.5rem;
-  display: flex;
+  text-transform: uppercase;
+  letter-spacing: .05rem;
   color: $font;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  font-weight: 500;
   margin: 0;
   padding: 0;
+  &:hover {
+    color: #0edad9;
+  }
 }
 
 .footer {
@@ -69,112 +91,73 @@ blockquote {
 
 .linkItem {
   color: $font;
-  font-weight: 600;
+  font-weight: 300;
+  border-bottom: none;
 }
 
 .dot {
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
 }
 
-@media (min-width: 50em) {  
-  .leftPanel {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 18rem;
-    text-align: left;
-    padding: 0 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-  }
-  .rightPanel {
-    margin-left: 23rem;
-    margin-right: 1rem;
-  }
-  .siteLink {
-    margin-top: 1rem;
-  }
-  .siteLogo {
-    font-size: 3.5rem;
-    margin-right: 0.5rem;
-  }
-  .siteHeadline {
-    font-size: 1.5rem;
-    font-weight: 800;
-    display: flex;
-    // color: white;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    line-height: 1.15;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 1rem;
-  }
-  .subscribe {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    border-top: 2px solid $grey;
-    padding: 3px;
-    padding-top: 1.5rem;
-    text-align: center;
-    max-width: 40rem;
+.subscribe {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid $grey;
+  padding: 3px;
+  padding-top: 1.5rem;
+  text-align: center;
+  max-width: 40rem;
+}
 
+.subscribeText {
+  font-size: 1rem;
+}
+.subscribeInput {
+  padding: 1rem 0.5rem;
+  width: 225px;
+  font-size: 1rem;
+  border: 2px solid #0edad9;
+  background-color: lighten(#0edad9, 50%);
+  border-right: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  &:focus {
+    outline: 0;
   }
+}
+.subscribeButton {
+  font-size: 1rem;
+  background-color: #0edad9;
+  border: 2px solid $darkborder;
+  color: #363636;
+  cursor: pointer;
+  font-weight: 600;
+  justify-content: center;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  padding-top: 0.75rem;
+  text-align: center;
+  white-space: nowrap;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  &:hover {
+    background-color: darken(#0edad9, 5%);
+    border-color: darken(#0edad9, 10%);
+  }
+}
 
-  .subscribeText {
-    font-size: 1rem;
-  }
-  .subscribeInput {
-    padding: 1rem 0.5rem;
-    width: 225px;
-    font-size: 1rem;
-    border: 2px solid #0edad9;
-    background-color: lighten(#0edad9, 50%);
-    border-right: none;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
-    &:focus {
-      outline: 0;
-    }
-  }
-  .subscribeButton {
-    font-size: 1rem;
-    background-color: #0edad9;
-    border: 2px solid $darkborder;
-    color: #363636;
-    cursor: pointer;
-    font-weight: 600;
-    justify-content: center;
-    padding-bottom: 0.75rem;
-    padding-left: .75em;
-    padding-right: .75em;
-    padding-top: .75rem;
-    text-align: center;
-    white-space: nowrap;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-    &:hover {
-      background-color: darken(#0edad9, 5%);
-      border-color: darken(#0edad9, 10%);
-    }
-  }
+.warning {
+  font-size: 1rem;
+  margin-left: 0.25rem;
+}
 
-  .warning {
-    font-size: 1rem;
-    margin-left: 0.25rem;
-  }
-
-  .footer {
-    display: block;
-    font-size: 1rem;
-    font-weight: 300;
-    text-align: center;
-    margin: 1rem 0;
-  }
+.footer {
+  display: block;
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem 0;
 }

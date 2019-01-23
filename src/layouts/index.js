@@ -6,15 +6,15 @@ import s from "./style.module.scss";
 
 const LeftPanel = () => (
   <div className={s.leftPanel}>
-    <Link to="/" className={s.siteLink}>
-      <h1 className={s.siteHeadline}>
-        <span className={s.siteLogo} role="img" aria-label="evergreen-tree">
-          🌲
-        </span>
-        <span>CHARLIE HARRINGTON</span>
-      </h1>
-    </Link>
     <div className={s.linkRow}>
+      <Link to="/" className={s.siteLink}>
+        <h1 className={s.siteHeadline}>
+          <span className={s.siteLogo}>
+          ¶
+          </span>
+          <span>Charlie Harrington</span>
+        </h1>
+      </Link>
       <Link className={s.linkItem} to="/about">
         About
       </Link>
@@ -32,13 +32,10 @@ const LeftPanel = () => (
         Twitter
       </a>
     </div>
-    <div>
-      <Footer />
-    </div>
   </div>
 );
 
-const Footer = () => <div className={s.footer}>© 2019 Charlie Harrington</div>;
+// const Footer = () => <div className={s.footer}>© 2019 Charlie Harrington</div>;
 
 const TemplateWrapper = ({ children }) => (
   <div>

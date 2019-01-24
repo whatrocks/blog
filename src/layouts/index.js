@@ -8,12 +8,12 @@ const LeftPanel = () => (
   <div className={s.leftPanel}>
     <div className={s.linkRow}>
       <Link to="/" className={s.siteLink}>
-        <h1 className={s.siteHeadline}>
+        <h2 className={s.siteHeadline}>
           <span className={s.siteLogo}>
           ¶
           </span>
           <span>Charlie Harrington</span>
-        </h1>
+        </h2>
       </Link>
       <Link className={s.linkItem} to="/about">
         About

@@ -19,7 +19,7 @@ export default function Index({ data }) {
           .map(({ node: post }, index) => {
             const dateOfPost = DateTime.fromISO(post.frontmatter.date);
             const diff = today.diff(dateOfPost, "days").toObject();
-            const isNew = diff.days < 14;
+            const isNew = diff.days < 7;
             return (
               <Link
                 key={index}

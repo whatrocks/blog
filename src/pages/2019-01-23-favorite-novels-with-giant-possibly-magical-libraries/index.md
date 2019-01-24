@@ -45,6 +45,7 @@ I hereby present a list of the very best novels featuring giant libraries filled
 * [The Strange Library](https://www.goodreads.com/book/show/23128304-the-strange-library) - Haruki Murakami*
 * [Invisible Cities](https://www.goodreads.com/book/show/9809.Invisible_Cities) - Italo Calvino*
 * [Kafka on the Shore](https://www.goodreads.com/book/show/4929.Kafka_on_the_Shore) - Haruki Murakami*
+* [In the Stacks](https://www.goodreads.com/book/show/13549792-in-the-stacks) - Scott Lynch*
 
 **Indicates that I haven't read this book (yet), but rest assured that it was recommended by a semi-close friend or cousin of mine.*
 

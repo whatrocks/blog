@@ -38,6 +38,10 @@ I hereby present a list of the very best novels featuring giant libraries filled
 * [Lirael](https://www.goodreads.com/book/show/47624.Lirael) - Garth Nix
 * [The Library at Mount Char](https://www.goodreads.com/book/show/26892110-the-library-at-mount-char) - Scott Hawkins
 * [Jonathan Strange and Mr. Norrell](https://www.goodreads.com/book/show/14201.Jonathan_Strange_Mr_Norrell) - Susanna Clarke
+* Harry Potter
+    * [Harry Potter and the Sorcerer's Stone](https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone) - J.K. Rowling
+    * [Harry Potter and the Chamber of Secrets](https://www.goodreads.com/book/show/15881.Harry_Potter_and_the_Chamber_of_Secrets) - J.K. Rowling
+    * [Harry Potter and the Goblet of Fire](https://www.goodreads.com/book/show/6.Harry_Potter_and_the_Goblet_of_Fire) - J.K. Rowling
 * [Mr. Penumbra's 24 Hour Bookstore](https://www.goodreads.com/book/show/13538873-mr-penumbra-s-24-hour-bookstore) - Robin Sloan*
 * [A Discovery of Witches](https://www.goodreads.com/book/show/8667848-a-discovery-of-witches) - Deborah Harkness*
 * [The Library of Babel](https://www.goodreads.com/book/show/172366.The_Library_of_Babel) - Jorge Luis Borges*

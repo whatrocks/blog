@@ -1,6 +1,6 @@
 # charlie's blog - [charlieharrington.com](https://www.charlieharrington.com)
 
-Source code for my static site/blog. 
+Source code for my website! 
 
 ## Local setup
 

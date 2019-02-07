@@ -42,6 +42,9 @@ I hereby present a list of the very best novels featuring giant libraries filled
     * [Harry Potter and the Sorcerer's Stone](https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone) - J.K. Rowling
     * [Harry Potter and the Chamber of Secrets](https://www.goodreads.com/book/show/15881.Harry_Potter_and_the_Chamber_of_Secrets) - J.K. Rowling
     * [Harry Potter and the Goblet of Fire](https://www.goodreads.com/book/show/6.Harry_Potter_and_the_Goblet_of_Fire) - J.K. Rowling
+* [Rainbows End](https://www.goodreads.com/book/show/102439.Rainbows_End) - Vernor Vinge
+* [Anathem](https://www.goodreads.com/book/show/2845024-anathem) - Neal Stephenson
+* [Snow Crash](https://www.goodreads.com/book/show/40651883-snow-crash) - Neal Stephenson
 * [Mr. Penumbra's 24 Hour Bookstore](https://www.goodreads.com/book/show/13538873-mr-penumbra-s-24-hour-bookstore) - Robin Sloan*
 * [A Discovery of Witches](https://www.goodreads.com/book/show/8667848-a-discovery-of-witches) - Deborah Harkness*
 * [The Library of Babel](https://www.goodreads.com/book/show/172366.The_Library_of_Babel) - Jorge Luis Borges*
@@ -50,6 +53,9 @@ I hereby present a list of the very best novels featuring giant libraries filled
 * [Invisible Cities](https://www.goodreads.com/book/show/9809.Invisible_Cities) - Italo Calvino*
 * [Kafka on the Shore](https://www.goodreads.com/book/show/4929.Kafka_on_the_Shore) - Haruki Murakami*
 * [In the Stacks](https://www.goodreads.com/book/show/13549792-in-the-stacks) - Scott Lynch*
+* [Ink and Bone](https://www.goodreads.com/book/show/20643052-ink-and-bone) - Rachel Caine*
+* [The Colour of Magic (Discworld #1)](https://www.goodreads.com/book/show/34497.The_Color_of_Magic) - Terry Pratchett*
+* [If on a Winter's Night a Traveler](https://www.goodreads.com/book/show/374233.If_on_a_Winter_s_Night_a_Traveler) - Italo Calvino*
 
 **Indicates that I haven't read this book (yet), but rest assured that it was recommended by a semi-close friend or cousin of mine.*
 

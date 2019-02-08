@@ -43,6 +43,8 @@ I hereby present a list of the very best novels featuring giant libraries filled
     * [Harry Potter and the Chamber of Secrets](https://www.goodreads.com/book/show/15881.Harry_Potter_and_the_Chamber_of_Secrets) - J.K. Rowling
     * [Harry Potter and the Goblet of Fire](https://www.goodreads.com/book/show/6.Harry_Potter_and_the_Goblet_of_Fire) - J.K. Rowling
 * [Rainbows End](https://www.goodreads.com/book/show/102439.Rainbows_End) - Vernor Vinge
+* [A Fire Upon the Deep](https://www.goodreads.com/book/show/77711.A_Fire_Upon_the_Deep) - Vernor Vinge
+* [A Deepness in the Sky](https://www.goodreads.com/book/show/226004.A_Deepness_in_the_Sky) - Vernor Vinge
 * [Anathem](https://www.goodreads.com/book/show/2845024-anathem) - Neal Stephenson
 * [Snow Crash](https://www.goodreads.com/book/show/40651883-snow-crash) - Neal Stephenson
 * [Mr. Penumbra's 24 Hour Bookstore](https://www.goodreads.com/book/show/13538873-mr-penumbra-s-24-hour-bookstore) - Robin Sloan*
@@ -56,7 +58,13 @@ I hereby present a list of the very best novels featuring giant libraries filled
 * [Ink and Bone](https://www.goodreads.com/book/show/20643052-ink-and-bone) - Rachel Caine*
 * [The Colour of Magic (Discworld #1)](https://www.goodreads.com/book/show/34497.The_Color_of_Magic) - Terry Pratchett*
 * [If on a Winter's Night a Traveler](https://www.goodreads.com/book/show/374233.If_on_a_Winter_s_Night_a_Traveler) - Italo Calvino*
+* [Preludes & Nocturnes (The Sandman #1)](https://www.goodreads.com/book/show/23754.Preludes_Nocturnes) - Neil Gaiman*
+* [Wireless](https://www.goodreads.com/book/show/5226027-wireless) - Charles Stross*
+* [The Book of the New Sun](https://www.goodreads.com/book/show/968868.The_Book_of_the_New_Sun) - Gene Wolfe*
+* [Eon (The Way #1)](https://www.goodreads.com/book/show/840278.Eon) - Greg Bear*
+* [Protector](https://www.goodreads.com/book/show/100344.Protector) - Larry Niven*
+* [The Book of Sand](https://www.goodreads.com/book/show/146422.The_Book_of_Sand_and_Shakespeare_s_Memory) - Jorge Luis Borges*
 
-**Indicates that I haven't read this book (yet), but rest assured that it was recommended by a semi-close friend or cousin of mine.*
+**Indicates that I haven't read this book (yet), but rest assured that it was recommended by a semi-close friend, cousin of mine, or [Hacker News commenter](https://news.ycombinator.com/item?id=19108230).*
 
 Let me know on Twitter ([@whatrocks](https://twitter.com/whatrocks)) if I'm missing anything and I'll update the list, almost like a palimpsest.

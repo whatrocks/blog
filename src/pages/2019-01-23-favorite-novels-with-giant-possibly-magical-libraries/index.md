@@ -5,6 +5,7 @@ date: "2019-01-23"
 title: "Novels with Giant Possibly Magical Libraries"
 category: "Writing"
 image: "qp-fast.jpg"
+description: "List of novels with magical libraries"
 isBlogPost: true
 ---
 

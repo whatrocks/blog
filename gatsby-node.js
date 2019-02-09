@@ -29,6 +29,7 @@ exports.createPages = ({ actions, graphql }) => {
               title
               category
               image
+              description
               isBlogPost
             }
           }

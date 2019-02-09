@@ -11,7 +11,7 @@ module.exports = {
       "Charlie Harrington Author"
     ],
     canonicalUrl: "https://www.charlieharrington.com",
-    image: "/img/logo.png",
+    image: "/img/card.png",
     author: {
       name: "Charlie Harrington",
       minibio: `<strong>Charlie Harrington</strong> is a writer and software engineer in San Francisco, CA.`

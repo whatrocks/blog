@@ -8,7 +8,6 @@ export default function Library({ data }) {
   const books = edges[0].node.reviews;
   return (
     <Layout>
-      <h2>Library</h2>
       <div className={s.cards}>
         {books.map((book, i) => {
           return (

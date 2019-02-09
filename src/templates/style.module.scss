@@ -20,14 +20,16 @@
 .title {
     margin: 0;
     text-align: center;
+    font-weight: 500;
 }
 
 .subtitle {
     text-align: center;
-    color: hsla(0, 0%, 0%, .3);
+    color: hsla(0, 0%, 0%, .8);
     margin: 0;
     margin-left: 1rem;
     font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .borderLine {

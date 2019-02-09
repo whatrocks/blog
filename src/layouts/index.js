@@ -55,6 +55,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
       link={[{ rel: "shortcut icon", href: "/img/favicon.ico" }]}
     />
+    <SEO />
     <LeftPanel />
     <div className={s.rightPanel}>{children}</div>
   </div>

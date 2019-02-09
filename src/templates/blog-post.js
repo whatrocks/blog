@@ -9,7 +9,7 @@ export default function Template({ data, children }) {
   const { markdownRemark: post } = data;
   return (
     <Layout>
-      <SEO frontmatter={post.frontmatter} />
+      <SEO frontmatter={post.frontmatter} isBlogPost />
       <div className={s.postTemplate}>
         <div className={s.titleRow}>
           <h2 className={s.title}>{post.frontmatter.title}</h2>

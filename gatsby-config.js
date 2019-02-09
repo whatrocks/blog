@@ -48,7 +48,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              linkImagestoOriginal: true
+              linkImagestoOriginal: true,
             }
           },
           `gatsby-remark-prismjs`,

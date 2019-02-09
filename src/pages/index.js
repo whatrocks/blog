@@ -19,10 +19,14 @@ export default function Index({ data }) {
           .map(({ node: post }, index) => {
             const dateOfPost = DateTime.fromISO(post.frontmatter.date);
             const diff = today.diff(dateOfPost, "days").toObject();
-            const isNew = diff.days < 14;
+            const isNew = diff.days < 7;
             return (
-              <div key={index} className={s.blogLink}>
-                <Link to={post.frontmatter.path} className={s.linkContents}>
+              <Link
+                key={index}
+                to={post.frontmatter.path}
+                className={s.blogLink}
+              >
+                <div>
                   <span className={s.title}>{post.frontmatter.title}</span>
                   <span className={s.date}>{post.frontmatter.date}</span>
                   {isNew && (
@@ -33,8 +37,9 @@ export default function Index({ data }) {
                       <span className={s.new}>NEW</span>
                     </span>
                   )}
-                </Link>
-              </div>
+                </div>
+                {post.excerpt.length ? <p className={s.excerpt}>{post.excerpt}</p> : <span />}
+              </Link>
             );
           })}
       </div>

@@ -1,6 +1,8 @@
 // Bulma inspired
 // https://bulma.io/documentation/elements/table/
 
+$border-color: #eee;
+
 .table {
     display: none;
 }
@@ -11,7 +13,7 @@
 
 .card {
     text-align: center;
-    border: 1px solid #dbdbdb;
+    border: 1px solid $border-color;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
@@ -51,7 +53,7 @@ thead {
 }
 
 th {
-    border: 1px solid #dbdbdb;
+    border: 1px solid $border-color;
     padding: .5em .75em;
     text-align: left;
     vertical-align: top;
@@ -60,7 +62,7 @@ th {
 
 td {
     padding: .5em .75em;
-    border: 1px solid #dbdbdb;
+    border: 1px solid $border-color;
     border-width: 0 0 1px;
     vertical-align: middle;
 }

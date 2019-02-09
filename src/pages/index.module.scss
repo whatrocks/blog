@@ -1,10 +1,13 @@
 .index {
-    margin-top: 0.5rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    margin-top: 1rem;
 }
 
 .blogLink {
@@ -12,7 +15,6 @@
     border: 1px solid #eee;
     margin-bottom: 1rem;
     border-radius: 4px;
-    margin-right: 1rem;
     cursor: pointer;
     transition: transform 0.3s;
     &:hover {
@@ -24,7 +26,7 @@
 .linkContents {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -48,7 +50,6 @@
     border-color: #dbdbdb;
     border-width: 1px;
     cursor: pointer;
-    // width: 50px;
     justify-content: flex-start;
     flex-direction: row;
     align-items: center;
@@ -61,11 +62,17 @@
 .emoji {
     font-size: 1rem;
     height: 28px;
-    // margin-top: 1rem;
+    margin-top: 0.5rem;
+    
 }
 
 .new {
-    // font-size: 2rem;
     font-weight: 600;
     font-size: 0.9rem;
+    padding-right: 0.25rem;
+} 
+
+.excerpt {
+    color: hsla(0, 0%, 0%, .8);
+    margin-bottom: 0;
 }

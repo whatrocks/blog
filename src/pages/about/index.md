@@ -5,7 +5,7 @@ isBlogPost: false
 date: ""
 title: "About"
 category: "About"
-image: "qp-fast.jpg"
+image: ""
 ---
 
 I'm Charlie Harrington, and I'm a software engineer and writer in San Francisco, California.

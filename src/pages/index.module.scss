@@ -33,13 +33,17 @@
 .title {
     font-size: 1.2rem;
     color: black;
-    font-weight: 500;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    line-height: 1.1;
 }
 
 .date {
     font-size: 1rem;
     color: hsla(0, 0%, 0%, .8);
     margin-left: 0.5rem;
+    letter-spacing: -0.05em;
+    line-height: 1.1;
 }
 
 .badge {

@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../layouts";
-import SEO from '../components/SEO'
+import SEO from "../components/SEO";
 import Subscribe from "../layouts/subscribe";
 import s from "./style.module.scss";
 
@@ -11,10 +11,8 @@ export default function Template({ data, children }) {
     <Layout>
       <SEO frontmatter={post.frontmatter} isBlogPost />
       <div className={s.postTemplate}>
-        <div className={s.titleRow}>
-          <h2 className={s.title}>{post.frontmatter.title}</h2>
-          <h3 className={s.subtitle}>{post.frontmatter.date}</h3>
-        </div>
+        <h2 className={s.title}>{post.frontmatter.title}</h2>
+        <h3 className={s.subtitle}>{post.frontmatter.date}</h3>
         <div className={s.borderLine} />
         <div
           className={s.post}
@@ -37,7 +35,7 @@ export const pageQuery = graphql`
         title
         category
         description
-        image 
+        image
       }
     }
   }

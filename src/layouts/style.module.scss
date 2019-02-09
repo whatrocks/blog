@@ -72,11 +72,13 @@ ul > li {
 }
 
 .siteHeadline {
+  letter-spacing: -0.05em;
+  line-height: 1.1;
+  margin-left: -2px;
   font-size: 1.5rem;
   text-transform: uppercase;
-  letter-spacing: .05rem;
   color: $font;
-  font-weight: 900;
+  font-weight: 600;
   margin: 0;
   padding: 0;
   &:hover {

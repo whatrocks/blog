@@ -32,7 +32,7 @@ const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
       // TODO: Custom image for blog posts isn't working
       // const image = postMeta.image ? `${seo.canonicalUrl}/${postMeta.image}` : seo.image;
       const image = `${seo.canonicalUrl}${seo.image}`;
-      const url = postMeta.slug ? `${seo.canonicalUrl}/${postMeta.slug}/` : seo.canonicalUrl
+      const url = postMeta.slug ? `${seo.canonicalUrl}/${postMeta.slug}` : seo.canonicalUrl
       const datePublished = isBlogPost ? postMeta.date : false;
       return (
         <React.Fragment>

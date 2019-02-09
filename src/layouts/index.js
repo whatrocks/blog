@@ -53,7 +53,7 @@ const TemplateWrapper = ({ children }) => (
         },
         {
           name: "google-site-verification",
-          content: `${process.env.GOOGLE_SITE_VERIFICATION}`
+          content: `${process.env.GATSBY_GOOGLE_SITE_VERIFICATION}`
         }
       ]}
       link={[{ rel: "shortcut icon", href: "/img/favicon.ico" }]}

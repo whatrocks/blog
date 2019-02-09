@@ -36,8 +36,6 @@ const LeftPanel = () => (
   </div>
 );
 
-// const Footer = () => <div className={s.footer}>© 2019 Charlie Harrington</div>;
-
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
@@ -52,6 +50,10 @@ const TemplateWrapper = ({ children }) => (
           name: "keywords",
           content:
             "charlie harrington, whatrocks, javascript, learning, computer science, python, tavie gray"
+        },
+        {
+          name: "google-site-verification",
+          content: `${process.env.GOOGLE_SITE_VERIFICATION}`
         }
       ]}
       link={[{ rel: "shortcut icon", href: "/img/favicon.ico" }]}

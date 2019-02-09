@@ -1,12 +1,28 @@
 module.exports = {
   siteMetadata: {
-    title: `Charlie Harrington`,
     siteUrl: `https://www.charlieharrington.com`,
-    description: 'Personal website and blog for software engineer and writer Charlie Harrington',
-    keywords: ['Charlie Harrington', 'Writer', 'Software Engineer'],
-    canonicalUrl: 'https://www.charlieharrington.com',
+    title: `Charlie Harrington`,
+    twitterHandle: "@whatrocks",
+    description: "Blog of Charlie Harrington - writer and software engineer",
+    keywords: [
+      "Charlie Harrington",
+      "charlie Harrington wWriter",
+      "Charlie Harrington Software Engineer",
+      "Charlie Harrington Author"
+    ],
+    canonicalUrl: "https://www.charlieharrington.com",
+    image: "/img/logo.png",
+    author: {
+      name: "Charlie Harrington",
+      minibio: `<strong>Charlie Harrington</strong> is a writer and software engineer in San Francisco, CA.`
+    },
     social: {
-      twitter: '@whatrocks'
+      twitter: "https://twitter.com/whatrocks",
+      github: "https://github.com/whatrocks",
+      linkedin: "https://www.linkedin.com/in/charlieharrington/",
+      instagram: "https://instagram.com/whatrocks",
+      goodreads:
+        "https://www.goodreads.com/user/show/8699203-charlie-harrington"
     }
   },
   plugins: [
@@ -18,8 +34,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `${process.env.GOOGLE_ANALYTICS_ID}`,
-      },
+        trackingId: `${process.env.GOOGLE_ANALYTICS_ID}`
+      }
     },
     {
       resolve: `@jamesdanylik/gatsby-source-goodreads`,
@@ -48,7 +64,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              linkImagestoOriginal: true,
+              linkImagestoOriginal: true
             }
           },
           `gatsby-remark-prismjs`,

@@ -3,8 +3,8 @@ fullPath: "2019-01-23-favorite-novels-with-giant-possibly-magical-libraries"
 path: "/novels-with-libraries"
 date: "2019-01-23"
 title: "Novels with Giant Possibly Magical Libraries"
-category: "Writing"
-image: "qp-fast.jpg"
+category: "writing"
+image: "lirael.jpg"
 description: "List of novels with magical libraries"
 isBlogPost: true
 ---

@@ -31,7 +31,7 @@ const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
       const description = postMeta.description || seo.description;
       // TODO: Custom image for blog posts isn't working
       // const image = postMeta.image ? `${seo.canonicalUrl}/${postMeta.image}` : seo.image;
-      const image = seo.image;
+      const image = `${seo.canonicalUrl}/${seo.image}`;
       const url = postMeta.slug ? `${seo.canonicalUrl}/${postMeta.slug}` : seo.canonicalUrl
       const datePublished = isBlogPost ? postMeta.date : false;
       return (

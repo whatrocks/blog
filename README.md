@@ -22,4 +22,4 @@ npm install
 
 ## Deployment
 
-Netlify deploys automatically from the `master` branch
+Netlify deploys from the `master` branch

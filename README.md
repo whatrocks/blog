@@ -13,7 +13,7 @@ npm install
 npm develop
 ```
 
-## Write a new blog post
+## Write new post
 
 ```bash
 ./scripts/new-post.sh

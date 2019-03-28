@@ -19,8 +19,8 @@ date=${date:-$TODAY}
 fullPath=`join_by - $date $lowercasetitle`
 read -p "category: (Deep Learning) " category
 category=${category:-Deep Learning}
-read -p "image: (qp-fast.jpg) " image
-image=${image:-qp-fast.jpg}
+read -p "image: (cool.jpg) " image
+image=${image:-cool.jpg}
 
 echo " "
 echo "Thanks, here's what we've got:"

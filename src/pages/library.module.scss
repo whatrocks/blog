@@ -3,6 +3,16 @@
 
 $border-color: #eee;
 
+.pageTitle {
+    margin: 1rem 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 200;
+    font-style: italic;
+    letter-spacing: .5rem;
+}
+
 .table {
     display: none;
 }

@@ -8,7 +8,7 @@ export default function Walkingman({ data }) {
   const { edges } = data.allInstagramContent;
   return (
     <Layout>
-      <h2 className={s.title}>#walkingman</h2>
+      <h1 className={s.title}>#walkingman</h1>
       <div className={s.grid}>
         {edges.map((edge, i) => (
           <a

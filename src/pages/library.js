@@ -8,6 +8,7 @@ export default function Library({ data }) {
   const books = edges[0].node.reviews;
   return (
     <Layout>
+      <h1 className={s.pageTitle}>What I've Been Reading</h1>
       <div className={s.cards}>
         {books.map((book, i) => {
           return (
@@ -48,7 +49,17 @@ export default function Library({ data }) {
             <th>Author(s)</th>
             <th>Date Read</th>
             <th>Publisher</th>
-            <th>My review</th>
+            <th>
+              My&nbsp;
+              <a
+                href="https://twitter.com/search?q=%233sentence%20%40whatrocks"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                #3sentence
+              </a>
+              &nbsp;review
+            </th>
           </tr>
         </thead>
         <tbody>

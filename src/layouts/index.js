@@ -26,6 +26,15 @@ const LeftPanel = () => (
       <span className={s.dot}>•</span>
       <a
         className={s.linkItem}
+        href="https://www.escapingweb.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Escaping Web
+      </a>
+      <span className={s.dot}>•</span>
+      <a
+        className={s.linkItem}
         href="https://twitter.com/whatrocks"
         target="_blank"
         rel="noopener noreferrer"
@@ -49,7 +58,7 @@ const TemplateWrapper = ({ children }) => (
         {
           name: "keywords",
           content:
-            "charlie harrington, whatrocks, javascript, learning, computer science, python, tavie gray"
+            "charlie harrington, whatrocks, javascript, learning, computer science, python, tavie gray, escaping web"
         },
         {
           name: "google-site-verification",

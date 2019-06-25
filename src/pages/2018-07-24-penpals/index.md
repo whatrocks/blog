@@ -4,8 +4,8 @@ path: "/penpals"
 isBlogPost: true
 date: "2018-07-24"
 title: "Penpals"
-category: "Music"
-image: "qp-fast.jpg"
+category: "music"
+image: ""
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FANlCLh22uA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

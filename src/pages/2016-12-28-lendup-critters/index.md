@@ -4,7 +4,7 @@ path: "/lendup-critters"
 isBlogPost: true
 date: "2016-12-28"
 title: "LendUp Critters"
-category: "Design"
+category: "design"
 image: "cubicle.png"
 ---
 

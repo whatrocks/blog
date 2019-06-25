@@ -4,7 +4,7 @@ path: "/terminal-man-one-day-lord-shardik-will-return"
 isBlogPost: true
 date: "2016-12-06"
 title: "One Day Lord Shardik Will Return"
-category: "Music"
+category: "music"
 image: "bear.jpg"
 ---
 

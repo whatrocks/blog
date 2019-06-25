@@ -4,7 +4,7 @@ path: "/rim-2-rim-2-rim"
 isBlogPost: true
 date: "2017-05-07"
 title: "Rim 2 Rim 2 Rim"
-category: "Races"
+category: "outdoors"
 image: "canyon.png"
 ---
 

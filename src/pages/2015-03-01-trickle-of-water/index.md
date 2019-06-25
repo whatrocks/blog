@@ -4,7 +4,7 @@ path: "/trickle-of-water"
 isBlogPost: true
 date: "2015-03-01"
 title: "Trickle of Water"
-category: "Learning"
+category: "learning"
 image: "ch.jpg"
 ---
 

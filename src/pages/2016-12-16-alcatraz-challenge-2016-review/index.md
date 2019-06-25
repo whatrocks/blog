@@ -4,7 +4,7 @@ path: "/alcatraz-challenge-2016-review"
 isBlogPost: true
 date: "2016-12-16"
 title: "Alcatraz Challenge 2016 - Review"
-category: "Fitness"
+category: "outdoors"
 image: "connery.png"
 ---
 

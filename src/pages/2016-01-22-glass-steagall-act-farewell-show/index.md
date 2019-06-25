@@ -4,7 +4,7 @@ path: "/glass-steagall-act-farewell-show"
 isBlogPost: true
 date: "2016-01-22"
 title: "Glass-Steagall Act Farewell Show"
-category: "Music"
+category: "music"
 image: "band.jpg"
 ---
 

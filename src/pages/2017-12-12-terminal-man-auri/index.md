@@ -4,7 +4,7 @@ path: "/terminal-man-auri"
 isBlogPost: true
 date: "2017-12-12"
 title: "Auri"
-category: "Music"
+category: "music"
 image: "willow.jpg"
 ---
 

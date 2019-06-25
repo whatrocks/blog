@@ -4,7 +4,7 @@ path: "/the-long-hour"
 isBlogPost: true
 date: "2018-04-28"
 title: "The Long Hour"
-category: "Music"
+category: "music"
 image: "qp-fast.jpg"
 ---
 

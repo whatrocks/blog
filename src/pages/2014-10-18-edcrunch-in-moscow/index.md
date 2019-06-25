@@ -4,7 +4,7 @@ path: "/edcrunch-in-moscow"
 isBlogPost: true
 date: "2014-10-18"
 title: "edCrunch in Moscow"
-category: "Talks"
+category: "talks"
 image: "edcrunch.jpg"
 ---
 

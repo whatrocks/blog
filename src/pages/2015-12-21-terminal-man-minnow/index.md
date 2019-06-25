@@ -4,7 +4,7 @@ path: "/terminal-man-minnow"
 isBlogPost: true
 date: "2015-12-21"
 title: "Minnow"
-category: "Music"
+category: "music"
 image: "minnow.jpg"
 ---
 

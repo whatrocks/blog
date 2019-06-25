@@ -4,8 +4,8 @@ path: "/using-nlp-to-write-graduation-speeches"
 isBlogPost: true
 date: "2018-07-23"
 title: "Using NLP to Write Graduation Speeches"
-category: "Deep Learning"
-image: "qp-fast.jpg"
+category: "coding"
+image: ""
 ---
 
 I've always been a little bit obsessed with graduation speeches. Put simply, I like being reminded of the great possibility and great responsibility of living.

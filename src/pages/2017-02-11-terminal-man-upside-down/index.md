@@ -4,7 +4,7 @@ path: "/terminal-man-upside-down"
 isBlogPost: true
 date: "2017-02-11"
 title: "Upside Down"
-category: "Music"
+category: "music"
 image: "troll.jpg"
 ---
 

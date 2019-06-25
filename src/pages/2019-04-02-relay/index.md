@@ -3,7 +3,7 @@ fullPath: "2019-04-02-relay"
 path: "/relay"
 date: "2019-04-02"
 title: "Relay"
-category: "Music"
+category: "music"
 image: "cool.jpg"
 isBlogPost: true
 ---

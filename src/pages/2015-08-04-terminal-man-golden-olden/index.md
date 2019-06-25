@@ -4,7 +4,7 @@ path: "/terminal-man-golden-olden"
 isBlogPost: true
 date: "2015-08-04"
 title: "Golden Olden"
-category: "Music"
+category: "music"
 image: "forest.jpg"
 ---
 

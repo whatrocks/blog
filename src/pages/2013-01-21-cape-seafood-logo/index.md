@@ -4,7 +4,7 @@ path: "/cape-seafood-logo"
 isBlogPost: true
 date: "2013-01-21"
 title: "Cape Seafood Logo"
-category: "Design"
+category: "design"
 image: "capeseafood.png"
 ---
 

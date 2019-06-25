@@ -4,7 +4,7 @@ path: "/sepm-conference-in-copenhagen"
 isBlogPost: true
 date: "2013-11-21"
 title: "SEPM Conference in Copenhagen"
-category: "Talks"
+category: "talks"
 image: "sepm.png"
 ---
 

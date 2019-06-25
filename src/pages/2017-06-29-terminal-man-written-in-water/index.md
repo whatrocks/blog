@@ -4,7 +4,7 @@ path: "/terminal-man-written-in-water"
 isBlogPost: true
 date: "2017-06-29"
 title: "Written in Water"
-category: "Music"
+category: "music"
 image: "waverace.jpg"
 ---
 

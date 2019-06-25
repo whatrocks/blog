@@ -4,7 +4,7 @@ path: "/terminal-man-too-much"
 isBlogPost: true
 date: "2016-02-10"
 title: "Too Much"
-category: "Music"
+category: "music"
 image: "space.jpg"
 ---
 

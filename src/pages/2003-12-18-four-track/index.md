@@ -4,7 +4,7 @@ path: "/four-track"
 date: "2003-12-18"
 title: "Four Track"
 isBlogPost: true
-category: "Music"
+category: "music"
 image: "link.jpg"
 ---
 

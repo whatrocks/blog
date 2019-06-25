@@ -4,7 +4,7 @@ path: "/terminal-man-over-water-under-you"
 isBlogPost: true
 date: "2014-08-04"
 title: "Over Water, Under You"
-category: "Music"
+category: "music"
 image: "water.jpg"
 ---
 

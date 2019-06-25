@@ -4,7 +4,7 @@ path: "/terminal-man-ghost2"
 isBlogPost: true
 date: "2018-01-05"
 title: "Ghost2"
-category: "Music"
+category: "music"
 image: "crab.jpg"
 ---
 

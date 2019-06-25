@@ -4,7 +4,7 @@ path: "/merlin's-advice"
 isBlogPost: true
 date: "2015-03-05"
 title: "Merlin's Advice"
-category: "Learning"
+category: "learning"
 image: "ma.jpg"
 ---
 

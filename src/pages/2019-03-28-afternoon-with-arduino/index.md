@@ -3,8 +3,8 @@ fullPath: "2019-03-28-afternoon-with-arduino"
 path: "/afternoon-with-arduino"
 date: "2019-03-28"
 title: "An Afternoon with Arduino"
-category: "Coding"
-image: "cool.jpg"
+category: "coding"
+image: ""
 isBlogPost: true
 ---
 

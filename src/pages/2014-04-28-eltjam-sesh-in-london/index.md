@@ -4,7 +4,7 @@ path: "/eltjam-sesh-in-london"
 isBlogPost: true
 date: "2014-04-28"
 title: "ELTJam Sesh in London"
-category: "Talks"
+category: "talks"
 image: "elt.png"
 ---
 

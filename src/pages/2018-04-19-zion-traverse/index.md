@@ -4,7 +4,7 @@ path: "/zion-traverse"
 isBlogPost: true
 date: "2018-04-19"
 title: "Zion Traverse"
-category: "Running"
+category: "outdoors"
 image: "qp-fast.jpg"
 ---
 We ran ~38 miles of the Zion Traverse this past Saturday, including the I-can't-believe-this-is-actually-allowed Angels Landing climb.

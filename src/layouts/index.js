@@ -5,7 +5,7 @@ import Helmet from "react-helmet";
 import SEO from '../components/SEO'
 import s from "./style.module.scss";
 
-const LeftPanel = () => (
+const Nav = () => (
   <div className={s.leftPanel}>
     <div className={s.linkRow}>
       <Link to="/" className={s.siteLink}>
@@ -68,13 +68,12 @@ const TemplateWrapper = ({ children }) => (
       link={[{ rel: "shortcut icon", href: "/img/favicon.ico" }]}
     />
     <SEO />
-    <LeftPanel />
+    <Nav />
     <div className={s.rightPanel}>{children}</div>
   </div>
 );
 
 TemplateWrapper.propTypes = {
-  // TODO: Fix this type
   children: PropTypes.any
 };
 

@@ -4,7 +4,7 @@ path: "/relay"
 date: "2019-04-02"
 title: "Relay"
 category: "music"
-image: "cool.jpg"
+image: ""
 isBlogPost: true
 ---
 

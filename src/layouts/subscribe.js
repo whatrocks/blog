@@ -28,7 +28,7 @@ export default () => (
       <input className={s.subscribeButton} type="submit" value="Update Me 👋" />
     </form>
     <p className={s.warning}>
-      The almost-never newsletter: I won't spam you, and you can unsubscribe anytime.
+      The almost-never newsletter. I won't spam you, and you can unsubscribe anytime.
     </p>
   </div>
 );

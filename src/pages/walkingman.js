@@ -26,7 +26,7 @@ export default function Walkingman({ data }) {
               }}
               fixed={edge.node.localImage.childImageSharp.fixed}
             />
-            <p className={s.label}>{edge.node.location.name}</p>
+            <p className={s.label}>{edge.node.location ? edge.node.location.name : ""}</p>
           </a>
         ))}
       </div>

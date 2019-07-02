@@ -58,7 +58,7 @@ I hereby present a list of the very best novels featuring giant libraries filled
 * [In the Stacks](https://www.goodreads.com/book/show/13549792-in-the-stacks) - Scott Lynch*
 * [Ink and Bone](https://www.goodreads.com/book/show/20643052-ink-and-bone) - Rachel Caine*
 * [The Colour of Magic (Discworld #1)](https://www.goodreads.com/book/show/34497.The_Color_of_Magic) - Terry Pratchett*
-* [If on a Winter's Night a Traveler](https://www.goodreads.com/book/show/374233.If_on_a_Winter_s_Night_a_Traveler) - Italo Calvino*
+* [If on a Winter's Night a Traveler](https://www.goodreads.com/book/show/374233.If_on_a_Winter_s_Night_a_Traveler) - Italo Calvino
 * [Preludes & Nocturnes (The Sandman #1)](https://www.goodreads.com/book/show/23754.Preludes_Nocturnes) - Neil Gaiman*
 * [Wireless](https://www.goodreads.com/book/show/5226027-wireless) - Charles Stross*
 * [The Book of the New Sun](https://www.goodreads.com/book/show/968868.The_Book_of_the_New_Sun) - Gene Wolfe*

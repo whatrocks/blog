@@ -18,7 +18,7 @@ Hi, I'm Charlie Harrington. I'm a software engineer, writer, and [podcaster](htt
 
 ![EW](./images/ew.png)
 
-[Escaping Web](https://www.escapingweb) is bi-weekly show with [Oz Nova](https://twitter.com/oznova_) about engineers who've found their calling outside of routine web development.
+[Escaping Web](https://www.escapingweb.com) is bi-weekly show with [Oz Nova](https://twitter.com/oznova_) about engineers who've found their calling outside of routine web development.
 
 I'm also working on a novel about robots. More on that soon!
 

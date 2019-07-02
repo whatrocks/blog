@@ -8,13 +8,13 @@ category: "About"
 image: ""
 ---
 
-Hi, I'm Charlie Harrington. I'm a software engineer, writer, and [podcaster](https://www.escapingweb.com) in San Francisco.
+Hi, I'm Charlie Harrington. I'm a software engineer at [Cruise](https://www.getcruise.com), writer, and [podcaster](https://www.escapingweb.com) in San Francisco.
 
 ### Projects
 
 ![VC](./images/vc.png)
 
-[Von Chomp](https://itunes.apple.com/us/app/von-chomp/id1211087343?mt=8) is a weird and semi-useless monster tally-counter iOS app.
+[Von Chomp](https://itunes.apple.com/us/app/von-chomp/id1211087343?mt=8) is my weird and mostly-useless monster tally-counter iOS app. Counting is delicious.
 
 ![EW](./images/ew.png)
 
@@ -24,7 +24,7 @@ I'm also working on a novel about robots. More on that soon!
 
 ### Outside
 
-I like being outside. Here's me at the Grand Canyon:
+I enjoy being outside. Here's me at the Grand Canyon:
 
 ![Charlie Harrington](./images/charlie.jpg)
 

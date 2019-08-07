@@ -16,7 +16,7 @@ Hi, I'm Charlie Harrington. I'm a software engineer at [Cruise](https://www.getc
 
 [Von Chomp](https://itunes.apple.com/us/app/von-chomp/id1211087343?mt=8) is my weird and mostly-useless monster tally-counter iOS app. Counting is delicious.
 
-![EW](./images/ew.png)
+<iframe src='https://share.transistor.fm/e/escaping-web/playlist' width='100%' height='390' frameborder='0' scrolling='no' seamless='true' style='width:100%; height:390px;'></iframe>
 
 [Escaping Web](https://www.escapingweb.com) is bi-weekly show with [Oz Nova](https://twitter.com/oznova_) about engineers who've found their calling outside of routine web development.
 

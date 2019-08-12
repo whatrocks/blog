@@ -12,7 +12,7 @@ export default function Template({ data, children }) {
       <SEO frontmatter={post.frontmatter} isBlogPost />
       <div className={s.postTemplate}>
         <h2 className={s.title}>{post.frontmatter.title}</h2>
-        <h3 className={s.subtitle}>{post.frontmatter.date}</h3>
+        {post.frontmatter.date && <h3 className={s.subtitle}>{post.frontmatter.date}</h3>}
         <div className={s.borderLine} />
         <div
           className={s.post}

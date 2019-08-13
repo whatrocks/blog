@@ -33,7 +33,7 @@ I enjoy being outside. Here's me at the Grand Canyon:
 * [Twitter](https://twitter.com/whatrocks)
 * [GitHub](https://github.com/whatrocks)
 * [Instagram](https://instagram.com/whatrocks)
-* [Goodreads](https://www.goodreads.com/user/show/8699203-charlie-harrington)
+* [Goodreads](https://www.goodreads.com/whatrocks)
 
 Thank you for visiting my site.
 

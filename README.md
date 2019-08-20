@@ -4,7 +4,7 @@
 
 Source code for my personal website
 
-## Local setup
+## Local
 
 Create `env.sh` with required env variables, then run these commands:
 

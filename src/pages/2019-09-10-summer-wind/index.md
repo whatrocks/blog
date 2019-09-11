@@ -4,7 +4,7 @@ path: "/summer-wind"
 date: "2019-09-10"
 title: "Summer Wind"
 category: "design"
-image: "cool.jpg"
+image: "summerwind.jpg"
 isBlogPost: true
 ---
 

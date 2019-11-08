@@ -8,23 +8,23 @@ category: "About"
 image: ""
 ---
 
-Hi, I'm Charlie Harrington. I'm a software engineer at [Cruise](https://www.getcruise.com), writer, and [podcaster](https://www.escapingweb.com) in San Francisco.
+Hi, I'm Charlie Harrington. I'm a software engineer at [Cruise](https://www.getcruise.com), writer and [podcaster](https://www.escapingweb.com) in San Francisco.
 
 ### Projects
 
 ![VC](./images/vc.png)
 
-[Von Chomp](https://itunes.apple.com/us/app/von-chomp/id1211087343?mt=8) is my weird and mostly-useless monster tally-counter iOS app. Counting is delicious.
+[Von Chomp](https://itunes.apple.com/us/app/von-chomp/id1211087343?mt=8) is my weird and mostly-useless monster tally-counter iOS app. It's perfect for counting things. Yum.
 
 <iframe src='https://share.transistor.fm/e/escaping-web/playlist' width='100%' height='390' frameborder='0' scrolling='no' seamless='true' style='width:100%; height:390px;'></iframe>
 
-[Escaping Web](https://www.escapingweb.com) is bi-weekly show with [Oz Nova](https://twitter.com/oznova_) about engineers who've found their calling outside of routine web development.
+[Escaping Web](https://www.escapingweb.com) is bi-weekly show with my friend [Oz Nova](https://twitter.com/oznova_) about software engineers who've found their calling outside of routine web development. We talk a lot about learning and learning how to learn and learning how to learn how to learn.
 
-I'm also working on a novel about robots. More on that soon!
+I'm also in the midst of writing a novel about robots. More on that soon!
 
-### Outside
+###
 
-I enjoy being outside. Here's me at the Grand Canyon:
+Here's me at the Grand Canyon:
 
 ![Charlie Harrington](./images/charlie.jpg)
 

@@ -22,9 +22,7 @@ Hi, I'm Charlie Harrington. I'm a software engineer at [Cruise](https://www.getc
 
 I'm also in the midst of writing a novel about robots. More on that soon!
 
-###
-
-Here's me at the Grand Canyon:
+Here's me at the Grand Canyon after our R2R2R run, looking incredibly salt-deprived.
 
 ![Charlie Harrington](./images/charlie.jpg)
 

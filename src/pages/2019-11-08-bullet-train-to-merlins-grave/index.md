@@ -8,7 +8,7 @@ image: "cool.jpg"
 isBlogPost: true
 ---
 
-> If this this future, why are you the same?
+> If this is the future, why are you the same?
 
 My cousin Megeen got married two weeks ago. Instead of the traditional night-before-the-wedding welcome party, she and her now-husband David Pope hosted POPESTOCK - a musical celebration featuring a variety of family-and-friends acts.
 

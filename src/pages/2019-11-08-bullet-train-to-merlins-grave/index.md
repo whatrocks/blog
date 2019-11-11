@@ -16,7 +16,7 @@ It was amazing.
 
 The location for POPESTOCK was the mysterious Elk's Lodge in Red Bank, New Jersey. This rectangular shack of a building stands next to Riverside Gardens Park with perfect views of the Navesink River - the primo of primo locations in my hometown. For years, my cousins and I have wondered what lay beyond its unassuming doorway. We soon learned the answer: a really big bar and an even bigger empty room. In other words, exactly what we needed.
 
-Uncle Mike and Aunt Susan emceeded the festivities. They had one explicit rule: each act would be limited to one song. We've got a lot of musical cousins (see Buffalo Rose or Dark City Strings).
+Uncle Mike and Aunt Susan emceeded the festivities. They had one explicit rule: each act would be limited to one song. We've got a lot of musical cousins (see [Buffalo Rose](https://www.buffalorosemusic.com/) or [Dark City Strings](https://www.darkcitystrings.com/)).
 
 But there were three exceptions to that rule:
 

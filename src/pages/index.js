@@ -7,19 +7,19 @@ import s from "./index.module.scss";
 function getCategoryStyle(category) {
   switch(category) {
     case 'design':
-      return ['green', '⚡']
+      return ['green', '🎨']
     case 'music':
-        return ['teal', '⚡']
+        return ['teal', '🎵']
     case 'coding':
-        return ['orange', '⚡']
+        return ['orange', '🖥️']
     case 'writing':
-      return ['purple', '⚡']
+      return ['purple', '📖']
     case 'learning':
-        return ['black', '⚡']
+        return ['dodgerblue', '💡']
     case 'outdoors':
-        return ['tomato', '⚡']
+        return ['tomato', '🕶️']
     case 'talks':
-        return ['black', '⚡']
+        return ['black', '🤐']
     default: 
       return ['blue', '⚡']
   }

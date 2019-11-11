@@ -17,7 +17,7 @@ path=`echo /$joined`
 read -p "date: ($TODAY) " date
 date=${date:-$TODAY}
 fullPath=`join_by - $date $lowercasetitle`
-read -p "category: (Deep Learning) " category
+read -p "category: (music) " category
 category=${category:-Deep Learning}
 read -p "image: (cool.jpg) " image
 image=${image:-cool.jpg}

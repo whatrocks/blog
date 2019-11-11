@@ -86,7 +86,7 @@ export const pageQuery = graphql`
           frontmatter {
             fullPath
             title
-            date(formatString: "DD MMMM YYYY")
+            date
             path
             category
             isBlogPost

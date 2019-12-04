@@ -18,7 +18,7 @@ Hi, I'm Charlie Harrington. I'm a software engineer at [Cruise](https://www.getc
 
 <iframe src='https://share.transistor.fm/e/escaping-web/playlist' width='100%' height='390' frameborder='0' scrolling='no' seamless='true' style='width:100%; height:390px;'></iframe>
 
-[Escaping Web](https://www.escapingweb.com) is bi-weekly show with my friend [Oz Nova](https://twitter.com/oznova_) about software engineers who've found their calling outside of routine web development. We talk a lot about learning and learning how to learn and learning how to learn how to learn.
+[Escaping Web](https://www.escapingweb.com) is a show with my friend [Oz Nova](https://twitter.com/oznova_) about software engineers who've found their calling outside of routine web development. We talk a lot about learning and learning how to learn and learning how to learn how to learn. Also the history of computers.
 
 I'm also in the midst of writing a novel about robots. More on that soon!
 

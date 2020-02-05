@@ -2,7 +2,7 @@
 $grey: #eee;
 $navBg: rgb(241, 245, 248);
 $darkBg: #202020;
-$font: rgb(34, 41, 47);
+$font: rgb(17, 17, 17);
 $darkborder: darken(#0edad9, 2%);
 
 // Overrides
@@ -24,13 +24,13 @@ html {
 
 body {
   margin: 0;
-  font-size: 18px;
-  line-height: 1.7;
+  font-size: 16px;
+  line-height: 25.6px;
   color: $font;
 }
 
 p {
-  line-height: 26px;
+  line-height: 25.6px;
 }
 
 blockquote {
@@ -41,11 +41,11 @@ blockquote {
 }
 
 ol > li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.25rem;
 }
 
 ul > li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.25rem;
 }
 
 // Custom

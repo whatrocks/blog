@@ -45,7 +45,7 @@ But you can't stop the bullet train once it goes off the rails...
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WFA1TjSE6L0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 We are **Hotdog Johnny and the Shady Oaks**:
-* Charlie Harrington - Vocals, Acoustic Guitar
+* Charlie Harrington - Vocals, Acoustic Guitar, Harmonica
 * Michael Byrnes - Mandolin, Vocals
 * Jack Byrnes - Banjo
 * Aidan Byrnes - Drums

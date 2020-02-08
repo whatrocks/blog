@@ -23,24 +23,6 @@ const Nav = () => (
       <Link className={s.linkItem} to="/library">
         Library
       </Link>
-      <span className={s.dot}>•</span>
-      <a
-        className={s.linkItem}
-        href="https://www.escapingweb.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Escaping Web
-      </a>
-      <span className={s.dot}>•</span>
-      <a
-        className={s.linkItem}
-        href="https://twitter.com/whatrocks"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Twitter
-      </a>
     </div>
   </div>
 );

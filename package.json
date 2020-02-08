@@ -6,7 +6,7 @@
   "dependencies": {
     "@jamesdanylik/gatsby-source-goodreads": "^0.1.0",
     "classnames": "^2.2.6",
-    "gatsby": "^2.13.51",
+    "gatsby": "^2.19.12",
     "gatsby-cli": "^2.7.27",
     "gatsby-image": "^2.2.8",
     "gatsby-plugin-catch-links": "^2.1.2",
@@ -22,7 +22,7 @@
     "gatsby-transformer-remark": "^2.6.10",
     "gatsby-transformer-sharp": "^2.2.5",
     "luxon": "^1.21.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "prism-themes": "^1.1.0",
     "prismjs": "^1.17.1",
     "react": "^16.8.6",

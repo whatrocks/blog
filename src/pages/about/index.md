@@ -26,7 +26,7 @@ Here's me at the Grand Canyon after our R2R2R run, looking incredibly salt-depri
 
 ![Charlie Harrington](./images/charlie.jpg)
 
-### Elsewhere as @whatrocks
+### You can find me elsewhere as @whatrocks
 
 * [Twitter](https://twitter.com/whatrocks)
 * [GitHub](https://github.com/whatrocks)

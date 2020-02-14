@@ -48,7 +48,7 @@ I hereby present a list of the very best novels featuring giant libraries filled
 * [A Deepness in the Sky](https://www.goodreads.com/book/show/226004.A_Deepness_in_the_Sky) - Vernor Vinge
 * [Anathem](https://www.goodreads.com/book/show/2845024-anathem) - Neal Stephenson
 * [Snow Crash](https://www.goodreads.com/book/show/40651883-snow-crash) - Neal Stephenson
-* [Mr. Penumbra's 24 Hour Bookstore](https://www.goodreads.com/book/show/13538873-mr-penumbra-s-24-hour-bookstore) - Robin Sloan*
+* [Mr. Penumbra's 24 Hour Bookstore](https://www.goodreads.com/book/show/13538873-mr-penumbra-s-24-hour-bookstore) - Robin Sloan
 * [A Discovery of Witches](https://www.goodreads.com/book/show/8667848-a-discovery-of-witches) - Deborah Harkness*
 * [The Library of Babel](https://www.goodreads.com/book/show/172366.The_Library_of_Babel) - Jorge Luis Borges*
 * [The Pagemaster](https://www.goodreads.com/book/show/518623.The_Pagemaster) - Todd Strasser*

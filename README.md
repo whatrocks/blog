@@ -33,4 +33,12 @@ npm develop
 
 Netlify deploys automatically from the `master` branch.
 
+### Setup
+
 Note: new API keys / env variables also needed to be added on Netlify.
+
+Also, make sure there is a CNAME file at the root directory that looks like this:
+
+```text
+www.charlieharrington.com
+```

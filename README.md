@@ -4,9 +4,19 @@
 
 Source code for my website
 
-## Local
+## Local development
 
-Create `env.sh` with required env variables, then run these commands:
+Create `env.sh` with required env variables
+
+```bash
+export INSTAGRAM_TOKEN="foo"
+export GOODREADS_API_KEY="foo"
+export GOODREADS_USER_ID="foo"
+export GOOGLE_ANALYTICS_ID="foo"
+export GATSBY_GOOGLE_SITE_VERIFICATION="foo"
+```
+
+Then run these commands:
 
 ```bash
 npm install
@@ -21,4 +31,6 @@ npm develop
 
 ## Deployment
 
-Netlify deploys from the `master` branch
+Netlify deploys automatically from the `master` branch.
+
+Note: new API keys / env variables also needed to be added on Netlify.

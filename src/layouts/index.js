@@ -23,6 +23,10 @@ const Nav = () => (
       <Link className={s.linkItem} to="/library">
         Library
       </Link>
+      <span className={s.dot}>•</span>
+      <Link className={s.linkItem} to="/rss.xml">
+        RSS
+      </Link>
     </div>
   </div>
 );

@@ -1,4 +1,18 @@
 const path = require("path");
+const { createFilePath } = require(`gatsby-source-filesystem`)
+
+// RSS setup
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField }= actions;
+  if (node.internal.type === `MarkdownRemark`) {
+    const value = createFilePath({ node, getNode })
+    createNodeField({
+      name: `slug`,
+      node,
+      value
+    })
+  }
+}
 
 /**
  * This function builds our pages during the bootstrap process.

@@ -6,9 +6,9 @@ module.exports = {
     description: "Blog of Charlie Harrington - writer and software engineer",
     keywords: [
       "Charlie Harrington",
-      "charlie Harrington wWriter",
+      "charlie Harrington Writer",
       "Charlie Harrington Software Engineer",
-      "Charlie Harrington Author"
+      "Charlie Harrington Author",
     ],
     canonicalUrl: "https://www.charlieharrington.com",
     image: "/img/card.png",
@@ -52,7 +52,7 @@ module.exports = {
               return allMarkdownRemark.edges.map(edge => {
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
-                  date: edge.note.frontmatter.date,
+                  date: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.nodes.fields.slug,
                   custom_elements: [{ "content:encoded": edge.node.html }],

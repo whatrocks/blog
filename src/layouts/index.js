@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
 import Helmet from "react-helmet";
-import SEO from '../components/SEO'
+import SEO from "../components/SEO";
 import s from "./style.module.scss";
 
 const Nav = () => (
@@ -10,9 +10,7 @@ const Nav = () => (
     <div className={s.linkRow}>
       <Link to="/" className={s.siteLink}>
         <h2 className={s.siteHeadline}>
-          <span className={s.siteLogo}>
-          ¶
-          </span>
+          <span className={s.siteLogo}>¶</span>
           <span>Charlie Harrington</span>
         </h2>
       </Link>
@@ -24,9 +22,14 @@ const Nav = () => (
         Library
       </Link>
       <span className={s.dot}>•</span>
-      <Link className={s.linkItem} to="/rss.xml">
+      <a
+        href="https://www.charlieharrington.com/rss.xml"
+        className={s.linkItem}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         RSS
-      </Link>
+      </a>
     </div>
   </div>
 );

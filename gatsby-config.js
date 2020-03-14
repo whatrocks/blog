@@ -80,7 +80,7 @@ module.exports = {
              }
             `,
             output: "/rss.xml",
-            title: "Charlie Harrington's RSS Feed",
+            title: "Charlie Harrington",
           },
         ],
       },

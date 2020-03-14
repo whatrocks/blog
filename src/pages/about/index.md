@@ -2,7 +2,7 @@
 fullPath: "about"
 path: "/about"
 isBlogPost: false
-date: ""
+date: "2000-01-01"
 title: "About"
 category: "About"
 image: ""

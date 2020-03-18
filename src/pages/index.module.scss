@@ -16,10 +16,10 @@
     margin-bottom: 1rem;
     border-radius: 4px;
     cursor: pointer;
-    transition: transform 0.3s;
+    // transition: transform 0.3s;
     &:hover {
-        background-color: #0edad9;
-        transform: translate3d(0, -4px, 0);
+        border: 1px solid rgb(33,93,211);
+        // transform: translate3d(0, -4px, 0);
     }
 }
 
@@ -31,14 +31,15 @@
 }
 
 .title {
-    font-size: 1.2rem;
+    font-size: 20px;
     color: black;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .date {
-    font-size: 1rem;
-    color: hsla(0, 0%, 0%, .8);
+    font-size: 18px;
+    color: rgb(129,129,129);
+    // color: hsla(0, 0%, 0%, .8);
     margin-left: 0.5rem;
     letter-spacing: -0.05em;
     line-height: 1.1;

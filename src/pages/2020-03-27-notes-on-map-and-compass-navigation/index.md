@@ -99,13 +99,12 @@ After the Nike Missile site, we decided to take a course on map & compass naviga
 
 * Four skills to learn:
 
-1. Real World
-  a. Follow a field bearing
-  b. Take a bearing of an object
-
-2. "Map World"
-  a. Find object on map and measure angle
-  b. Start with angle and draw on the map
+* Real World
+  * (1) Follow a field bearing
+  * (2) Take a bearing of an object
+* "Map World"
+  * (3) Find object on map and measure angle
+  * (4) Start with angle and draw on the map
 
 * Angles are always measured clockwise
 

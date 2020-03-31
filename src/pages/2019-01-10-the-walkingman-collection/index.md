@@ -4,7 +4,7 @@ path: "/the-walkingman-collection"
 isBlogPost: true
 date: "2019-01-10"
 title: "The Walkingman Collection"
-category: "coding"
+category: "design"
 image: ""
 ---
 

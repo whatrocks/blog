@@ -4,7 +4,7 @@ path: "/humans-of-machine-learning"
 isBlogPost: true
 date: "2018-07-30"
 title: "Humans of Machine Learning"
-category: "coding"
+category: "computers"
 image: ""
 ---
 

@@ -4,7 +4,7 @@ path: "/space-time-travel-with-wormie"
 isBlogPost: true
 date: "2016-01-02"
 title: "Space Time Travel with Wormie"
-category: "coding"
+category: "computers"
 image: "WormieLive.gif"
 ---
 

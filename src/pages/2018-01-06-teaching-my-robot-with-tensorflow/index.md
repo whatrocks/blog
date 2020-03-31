@@ -4,7 +4,7 @@ path: "/teaching-my-robot-with-tensorflow"
 isBlogPost: true
 date: "2018-01-06"
 title: "Teaching My Robot With TensorFlow"
-category: "coding"
+category: "computers"
 image: "cozmo-paparazzi.gif"
 ---
 

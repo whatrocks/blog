@@ -4,7 +4,7 @@ path: "/lendup-hackathon-project-lives-on"
 isBlogPost: true
 date: "2018-06-17"
 title: "LendUp Hackathon Project Lives On"
-category: "coding"
+category: "computers"
 image: ""
 ---
 

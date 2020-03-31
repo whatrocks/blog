@@ -4,7 +4,7 @@ path: "/introducing-knerds"
 isBlogPost: true
 date: "2015-05-02"
 title: "Introducing Knerds"
-category: "coding"
+category: "computers"
 image: "gang-close.png"
 ---
 

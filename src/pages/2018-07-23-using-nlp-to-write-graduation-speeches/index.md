@@ -4,7 +4,7 @@ path: "/using-nlp-to-write-graduation-speeches"
 isBlogPost: true
 date: "2018-07-23"
 title: "Using NLP to Write Graduation Speeches"
-category: "coding"
+category: "computers"
 image: ""
 ---
 

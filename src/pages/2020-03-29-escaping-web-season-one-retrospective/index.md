@@ -3,7 +3,7 @@ fullPath: "2020-03-29-escaping-web-season-one-retrospective"
 path: "/escaping-web-season-one-retrospective"
 date: "2020-03-29"
 title: "'Escaping Web' Season One Retrospective"
-category: "coding"
+category: "computers"
 image: "cool.jpg"
 isBlogPost: true
 ---

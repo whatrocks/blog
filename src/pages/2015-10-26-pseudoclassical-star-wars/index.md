@@ -4,7 +4,7 @@ path: "/pseudoclassical-star-wars"
 isBlogPost: true
 date: "2015-10-26"
 title: "Pseudoclassical Star Wars"
-category: "coding"
+category: "computers"
 image: ""
 ---
 

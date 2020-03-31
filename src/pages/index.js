@@ -11,7 +11,7 @@ function getCategoryStyle(category) {
       return ["green", "🎨"];
     case "music":
       return ["teal", "🎵"];
-    case "coding":
+    case "computers":
       return ["orange", "🖥️"];
     case "writing":
       return ["purple", "📖"];

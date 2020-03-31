@@ -52,6 +52,19 @@ export default function Index({ data }) {
                 <div>
                   <span className={s.title}>{post.frontmatter.title}</span>
                   <span className={s.date}>{post.frontmatter.date}</span>
+                </div>
+                <div>
+                  {/* {isNew && (
+                    <span
+                      className={s.badge}
+                      style={{ backgroundColor: `blue` }}
+                    >
+                      <span className={s.emoji} role="img" aria-label="new">
+                        ⚡
+                      </span>
+                      <span className={s.new}>NEW</span>
+                    </span>
+                  )} */}
                   <span
                     className={s.badge}
                     style={{ backgroundColor: `${categoryStyles[0]}` }}
@@ -63,19 +76,7 @@ export default function Index({ data }) {
                       {post.frontmatter.category.toUpperCase()}
                     </span>
                   </span>
-                  {isNew && (
-                    <span
-                      className={s.badge}
-                      style={{ backgroundColor: `blue` }}
-                    >
-                      <span className={s.emoji} role="img" aria-label="new">
-                        ⚡
-                      </span>
-                      <span className={s.new}>NEW</span>
-                    </span>
-                  )}
                 </div>
-                {/* {post.excerpt.length ? <p className={s.excerpt}>{post.excerpt}</p> : <span />} */}
               </Link>
             );
           })}

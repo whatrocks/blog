@@ -8,7 +8,7 @@ image: "cool.jpg"
 isBlogPost: true
 ---
 
-My friend [Oz Nova](https://twitter.com/oznova_) and I started a podcast last year called [Escaping Web](https://escapingweb.github.io/rss/). With a million and one podcasts out there, you might be wondering about our catchy tagline? Our special hook? Our unique... perspective?
+My friend [Oz Nova](https://twitter.com/oznova_) and I started a podcast last year called [Escaping Web](https://escapingweb.github.io). With a million and one podcasts out there, you might be wondering about our catchy tagline? Our special hook? Our unique... perspective?
 
 > Escaping Web is a show celebrating software engineers who've found their calling beyond routine web development.
 
@@ -183,7 +183,7 @@ Links and resources:
 * [Hackbright Academy](https://hackbrightacademy.com)
 * [Slack Reminders: Roo's first project at Slack](https://get.slack.help/hc/en-us/articles/208423427-Set-a-reminder)
 * [Flow: The Pyschology of Optimal Experience by Mihaly Csikszentmihalyi](https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202)
-* [https://twitter.com/roo_harrigan](Roo Harrigan on Twitter)
+* [Roo Harrigan on Twitter](https://twitter.com/roo_harrigan)
 
 ### 3: Getting Time Serious with Richie Artoul of Uber
 

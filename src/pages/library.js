@@ -293,33 +293,33 @@ const amazonLinkMap = {
     "https://www.amazon.com/gp/product/B002C7Z4YQ/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=B002C7Z4YQ&linkId=14f1b0205f72e6163bcf879f1bed9b14", // The Secret of Skull Mountain
   "71f70f4d-5b73-52f9-b3dc-c5ece081c38f":
     "https://www.amazon.com/gp/product/0765378019/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0765378019&linkId=64603947bd8de58899ed7309daaaf9dd", // Too Like the Lightning
-  "6074ecac-14af-54fb-8be1-a430dafd75e5": "", // Red Mars
-  "db53c158-abb1-5955-af19-54c4acb13275": "", // Redwall
-  "63986808-1483-542e-a811-0e3870e54b16": "", // Where Wizards Stay Up Late: The Origins of the Internet
-  "96a71ce0-cff9-5575-a2b3-9cee1fa23a42": "", // Dark Matter
-  "80a747a4-380b-5415-9681-f0562b337e21": "", // The Bonehunters
-  "c98642f6-b90e-598b-8391-0b69c94d63fa": "", // Midnight Tides
-  "c9938b55-37f4-5d9c-844e-b6074163ce43": "", // Ready Player One
-  "958be9b1-4dc5-57da-aa35-767daf2e0c04": "", // Arlo Finch in the Valley of Fire
-  "9ed55d66-52ff-55e6-a44a-9027a8faaf98": "", // Shantaram
-  "96d07cc6-ab86-5734-8d2e-6058c91b4ea0": "", // The House with a Clock in Its Walls
-  "ee5bb047-99cc-51a4-a6ec-0ee71916f87d": "", // Holes
-  "323c80f8-3460-5a27-ab98-81893bfd317f": "", // The Face in the Frost
-  "2fc30d4b-e198-5d95-b7e5-62dc0e3bee58": "", // Sabriel
-  "3f76222a-44fe-53da-8f43-75f6f0614ddb": "", // The Wise Man's Fear
-  "f7992667-7071-5805-9eb4-efc2ce842770": "", // The Name of the Wind
-  "4409e65f-4d2b-53a6-aa30-a94eabd38e66": "", // Excession
-  "5b3f2e42-8742-59bb-ba12-c31ae61e491e": "", // The Last Stand: Custer, Sitting Bull, and the Battle of the Little Bighorn
-  "79e9ea7a-468a-5126-847a-b6bd47bf4031": "", // Season of the Witch: Enchantment, Terror and Deliverance in the City of Love
-  "46926969-0766-5843-9c3f-47a67abe0f67": "", // Shardik
-  "e91cc296-d39d-5b79-bbef-4849cd79e7c3": "", // House of Chains
-  "53ba987a-0aef-533a-bbae-957b9555a75d": "", // The Finest Hours: The True Story of the U.S. Coast Guard's Most Daring Sea Rescue
-  "4e50e379-9590-5258-a6fd-5206d599cd5d": "", // The Tortilla Curtain
-  "79634f22-ae09-50d0-af77-584f868a3e4b": "", // Memories of Ice
-  "fe5aa38a-5f8a-51ae-bccd-7bb029c2ab65": "", // Leviathan Wakes
-  "d857933f-2d2b-5578-b955-a9c119c6199f": "", // The Sparrow
-  "f71d00a7-8e3c-5270-8935-775cdf28bc4a": "", // Deadhouse Gates
-  "34fa0c07-67b9-50cc-89e8-1cc31927c976": "", // Corelli's Mandolin
+  "6074ecac-14af-54fb-8be1-a430dafd75e5": "https://www.amazon.com/gp/product/0553560735/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0553560735&linkId=7975c9860844e66174a28560130002fa", // Red Mars
+  "db53c158-abb1-5955-af19-54c4acb13275": "https://www.amazon.com/gp/product/0142302376/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0142302376&linkId=0a888c1a1eb9eae0a8af38ed921e49dc", // Redwall
+  "63986808-1483-542e-a811-0e3870e54b16": "https://www.amazon.com/gp/product/0684832674/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0684832674&linkId=ceacc933d52904391711169c16fac843", // Where Wizards Stay Up Late: The Origins of the Internet
+  "96a71ce0-cff9-5575-a2b3-9cee1fa23a42": "https://www.amazon.com/gp/product/B0180T0IUY/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=B0180T0IUY&linkId=b42ba33bef87037a269d62fcb1942dc1", // Dark Matter
+  "80a747a4-380b-5415-9681-f0562b337e21": "https://www.amazon.com/gp/product/0765348837/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0765348837&linkId=b0e7534de5fc9d08215fc089656a8b9d", // The Bonehunters
+  "c98642f6-b90e-598b-8391-0b69c94d63fa": "https://www.amazon.com/gp/product/0765348829/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0765348829&linkId=aef91d5ace758b713aec0cd28f3d07e5", // Midnight Tides
+  "c9938b55-37f4-5d9c-844e-b6074163ce43": "https://www.amazon.com/gp/product/0307887448/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0307887448&linkId=045431543c14216839f649423ff685d1", // Ready Player One
+  "958be9b1-4dc5-57da-aa35-767daf2e0c04": "https://www.amazon.com/gp/product/1250294258/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1250294258&linkId=b4b2d5fee5138575a7c7e8d1fe6773e0", // Arlo Finch in the Valley of Fire
+  "9ed55d66-52ff-55e6-a44a-9027a8faaf98": "https://www.amazon.com/gp/product/0312330537/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0312330537&linkId=5a888d399ad2c066493f4dd1aed77c4b", // Shantaram
+  "96d07cc6-ab86-5734-8d2e-6058c91b4ea0": "https://www.amazon.com/gp/product/0142402575/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0142402575&linkId=70a9db4cce63f81e40c4ae653ad37634", // The House with a Clock in Its Walls
+  "ee5bb047-99cc-51a4-a6ec-0ee71916f87d": "https://www.amazon.com/gp/product/0440414806/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0440414806&linkId=1e940c694f9cab31887e1e4838a7e3b1", // Holes
+  "323c80f8-3460-5a27-ab98-81893bfd317f": "https://www.amazon.com/gp/product/1497642418/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1497642418&linkId=886dbab12a3831dfeb8deb65b048d143", // The Face in the Frost
+  "2fc30d4b-e198-5d95-b7e5-62dc0e3bee58": "https://www.amazon.com/gp/product/B000FC13MM/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=B000FC13MM&linkId=ec58c20c1cfdea5276911caacd6c3ae8", // Sabriel
+  "3f76222a-44fe-53da-8f43-75f6f0614ddb": "https://www.amazon.com/gp/product/0756407915/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0756407915&linkId=133dbe3a1c90be71b1736d8b8928f709", // The Wise Man's Fear
+  "f7992667-7071-5805-9eb4-efc2ce842770": "https://www.amazon.com/gp/product/075640407X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=075640407X&linkId=bc6f7abe8905e9a346501239c4a92b52", // The Name of the Wind
+  "4409e65f-4d2b-53a6-aa30-a94eabd38e66": "https://www.amazon.com/gp/product/185723457X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=185723457X&linkId=85121029e4afbe8bf22e29acf38a3fc6", // Excession
+  "5b3f2e42-8742-59bb-ba12-c31ae61e491e": "https://www.amazon.com/gp/product/0143119605/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0143119605&linkId=ae5ced58943edca12e0d6c6976177f0c", // The Last Stand: Custer, Sitting Bull, and the Battle of the Little Bighorn
+  "79e9ea7a-468a-5126-847a-b6bd47bf4031": "https://www.amazon.com/gp/product/1439108242/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1439108242&linkId=abae5788973d0890d3b322364215d6ac", // Season of the Witch: Enchantment, Terror and Deliverance in the City of Love
+  "46926969-0766-5843-9c3f-47a67abe0f67": "https://www.amazon.com/gp/product/1585671827/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1585671827&linkId=bcbca7b6fb791774ab91fe02797fca5d", // Shardik
+  "e91cc296-d39d-5b79-bbef-4849cd79e7c3": "https://www.amazon.com/gp/product/0765348810/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0765348810&linkId=4f6f81b549b0932289eb5ca1c3f053cf", // House of Chains
+  "53ba987a-0aef-533a-bbae-957b9555a75d": "https://www.amazon.com/gp/product/1416567224/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1416567224&linkId=907470bfc59f491c09d0f5105b0beed8", // The Finest Hours: The True Story of the U.S. Coast Guard's Most Daring Sea Rescue
+  "4e50e379-9590-5258-a6fd-5206d599cd5d": "https://www.amazon.com/gp/product/014023828X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=014023828X&linkId=5854a262d3da43011c1c464d5ada0c01", // The Tortilla Curtain
+  "79634f22-ae09-50d0-af77-584f868a3e4b": "https://www.amazon.com/gp/product/0765348802/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0765348802&linkId=077c1e46c102aef9b13a5aca5c3dd646", // Memories of Ice
+  "fe5aa38a-5f8a-51ae-bccd-7bb029c2ab65": "https://www.amazon.com/gp/product/0316129089/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0316129089&linkId=3d52194c41a75f829ad8cf3dd0c58546", // Leviathan Wakes
+  "d857933f-2d2b-5578-b955-a9c119c6199f": "https://www.amazon.com/gp/product/0449912558/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0449912558&linkId=335d33e07c1d5ae3bc57535131d48f59", // The Sparrow
+  "f71d00a7-8e3c-5270-8935-775cdf28bc4a": "https://www.amazon.com/gp/product/0765348799/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0765348799&linkId=3bbbad051e08f76cf0168b3c968bb4e3", // Deadhouse Gates
+  "34fa0c07-67b9-50cc-89e8-1cc31927c976": "https://www.amazon.com/gp/product/067976397X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=067976397X&linkId=47bb5b83eec3651b0fd8468a6a0dc653", // Corelli's Mandolin
   "1f23a528-41d4-5e50-9508-4173c2230396": "", // Ancillary Mercy
   "fbd8958a-04ec-57bf-9172-af1cbbe5e946": "", // The Fall of Hyperion
   "bc1c97f5-ad1c-58c5-9bde-455508dcbf72": "", // Hyperion

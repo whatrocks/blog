@@ -320,74 +320,74 @@ const amazonLinkMap = {
   "d857933f-2d2b-5578-b955-a9c119c6199f": "https://www.amazon.com/gp/product/0449912558/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0449912558&linkId=335d33e07c1d5ae3bc57535131d48f59", // The Sparrow
   "f71d00a7-8e3c-5270-8935-775cdf28bc4a": "https://www.amazon.com/gp/product/0765348799/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0765348799&linkId=3bbbad051e08f76cf0168b3c968bb4e3", // Deadhouse Gates
   "34fa0c07-67b9-50cc-89e8-1cc31927c976": "https://www.amazon.com/gp/product/067976397X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=067976397X&linkId=47bb5b83eec3651b0fd8468a6a0dc653", // Corelli's Mandolin
-  "1f23a528-41d4-5e50-9508-4173c2230396": "", // Ancillary Mercy
-  "fbd8958a-04ec-57bf-9172-af1cbbe5e946": "", // The Fall of Hyperion
-  "bc1c97f5-ad1c-58c5-9bde-455508dcbf72": "", // Hyperion
-  "87d98b3a-4090-5aa5-8af5-d68da5a370e1": "", // A Perfect Spy
-  "abd84ba0-9e35-5b11-bcd6-9719b4e130dd": "", // Shoeless Joe
-  "73137d63-4fc4-59cb-9113-8b475ce1168a": "", // Comanche Moon
-  "97171bdf-0d9a-51d0-b36e-783760ec8c57": "", // Be Iron Fit, 2nd: Time-Efficient Training Secrets for Ultimate Fitness
-  "a3162fff-b52b-59d2-a5cb-f16e63877c69": "", // Beautiful Swimmers: Watermen, Crabs and the Chesapeake Bay
-  "70403809-28f7-57f6-a5c5-558b6fd5dcc0": "", // The Martian Chronicles
-  "7fbbe76b-83b2-54ff-94df-802caab81be1": "", // The Brothers Karamazov
-  "2c3eab57-058f-5e16-8fba-883dd2fc5d51": "", // The Wind-Up Bird Chronicle
-  "3465eee0-cfab-5550-bd36-b7dc11bfc26d": "", // Ancillary Sword
-  "33b6438f-7d51-58ed-8a2b-48ec69a6f9a1": "", // Ancillary Justice
-  "170b9cc2-183b-52de-ba38-defe3b446b4c": "", // Julian
-  "bfb3c1f3-ffe1-539c-8c2f-44b7a3a988fc": "", // Seveneves
-  "733a4286-85e7-5c4f-858b-48241d6f3de1": "", // Setting the Table: The Transforming Power of Hospitality in Business
-  "05114f2e-ab83-57e9-892b-98369e736ee2": "", // The Three Musketeers
-  "97ebe08e-3263-5f09-9906-c1f39f5b7a2d": "", // Objective-C Programming: The Big Nerd Ranch Guide
-  "7e5d9507-d246-5dd0-9547-b9da120fde58": "", // Flowers for Algernon
+  "1f23a528-41d4-5e50-9508-4173c2230396": "https://www.amazon.com/gp/product/B00TOT9LEY/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=B00TOT9LEY&linkId=a8580e2e187cd3050be1f21d4bd2c595", // Ancillary Mercy
+  "fbd8958a-04ec-57bf-9172-af1cbbe5e946": "https://www.amazon.com/gp/product/0553288202/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0553288202&linkId=71b5f944ec01a1d3cb9c920e7eef4ec1", // The Fall of Hyperion
+  "bc1c97f5-ad1c-58c5-9bde-455508dcbf72": "https://www.amazon.com/gp/product/B004G60EHS/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=B004G60EHS&linkId=9b914cfd2d88343313ce615eb1e04e91", // Hyperion
+  "87d98b3a-4090-5aa5-8af5-d68da5a370e1": "https://www.amazon.com/gp/product/0143119761/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0143119761&linkId=d5becc9b73b28b0f9e139e052d50857c", // A Perfect Spy
+  "abd84ba0-9e35-5b11-bcd6-9719b4e130dd": "https://www.amazon.com/gp/product/0395957737/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0395957737&linkId=bb5ac9d065b29d7a88c78e2398cc1bef", // Shoeless Joe
+  "73137d63-4fc4-59cb-9113-8b475ce1168a": "https://www.amazon.com/gp/product/0684857553/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0684857553&linkId=4793f13038a238b04749e6589561d1e4", // Comanche Moon
+  "97171bdf-0d9a-51d0-b36e-783760ec8c57": "https://www.amazon.com/gp/product/1493017829/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1493017829&linkId=07dfc2090e91c4752610360bff58743d", // Be Iron Fit, 2nd: Time-Efficient Training Secrets for Ultimate Fitness
+  "a3162fff-b52b-59d2-a5cb-f16e63877c69": "https://www.amazon.com/gp/product/0316923354/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0316923354&linkId=8487ba7db3659b1c6e6167317091d858", // Beautiful Swimmers: Watermen, Crabs and the Chesapeake Bay
+  "70403809-28f7-57f6-a5c5-558b6fd5dcc0": "https://www.amazon.com/gp/product/1451678193/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1451678193&linkId=e362dc80f610191be552246794aaebb1", // The Martian Chronicles
+  "7fbbe76b-83b2-54ff-94df-802caab81be1": "https://www.amazon.com/gp/product/0374528373/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0374528373&linkId=73982172a12b156036effc566a6c4392", // The Brothers Karamazov
+  "2c3eab57-058f-5e16-8fba-883dd2fc5d51": "https://www.amazon.com/gp/product/0679775439/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0679775439&linkId=945c51778f044a3e8f80c94c9f136bed", // The Wind-Up Bird Chronicle
+  "3465eee0-cfab-5550-bd36-b7dc11bfc26d": "https://www.amazon.com/gp/product/B00I8289A0/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=B00I8289A0&linkId=2eaf8cf98e708ad326b6a85fb61c0f9c", // Ancillary Sword
+  "33b6438f-7d51-58ed-8a2b-48ec69a6f9a1": "https://www.amazon.com/gp/product/B00BAXFDLM/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=B00BAXFDLM&linkId=8521d53ece6c236f80a7834b67e56223", // Ancillary Justice
+  "170b9cc2-183b-52de-ba38-defe3b446b4c": "https://www.amazon.com/gp/product/037572706X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=037572706X&linkId=a745b8748fe507c024f36e54ac96f3ac", // Julian
+  "bfb3c1f3-ffe1-539c-8c2f-44b7a3a988fc": "https://www.amazon.com/gp/product/0062334514/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0062334514&linkId=68f011d8efec57b986f81a0d5beb890d", // Seveneves
+  "733a4286-85e7-5c4f-858b-48241d6f3de1": "https://www.amazon.com/gp/product/0060742763/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0060742763&linkId=36283f2785e7fe69821599b37152612b", // Setting the Table: The Transforming Power of Hospitality in Business
+  "05114f2e-ab83-57e9-892b-98369e736ee2": "https://www.amazon.com/gp/product/1853260401/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1853260401&linkId=369ad50f17ef36e123915c9ca4131488", // The Three Musketeers
+  "97ebe08e-3263-5f09-9906-c1f39f5b7a2d": "https://www.amazon.com/gp/product/032194206X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=032194206X&linkId=10c03c41a0d90f3761524f41e376215e", // Objective-C Programming: The Big Nerd Ranch Guide
+  "7e5d9507-d246-5dd0-9547-b9da120fde58": "https://www.amazon.com/gp/product/015603008X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=015603008X&linkId=5797ef66ea16658e50c9bf0c29a8c116", // Flowers for Algernon
   "6401792f-4f0d-5275-ad12-3d0c87208beb": "", // Harry Potter and the Methods of Rationality
-  "491ff3cd-e22f-5aa4-bdca-87000b7cb603": "", // The Mists of Avalon
-  "8d6a0387-df35-5e5b-9179-360c79a1a496": "", // Travels with Charley
-  "0f73b999-a830-5452-83eb-e7cc80aac268": "", // A General Theory of Authority
-  "1316a7b7-b92a-5dd3-8625-bce271d4f600": "", // Antony and Cleopatra
-  "29dba6ac-192d-5d29-bd51-1e3779d24871": "", // The Snowball: Warren Buffett and the Business of Life
-  "cb8bea27-1a51-5ad9-861e-b1a8725c2005": "", // Little, Big
+  "491ff3cd-e22f-5aa4-bdca-87000b7cb603": "https://www.amazon.com/gp/product/0345350499/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0345350499&linkId=6245102a83d3710d6386b9681fc5c2b7", // The Mists of Avalon
+  "8d6a0387-df35-5e5b-9179-360c79a1a496": "https://www.amazon.com/gp/product/0140053204/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0140053204&linkId=9a58aa400b3d4497c3eb61967741b65c", // Travels with Charley
+  "0f73b999-a830-5452-83eb-e7cc80aac268": "https://www.amazon.com/gp/product/0268010048/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0268010048&linkId=82c7100bc9afcad829b3acec6bf83c34", // A General Theory of Authority
+  "1316a7b7-b92a-5dd3-8625-bce271d4f600": "https://www.amazon.com/gp/product/0743482859/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0743482859&linkId=a625404e70d1fa1b86128a3894ae9a50", // Antony and Cleopatra
+  "29dba6ac-192d-5d29-bd51-1e3779d24871": "https://www.amazon.com/gp/product/0553384619/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0553384619&linkId=69ea9bcbbbda91fe91951eceea06e054", // The Snowball: Warren Buffett and the Business of Life
+  "cb8bea27-1a51-5ad9-861e-b1a8725c2005": "https://www.amazon.com/gp/product/0061120057/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0061120057&linkId=d4932ce6b06e961279b9cd526687d99e", // Little, Big
   "d40b9ec6-c3cc-5dfa-aae9-72540cb7cc51": "", // Anything You Want
-  "8ad5dd27-bed4-503b-a484-370266ecd689": "", // The Three-Body Problem
-  "43d72363-9ce6-53fc-b352-3f69c275d114": "", // Memoirs of Hadrian
-  "77e95540-85d5-568a-b2ff-ee148bca3640": "", // A Fire Upon the Deep
-  "e132cdcc-bd7a-5b98-9871-7deeb903e8e1": "", // Rainbows End
-  "35f4addf-6fed-5fe4-8439-d77dd6028491": "", // Cryptonomicon
-  "ae9d0f4f-3823-5221-92b3-ecdd81fa8852": "", // Surely You're Joking, Mr. Feynman!: Adventures of a Curious Character
-  "03d57a71-e169-5930-a5dc-ecaa1570449a": "", // This Boy's Life
-  "d89376b2-8a7e-569a-a03f-f4cd4bacb462": "", // The Once and Future King
-  "2f0b8a41-aa27-550f-9f3f-58507526a701": "", // The Handmaid's Tale
-  "35cfceae-cb95-5053-bee2-1e181fd5da06": "", // Zero to One: Notes on Startups, or How to Build the Future
-  "e060aceb-e91e-5f41-b767-7504be190440": "", // A Deepness in the Sky
-  "51fcdea3-221b-522e-b39d-9305d5eac41b": "", // A Canticle for Leibowitz
-  "09f425af-99ba-593d-b004-2c4ede26e9d8": "", // The Master and Margarita
-  "61fd5cb8-cc45-560d-9d59-d20f614589b5": "", // Infinite Jest
-  "c8afccf0-66b7-5ca0-8a34-d6ccd17b415f": "", // Batman: Year One
+  "8ad5dd27-bed4-503b-a484-370266ecd689": "https://www.amazon.com/gp/product/0765382032/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0765382032&linkId=9bb7e145d53f482982dfb4f59268c8f6", // The Three-Body Problem
+  "43d72363-9ce6-53fc-b352-3f69c275d114": "https://www.amazon.com/gp/product/0374529264/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0374529264&linkId=a629cbd0193749561c3c876f401167ce", // Memoirs of Hadrian
+  "77e95540-85d5-568a-b2ff-ee148bca3640": "https://www.amazon.com/gp/product/0812515285/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0812515285&linkId=43d4da71635cf0caaa5caa23b7bf8440", // A Fire Upon the Deep
+  "e132cdcc-bd7a-5b98-9871-7deeb903e8e1": "https://www.amazon.com/gp/product/0812536363/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0812536363&linkId=e93f3725b31ec8885e4f6cc2d4eae12a", // Rainbows End
+  "35f4addf-6fed-5fe4-8439-d77dd6028491": "https://www.amazon.com/gp/product/0380788624/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0380788624&linkId=8713ca0bf0aa5404a3c088c8fe363a3a", // Cryptonomicon
+  "ae9d0f4f-3823-5221-92b3-ecdd81fa8852": "https://www.amazon.com/gp/product/0393355624/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0393355624&linkId=260aa3eb37037bcc3f2000af2159dd3c", // Surely You're Joking, Mr. Feynman!: Adventures of a Curious Character
+  "03d57a71-e169-5930-a5dc-ecaa1570449a": "https://www.amazon.com/gp/product/0802149073/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0802149073&linkId=70a65b9c1f8703b5aed5be87231ead95", // This Boy's Life
+  "d89376b2-8a7e-569a-a03f-f4cd4bacb462": "https://www.amazon.com/gp/product/0441627404/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0441627404&linkId=29e270c210d49e902831016818480042", // The Once and Future King
+  "2f0b8a41-aa27-550f-9f3f-58507526a701": "https://www.amazon.com/gp/product/038549081X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=038549081X&linkId=a582ad53ae1e9c89b00f650e924277c1", // The Handmaid's Tale
+  "35cfceae-cb95-5053-bee2-1e181fd5da06": "https://www.amazon.com/gp/product/0804139296/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0804139296&linkId=36601950e43cff886508eb196ee6ec99", // Zero to One: Notes on Startups, or How to Build the Future
+  "e060aceb-e91e-5f41-b767-7504be190440": "https://www.amazon.com/gp/product/B000FBJAGO/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=B000FBJAGO&linkId=7680f28cb2467f67d03914efe109ce80", // A Deepness in the Sky
+  "51fcdea3-221b-522e-b39d-9305d5eac41b": "https://www.amazon.com/gp/product/0553273817/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0553273817&linkId=1e02fa15fffd89ad733ef7bf22b71818", // A Canticle for Leibowitz
+  "09f425af-99ba-593d-b004-2c4ede26e9d8": "https://www.amazon.com/gp/product/0679760806/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0679760806&linkId=478424c34099536cc48a3818b55ad55b", // The Master and Margarita
+  "61fd5cb8-cc45-560d-9d59-d20f614589b5": "https://www.amazon.com/gp/product/0316066524/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0316066524&linkId=f70d4c25ceba40dbb048fb0ad78fc585", // Infinite Jest
+  "c8afccf0-66b7-5ca0-8a34-d6ccd17b415f": "https://www.amazon.com/gp/product/1401207529/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1401207529&linkId=c623ca20ceb13b358c41d324af47e21d", // Batman: Year One
   "e7b2d169-7276-51fb-a5f1-b71a38230426": "", // Selected Works
-  "6f3c34ca-c6d3-5db3-83bc-7482ff46aba6": "", // The Shadow of the Wind
-  "559b400e-c7bb-5dd2-82cd-b8955766d1c7": "", // London Journal, 1762-1763
-  "055d2f52-b9d0-5f0f-bbae-d76b3ac4ceea": "", // Thrilling Cities
-  "10a24726-a981-5b9d-ba82-930903a4a020": "", // Truman
-  "042dd0c1-503e-5e54-8d3e-525afa65a8c3": "", // Another Sort of Learning
-  "91d3b209-06f2-527d-b7fd-6250257517ee": "", // The Magus
-  "21ba9212-119a-5b1b-af8d-c3b1ee85b01a": "", // Steve Jobs
-  "9e23dee7-1999-5607-808f-4d464d930a65": "", // The Knight
+  "6f3c34ca-c6d3-5db3-83bc-7482ff46aba6": "https://www.amazon.com/gp/product/0143034901/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0143034901&linkId=484aa7430c3a63312adf264c1b4585df", // The Shadow of the Wind
+  "559b400e-c7bb-5dd2-82cd-b8955766d1c7": "https://www.amazon.com/gp/product/0300093012/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0300093012&linkId=983824d82b8c2495d0cf51db9a019ff6", // London Journal, 1762-1763
+  "055d2f52-b9d0-5f0f-bbae-d76b3ac4ceea": "https://www.amazon.com/gp/product/1612185541/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1612185541&linkId=5291455093ee1126c87ca7a50eea9d13", // Thrilling Cities
+  "10a24726-a981-5b9d-ba82-930903a4a020": "https://www.amazon.com/gp/product/B000FC0VVQ/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=B000FC0VVQ&linkId=06e4a08d87a6ff5acfb9a3a7f54fd100", // Truman
+  "042dd0c1-503e-5e54-8d3e-525afa65a8c3": "https://www.amazon.com/gp/product/089870183X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=089870183X&linkId=f948aec8959b631cac3d6b85f0ac1318", // Another Sort of Learning
+  "91d3b209-06f2-527d-b7fd-6250257517ee": "https://www.amazon.com/gp/product/0316296198/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0316296198&linkId=69e1a7f362d9758a4db63f0358f29483", // The Magus
+  "21ba9212-119a-5b1b-af8d-c3b1ee85b01a": "https://www.amazon.com/gp/product/1451648537/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1451648537&linkId=a2aef039c3a221fa872180f61666db86", // Steve Jobs
+  "9e23dee7-1999-5607-808f-4d464d930a65": "https://www.amazon.com/gp/product/B000FC1AAW/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=B000FC1AAW&linkId=c09b4ec1fbfb88b2cec1eec600c9ae6e", // The Knight
   "5046ea1f-94a4-5e7b-a683-a521e06312d0": "", // A History of the Ancient World: Volume II Rome
-  "1b53d018-c1d0-5863-b349-eb2053466444": "", // I, Claudius/Claudius the God
-  "97a7bcc3-557c-567a-afbb-e84046107c49": "", // A Moveable Feast
-  "743e3943-dd20-5ac2-969d-6487a562fe4b": "", // The Martian
-  "e2c461ae-a28c-529f-8cc5-bf536bc71cb5": "", // Augustus
-  "a4761397-044e-55bb-b958-1779ccbb5c81": "", // The Napoleon of Notting Hill
-  "6a2d7b92-4e34-5626-9c50-7016fda23007": "", // Gun Machine
-  "a01e9801-094c-594c-9a9c-ab31b1ec8fea": "", // Meditations: With Selected Correspondence
-  "f6b053ca-352c-5f20-abb2-8f11e393c887": "", // Birds Without Wings
-  "743e2e94-dec8-5ad1-8084-16fb3e34127c": "", // Butcher's Crossing
-  "7e41d724-174d-57f8-a67d-245242611479": "", // Objective-C Programming: The Big Nerd Ranch Guide
-  "ab79828c-194b-5c72-bdcf-b74c87a30851": "", // Anathem
-  "1ec9bbdd-4701-537a-873d-87bbd0e8b356": "", // The Natural
-  "9ced17f8-9b22-5bb2-a3a9-77568480ec4d": "", // Unbroken: A World War II Story of Survival, Resilience and Redemption
-  "025afefb-27f3-5dba-ae57-37bb911c5067": "", // APIs: A Strategy Guide
-  "4ac4cada-64b4-5be4-a695-bf3b52ab6aaf": "", // Dark Force Rising
-  "4156ea97-0765-52e1-914f-d1e7ae3e3b04": "", // Heir to the Empire
-  "38f10116-460c-5834-ab08-692120e03e01": "", // The River of Doubt: Theodore Roosevelt's Darkest Journey
-  "84ac4887-7436-5353-a081-893e31a4599a": "" // The Making of Prince of Persia
+  "1b53d018-c1d0-5863-b349-eb2053466444": "https://www.amazon.com/gp/product/0140093141/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0140093141&linkId=e3de99ff6f26ab0ff978fa575f971368", // I, Claudius/Claudius the God
+  "97a7bcc3-557c-567a-afbb-e84046107c49": "https://www.amazon.com/gp/product/143918271X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=143918271X&linkId=1b31e2927e9e28221385320d04021837", // A Moveable Feast
+  "743e3943-dd20-5ac2-969d-6487a562fe4b": "https://www.amazon.com/gp/product/0553418025/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0553418025&linkId=dabe7e943a36e813f67ab4156ff29d82", // The Martian
+  "e2c461ae-a28c-529f-8cc5-bf536bc71cb5": "https://www.amazon.com/gp/product/1590178211/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1590178211&linkId=d2577768514b4ce86b0710ecba2f96a3", // Augustus
+  "a4761397-044e-55bb-b958-1779ccbb5c81": "https://www.amazon.com/gp/product/1598566660/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1598566660&linkId=e5b9653ad43f98d40e858cc1527e011a", // The Napoleon of Notting Hill
+  "6a2d7b92-4e34-5626-9c50-7016fda23007": "https://www.amazon.com/gp/product/0316187410/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0316187410&linkId=d53a09070a020fe02c3745fc00567d0d", // Gun Machine
+  "a01e9801-094c-594c-9a9c-ab31b1ec8fea": "https://www.amazon.com/gp/product/0812968255/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0812968255&linkId=bbae2db472342f378e16e4035e0096f1", // Meditations: With Selected Correspondence
+  "f6b053ca-352c-5f20-abb2-8f11e393c887": "https://www.amazon.com/gp/product/1400079322/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1400079322&linkId=28e238ea04d053c0610945f59e2212a0", // Birds Without Wings
+  "743e2e94-dec8-5ad1-8084-16fb3e34127c": "https://www.amazon.com/gp/product/1590171985/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1590171985&linkId=8fe7260a8f46a691107fd64e29187da1", // Butcher's Crossing
+  "7e41d724-174d-57f8-a67d-245242611479": "https://www.amazon.com/gp/product/0321706285/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0321706285&linkId=d4a96dc0fdeb58781c819590164f266f", // Objective-C Programming: The Big Nerd Ranch Guide
+  "ab79828c-194b-5c72-bdcf-b74c87a30851": "https://www.amazon.com/gp/product/006147410X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=006147410X&linkId=03c43f0b01991d93d0dacb07d3542a36", // Anathem
+  "1ec9bbdd-4701-537a-873d-87bbd0e8b356": "https://www.amazon.com/gp/product/0374502005/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0374502005&linkId=89a4137227324f97996a18d46cc0de5f", // The Natural
+  "9ced17f8-9b22-5bb2-a3a9-77568480ec4d": "https://www.amazon.com/gp/product/B003WUYPPG/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=B003WUYPPG&linkId=0c773bdda6a92587a5685732c7096d7d", // Unbroken: A World War II Story of Survival, Resilience and Redemption
+  "025afefb-27f3-5dba-ae57-37bb911c5067": "https://www.amazon.com/gp/product/1449308929/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1449308929&linkId=708d098363f7ba06ac43088969d6df69", // APIs: A Strategy Guide
+  "4ac4cada-64b4-5be4-a695-bf3b52ab6aaf": "https://www.amazon.com/gp/product/0553560719/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0553560719&linkId=64a0bf19483598930848adec0f12b1b7", // Dark Force Rising
+  "4156ea97-0765-52e1-914f-d1e7ae3e3b04": "https://www.amazon.com/gp/product/0553296124/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0553296124&linkId=c3ee0b62aad0f0b66d31b9e6e9bb8733", // Heir to the Empire
+  "38f10116-460c-5834-ab08-692120e03e01": "https://www.amazon.com/gp/product/0767913736/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0767913736&linkId=14b29c662769e98d82c2d1af2d051f99", // The River of Doubt: Theodore Roosevelt's Darkest Journey
+  "84ac4887-7436-5353-a081-893e31a4599a": "https://www.amazon.com/gp/product/0578627310/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0578627310&linkId=0c5966ac674924d7b7ad466decade1cd" // The Making of Prince of Persia
 };

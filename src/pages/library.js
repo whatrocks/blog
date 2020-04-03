@@ -185,61 +185,114 @@ const amazonLinkMap = {
   "0358646e-f3e9-53b6-a3d2-7f0ed3eaadfe": "", // The Outer Lands: A Natural History Guide to Cape Cod, Martha's Vineyard, Nantucket, Block Island, and Long Island
   "20f47503-e81c-59e8-aca0-0d8fcfd287e1":
     "https://www.amazon.com/gp/product/1984823795/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1984823795&linkId=2f0acff66834c92cc604c7380dc88056", // The Warehouse
-  "743df7de-4ed8-5b34-a42b-2758f83ad260": "", // Wake of Vultures
-  "55e254f8-2547-5f9b-8435-6d9cf9d4763e": "", // Under Wildwood
-  "b4f9680d-77a6-5993-80ac-8291ffafc850": "", // Greenwitch
-  "b95672e7-7040-56de-91ee-20b3843a8af5": "", // A Mind at Play: How Claude Shannon Invented the Information Age
-  "3cc2e023-06e5-5d88-abb1-4f41b3daa249": "", // A Gentleman in Moscow
-  "85faec2e-dbea-571b-9d11-da92d02b074c": "", // Recursion
-  "728d92e1-b256-5370-be6a-449b6639d1c1": "", // Born to Run
-  "78e21875-17df-5f17-a7e8-67416ea84258": "", // If on a Winter's Night a Traveler
+  "743df7de-4ed8-5b34-a42b-2758f83ad260":
+    "https://www.amazon.com/gp/product/0316264296/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0316264296&linkId=4124482ac300b2bb2a10a84f5c141aab", // Wake of Vultures
+  "55e254f8-2547-5f9b-8435-6d9cf9d4763e":
+    "https://www.amazon.com/gp/product/0062024736/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0062024736&linkId=48db4ae5770b994b81fdd5051bee16c3", // Under Wildwood
+  "b4f9680d-77a6-5993-80ac-8291ffafc850":
+    "https://www.amazon.com/gp/product/B004A90BQ0/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=B004A90BQ0&linkId=97c8de152860ab7b7173d2a2224550d2", // Greenwitch
+  "b95672e7-7040-56de-91ee-20b3843a8af5":
+    "https://www.amazon.com/gp/product/147676669X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=147676669X&linkId=232564940a235bdb02c639a302ce4d65", // A Mind at Play: How Claude Shannon Invented the Information Age
+  "3cc2e023-06e5-5d88-abb1-4f41b3daa249":
+    "https://www.amazon.com/gp/product/0143110438/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0143110438&linkId=e8570cd4b10d422c7fc588a207f58a02", // A Gentleman in Moscow
+  "85faec2e-dbea-571b-9d11-da92d02b074c":
+    "https://www.amazon.com/gp/product/1524759783/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1524759783&linkId=1a0b46459cce0fdb7f3274488d974240", // Recursion
+  "728d92e1-b256-5370-be6a-449b6639d1c1":
+    "https://www.amazon.com/gp/product/150114152X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=150114152X&linkId=75804c7c39132e2e02671a9f4c8a3d93", // Born to Run
+  "78e21875-17df-5f17-a7e8-67416ea84258":
+    "https://www.amazon.com/gp/product/0156439611/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0156439611&linkId=a475b0d407c3460d392ac1e0a3de31a0", // If on a Winter's Night a Traveler
   "b69e2da2-4ddb-511d-b758-f346dd54707c": "", // ZACH-LIKE, A Game Design History
-  "4526eb33-1757-5acd-8ad8-2fdb87153698": "", // The Left Hand of Darkness
+  "4526eb33-1757-5acd-8ad8-2fdb87153698":
+    "https://www.amazon.com/gp/product/0441478123/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0441478123&linkId=b59e15a840952e25800fecaddb59934a", // The Left Hand of Darkness
   "bbaa49dd-5430-5a75-a28d-9af282197f25": "", // Commodore 64 User's Guide
-  "c7a660cc-e2ef-521c-8ca8-36943892a513": "", // Bird by Bird: Some Instructions on Writing and Life
-  "17750cbf-96fb-55df-86b6-308c12343c32": "", // Shards of Honour
-  "a0a57771-2a7d-56d0-a460-6b3bf9daf03f": "", // The Magician's Land
-  "cbfc89e3-096d-5890-809b-12d89980bd06": "", // The Magician King
-  "7509d80a-18f8-550c-ba64-24a566533c57": "", // The Magicians
-  "73deccc2-4cae-59e2-b907-642c0f967802": "", // Code
-  "751d3a33-f51e-5009-a6cd-5c1bdc2b07ae": "", // Getting Started with Arduino
-  "b8bd57d7-790b-5c19-a6fb-1cfdcfb0f57e": "", // Island of the Blue Dolphins
-  "e5834734-df6d-57b3-a7b6-64114174e345": "", // The Greatest Salesman in the World
-  "ef5a3fae-c08a-5bdc-a09f-c1728f3902c0": "", // Falling Free
-  "136a67b0-4e5a-5922-9ad0-bff760abf2ee": "", // Return to the Little Kingdom: Steve Jobs, the Creation of Apple, and How It Changed the World
-  "2e354cb1-b1c6-540a-89c7-0a6c8bf53a5f": "", // Red Rising
-  "6e236e3e-b4ec-56cb-a612-99e487cb8811": "", // Abhorsen
-  "6e020f7e-1828-55a9-918b-fabfa781e1bd": "", // Lirael
-  "80dfa86b-c8db-5590-8250-05e47341978a": "", // Mr. Penumbra's 24-Hour Bookstore
-  "581daf38-e752-52f3-91ea-e532c92a8c19": "", // The Lightning Thief
-  "6caa2879-93f9-5e3d-be84-963c5cf29e12": "", // The Ocean at the End of the Lane
-  "c542f7e1-cf8e-5380-aeac-a08be363359b": "", // The Dark Is Rising
-  "21300495-36fa-5d8d-a6ad-9aeb2928eda1": "", // The Soul of a New Machine
-  "6e04147b-2d9d-5c31-a221-d360bde66639": "", // From the Mixed-Up Files of Mrs Basil E. Frankweiler
-  "721035cc-79b2-5a8c-9c4e-e43e102c9430": "", // The Way of Kings
-  "cec78f8a-fd59-5afc-9451-c956c02ac404": "", // Old Man's War
-  "cb7ae46b-b6aa-56e7-8758-d71dbb99ef37": "", // Wildwood
-  "9defd108-8db8-5e10-870d-62b4afce5c8f": "", // Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture
-  "b47bd22d-8d96-5c9b-92c3-07114fffdd2b": "", // The Lifters
-  "2151b519-2588-5b93-9bfa-27c030cc4783": "", // The Borrowers
-  "aa7d5453-ef01-5faf-96c3-050ca9f0e152": "", // Seven Surrenders
-  "01124be8-9ebd-5552-9fb5-08c2ba2b30a2": "", // The Idea Factory: Learning to Think at MIT
-  "29fc69ec-062c-59c3-aadc-cf836fabe515": "", // Children of Blood and Bone
-  "33dd1b73-3b99-5a90-8d2e-fd12115167a3": "", // Coraline
-  "b6376517-6c2b-5bc1-9e39-b3f13f86e204": "", // The Electric State
-  "090788be-ce5d-5841-b9e8-76f400f461ee": "", // Death's End
-  "280c932b-8166-58c4-91bb-6bcdbd8418ed": "", // The Dark Forest
-  "0107084b-7901-527d-b034-16c7137fb3ca": "", // Wonder
-  "0ddea489-8244-591c-b943-e3bc09e6b72f": "", // Watchmen
-  "539f5751-d093-575c-a162-4baa9b79f105": "", // The Library at Mount Char
-  "a4e7eace-12a8-57c8-b47e-bae71aa73f6d": "", // The Secret Garden
-  "087aa06a-0a16-5a90-90d1-3e741a5328cc": "", // The Body in the Library
-  "8e8b4fbd-3c54-56c5-bec7-276f0edc114f": "", // The Halloween Tree
-  "c4ddc804-89f9-55d8-8246-43f2af91d23e": "", // The Idea Factory: Bell Labs and the Great Age of American Innovation
-  "3b143feb-f17c-5eb6-a9a7-5b8ac5ec9927": "", // Hatchet
-  "bec13b80-a97a-5951-854e-4c054684cca2": "", // The House on the Cliff
-  "97196efa-3270-5460-8245-c17a7a279c3e": "", // The Secret of Skull Mountain
-  "71f70f4d-5b73-52f9-b3dc-c5ece081c38f": "", // Too Like the Lightning
+  "c7a660cc-e2ef-521c-8ca8-36943892a513":
+    "https://www.amazon.com/gp/product/0385480016/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0385480016&linkId=3cb65bd21cb9764f04be702fe152c1ff", // Bird by Bird: Some Instructions on Writing and Life
+  "17750cbf-96fb-55df-86b6-308c12343c32":
+    "https://www.amazon.com/gp/product/B005BH9T86/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=B005BH9T86&linkId=51bef91bdf4765569e51a1eecb0f9f77", // Shards of Honour
+  "a0a57771-2a7d-56d0-a460-6b3bf9daf03f":
+    "https://www.amazon.com/gp/product/0147516145/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0147516145&linkId=6ed5e74b1d5211183121f6212281d641", // The Magician's Land
+  "cbfc89e3-096d-5890-809b-12d89980bd06":
+    "https://www.amazon.com/gp/product/0452298016/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0452298016&linkId=4d511ab69cfc0dca6d898ccf74beb055", // The Magician King
+  "7509d80a-18f8-550c-ba64-24a566533c57":
+    "https://www.amazon.com/gp/product/B002AU7MJU/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=B002AU7MJU&linkId=484270f88fb98f66a1f912494929f317", // The Magicians
+  "73deccc2-4cae-59e2-b907-642c0f967802":
+    "https://www.amazon.com/gp/product/0735611319/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0735611319&linkId=b94205e201af1206ccac98effab39e16", // Code
+  "751d3a33-f51e-5009-a6cd-5c1bdc2b07ae":
+    "https://www.amazon.com/gp/product/1449363334/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1449363334&linkId=7484d0f1db0af31ab3d4da44ad0aee82", // Getting Started with Arduino
+  "b8bd57d7-790b-5c19-a6fb-1cfdcfb0f57e":
+    "https://www.amazon.com/gp/product/0547328613/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0547328613&linkId=f587b7905f24afc44d15b1cddbca7389", // Island of the Blue Dolphins
+  "e5834734-df6d-57b3-a7b6-64114174e345":
+    "https://www.amazon.com/gp/product/055327757X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=055327757X&linkId=ad4524fb0b15960d52d71206fd332003", // The Greatest Salesman in the World
+  "ef5a3fae-c08a-5bdc-a09f-c1728f3902c0":
+    "https://www.amazon.com/gp/product/B005SHX1CE/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=B005SHX1CE&linkId=e806b8649c7fb5050287f2fcacfba679", // Falling Free
+  "136a67b0-4e5a-5922-9ad0-bff760abf2ee":
+    "https://www.amazon.com/gp/product/1590204018/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1590204018&linkId=36efa3f892d9c671db21f4a51fe358d4", // Return to the Little Kingdom: Steve Jobs, the Creation of Apple, and How It Changed the World
+  "2e354cb1-b1c6-540a-89c7-0a6c8bf53a5f":
+    "https://www.amazon.com/gp/product/0345539788/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0345539788&linkId=3008f62228e40d9da0ed6eade48895a2", // Red Rising
+  "6e236e3e-b4ec-56cb-a612-99e487cb8811":
+    "https://www.amazon.com/gp/product/B000FC10IO/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=B000FC10IO&linkId=5e3e2f088fc73a78cd51d1901462076a", // Abhorsen
+  "6e020f7e-1828-55a9-918b-fabfa781e1bd":
+    "https://www.amazon.com/gp/product/0062315560/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0062315560&linkId=2b7f6c342f20473baa65e78a49d34cbd", // Lirael
+  "80dfa86b-c8db-5590-8250-05e47341978a":
+    "https://www.amazon.com/gp/product/1250037751/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1250037751&linkId=29b773b2135c7f3a6cd1b82a0f227e69", // Mr. Penumbra's 24-Hour Bookstore
+  "581daf38-e752-52f3-91ea-e532c92a8c19":
+    "https://www.amazon.com/gp/product/0786838655/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0786838655&linkId=8603317716eee702a4c0b043018fcaf6", // The Lightning Thief
+  "6caa2879-93f9-5e3d-be84-963c5cf29e12":
+    "https://www.amazon.com/gp/product/0062255665/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0062255665&linkId=d50c9617fc63ab12dae94f8461fccea9", // The Ocean at the End of the Lane
+  "c542f7e1-cf8e-5380-aeac-a08be363359b":
+    "https://www.amazon.com/gp/product/0689829833/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0689829833&linkId=831733eb75a31265e3e05ccd824ab746", // The Dark Is Rising
+  "21300495-36fa-5d8d-a6ad-9aeb2928eda1":
+    "https://www.amazon.com/gp/product/0316491977/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0316491977&linkId=f8f7bf156fbbf5ae717d81a38fe7050c", // The Soul of a New Machine
+  "6e04147b-2d9d-5c31-a221-d360bde66639":
+    "https://www.amazon.com/gp/product/0689711816/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0689711816&linkId=82acb429489d4303203abe0b2e527e14", // From the Mixed-Up Files of Mrs Basil E. Frankweiler
+  "721035cc-79b2-5a8c-9c4e-e43e102c9430":
+    "https://www.amazon.com/gp/product/0765365278/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0765365278&linkId=ff96c49479fbf7c065ff41e8ad2f36e8", // The Way of Kings
+  "cec78f8a-fd59-5afc-9451-c956c02ac404":
+    "https://www.amazon.com/gp/product/0765348276/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0765348276&linkId=b650c84d42b89f7095da77b80a22b890", // Old Man's War
+  "cb7ae46b-b6aa-56e7-8758-d71dbb99ef37":
+    "https://www.amazon.com/gp/product/0062024701/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0062024701&linkId=b55cb64a575e552e5eade17b1dd18991", // Wildwood
+  "9defd108-8db8-5e10-870d-62b4afce5c8f":
+    "https://www.amazon.com/gp/product/0812972155/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0812972155&linkId=d41617f83d9ca70f86b7ec126522e40c", // Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture
+  "b47bd22d-8d96-5c9b-92c3-07114fffdd2b":
+    "https://www.amazon.com/gp/product/1524764191/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1524764191&linkId=94f22a3b1ad453f355da25761295f487", // The Lifters
+  "2151b519-2588-5b93-9bfa-27c030cc4783":
+    "https://www.amazon.com/gp/product/0152047379/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0152047379&linkId=e5959e05e1cd4c9c7a2d5d321860d621", // The Borrowers
+  "aa7d5453-ef01-5faf-96c3-050ca9f0e152":
+    "https://www.amazon.com/gp/product/0765378035/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0765378035&linkId=fef3ede3abafe9d68b37ca209e12c2c9", // Seven Surrenders
+  "01124be8-9ebd-5552-9fb5-08c2ba2b30a2":
+    "https://www.amazon.com/gp/product/0262731428/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0262731428&linkId=25ffb28eaee40854407bdc5553034eae", // The Idea Factory: Learning to Think at MIT
+  "29fc69ec-062c-59c3-aadc-cf836fabe515":
+    "https://www.amazon.com/gp/product/1250170974/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1250170974&linkId=03eebd46951eeef42aeedb3721d1c328", // Children of Blood and Bone
+  "33dd1b73-3b99-5a90-8d2e-fd12115167a3":
+    "https://www.amazon.com/gp/product/0380807343/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0380807343&linkId=a7d50dc149a23db995e954d88c70e49d", // Coraline
+  "b6376517-6c2b-5bc1-9e39-b3f13f86e204":
+    "https://www.amazon.com/gp/product/1501181416/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1501181416&linkId=ecc5e3f2cc8d0bc645113d9081e176ca", // The Electric State
+  "090788be-ce5d-5841-b9e8-76f400f461ee":
+    "https://www.amazon.com/gp/product/0765386631/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0765386631&linkId=0dee2aaf5d24c73639bf870536d4d841", // Death's End
+  "280c932b-8166-58c4-91bb-6bcdbd8418ed":
+    "https://www.amazon.com/gp/product/0765386690/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0765386690&linkId=87bfdc219b8dc0c8f109375e9ab7777a", // The Dark Forest
+  "0107084b-7901-527d-b034-16c7137fb3ca":
+    "https://www.amazon.com/gp/product/0375869026/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0375869026&linkId=7672ce870444701b1325d2bb446c7dfc", // Wonder
+  "0ddea489-8244-591c-b943-e3bc09e6b72f":
+    "https://www.amazon.com/gp/product/1779501129/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1779501129&linkId=accb701c0b5d848aedff92f39a7555b4", // Watchmen
+  "539f5751-d093-575c-a162-4baa9b79f105":
+    "https://www.amazon.com/gp/product/0553418629/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0553418629&linkId=fa4f76cf83a2fa04f4188f54593dd997", // The Library at Mount Char
+  "a4e7eace-12a8-57c8-b47e-bae71aa73f6d":
+    "https://www.amazon.com/gp/product/006440188X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=006440188X&linkId=059a23c45b817800b6b525880303d7ed", // The Secret Garden
+  "087aa06a-0a16-5a90-90d1-3e741a5328cc":
+    "https://www.amazon.com/gp/product/0062073613/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0062073613&linkId=896d67fa6ec68df8eead8ac2a2e2f4ad", // The Body in the Library
+  "8e8b4fbd-3c54-56c5-bec7-276f0edc114f":
+    "https://www.amazon.com/gp/product/0375803017/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0375803017&linkId=e7a2ee7d06827fd05066465b679975ef", // The Halloween Tree
+  "c4ddc804-89f9-55d8-8246-43f2af91d23e":
+    "https://www.amazon.com/gp/product/0143122797/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0143122797&linkId=c43bfb9282ddb158969cebf4fbd75380", // The Idea Factory: Bell Labs and the Great Age of American Innovation
+  "3b143feb-f17c-5eb6-a9a7-5b8ac5ec9927":
+    "https://www.amazon.com/gp/product/1416936475/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1416936475&linkId=934dfece6382b124bac1dec3d6ede0ec", // Hatchet
+  "bec13b80-a97a-5951-854e-4c054684cca2":
+    "https://www.amazon.com/gp/product/0448089025/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0448089025&linkId=22d136b26d115c432135841f203b0ef6", // The House on the Cliff
+  "97196efa-3270-5460-8245-c17a7a279c3e":
+    "https://www.amazon.com/gp/product/B002C7Z4YQ/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=B002C7Z4YQ&linkId=14f1b0205f72e6163bcf879f1bed9b14", // The Secret of Skull Mountain
+  "71f70f4d-5b73-52f9-b3dc-c5ece081c38f":
+    "https://www.amazon.com/gp/product/0765378019/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0765378019&linkId=64603947bd8de58899ed7309daaaf9dd", // Too Like the Lightning
   "6074ecac-14af-54fb-8be1-a430dafd75e5": "", // Red Mars
   "db53c158-abb1-5955-af19-54c4acb13275": "", // Redwall
   "63986808-1483-542e-a811-0e3870e54b16": "", // Where Wizards Stay Up Late: The Origins of the Internet

@@ -10,7 +10,7 @@ image: ""
 
 My name is Charlie Harrington. I'm a software engineer at [Cruise](https://www.getcruise.com) in San Francisco.
 
-I love old computers, books of all kinds, building little things, and being outside.
+I love old computers, [books of all kinds](/library), building little things, and being outside.
 
 I'm also in the middle of ~~writing~~ editing a novel about robots. More on that soon!
 

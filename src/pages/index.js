@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
-import { DateTime } from "luxon";
 import Layout from "../layouts";
 import s from "./index.module.scss";
 import Subscribe from "../layouts/subscribe";
@@ -28,7 +27,6 @@ function getCategoryStyle(category) {
 
 export default function Index({ data }) {
   const { edges: mdPosts } = data.allMarkdownRemark;
-  const today = DateTime.local();
   return (
     <Layout>
       <div className={s.index}>
@@ -39,9 +37,6 @@ export default function Index({ data }) {
               post.node.frontmatter.isBlogPost
           )
           .map(({ node: post }, index) => {
-            const dateOfPost = DateTime.fromISO(post.frontmatter.date);
-            const diff = today.diff(dateOfPost, "days").toObject();
-            const isNew = diff.days < 7;
             const categoryStyles = getCategoryStyle(post.frontmatter.category);
             return (
               <Link
@@ -54,24 +49,10 @@ export default function Index({ data }) {
                   <span className={s.date}>{post.frontmatter.date}</span>
                 </div>
                 <div>
-                  {/* {isNew && (
-                    <span
-                      className={s.badge}
-                      style={{ backgroundColor: `blue` }}
-                    >
-                      <span className={s.emoji} role="img" aria-label="new">
-                        ⚡
-                      </span>
-                      <span className={s.new}>NEW</span>
-                    </span>
-                  )} */}
                   <span
                     className={s.badge}
                     style={{ backgroundColor: `${categoryStyles[0]}` }}
                   >
-                    <span className={s.emoji} role="img" aria-label="new">
-                      {categoryStyles[1]}
-                    </span>
                     <span className={s.new}>
                       {post.frontmatter.category.toUpperCase()}
                     </span>

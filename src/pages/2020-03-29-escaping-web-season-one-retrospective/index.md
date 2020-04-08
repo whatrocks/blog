@@ -4,7 +4,7 @@ path: "/escaping-web-season-one-retrospective"
 date: "2020-03-29"
 title: "'Escaping Web' Season One Retrospective"
 category: "computers"
-image: "cool.jpg"
+image: "ew.jpg"
 isBlogPost: true
 ---
 

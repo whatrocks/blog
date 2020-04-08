@@ -4,7 +4,7 @@ path: "/notes-on-map-and-compass-navigation"
 date: "2020-03-27"
 title: "Notes on Map and Compass Navigation"
 category: "outdoors"
-image: "cool.jpg"
+image: "p5.jpg"
 isBlogPost: true
 ---
 

@@ -5,7 +5,7 @@ isBlogPost: true
 date: "2019-01-10"
 title: "The Walkingman Collection"
 category: "design"
-image: ""
+image: "walkingman.png"
 ---
 
 I've pulled all my [Instagram #walkingman](https://instagram.com/whatrocks) photos into a handy little page. [Check it out](/walkingman). 

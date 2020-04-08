@@ -4,7 +4,7 @@ path: "/afternoon-with-arduino"
 date: "2019-03-28"
 title: "An Afternoon with Arduino"
 category: "computers"
-image: ""
+image: "uno.jpg"
 isBlogPost: true
 ---
 

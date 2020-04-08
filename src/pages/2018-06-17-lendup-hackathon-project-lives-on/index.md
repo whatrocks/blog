@@ -5,7 +5,7 @@ isBlogPost: true
 date: "2018-06-17"
 title: "LendUp Hackathon Project Lives On"
 category: "computers"
-image: ""
+image: "confetti.gif"
 ---
 
 I recently logged into my [Arrow Card iOS app](https://itunes.apple.com/us/app/arrow-card/id1228440036?mt=8) to check my balance and was pumped to discover that my team's Spring 2017 Hackathon project branch was finally merged and released.

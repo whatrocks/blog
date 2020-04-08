@@ -4,7 +4,7 @@ path: "/borrowing-library-books-for-your-kindle"
 date: "2019-01-13"
 title: "Borrowing Library Books for Your Kindle"
 category: "learning"
-image: ""
+image: "overdrive.png"
 isBlogPost: true
 ---
 

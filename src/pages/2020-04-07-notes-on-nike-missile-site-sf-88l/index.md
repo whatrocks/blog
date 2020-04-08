@@ -75,7 +75,7 @@ Anyway, as mentioned, here's what I scribbled down during the tour:
   * (4) SELF-DESTRUCT
   * (5) EXPLODE (they had to tell the missiles to explode!)
 * Operators went to annual training in New Mexico where they actually fired unarmed missiles
-* Hercules had a 35 mile "kill" diameter, bigger than Hiroshima or Nagasaki
+* Hercules had a 35 mile "kill" diameter
 * There is an electromagnetic pulse during a nuclear explosion, which is why analog radar communication works (vs. digital)
 
 And here are some of the better photos from my phone. If you like old control panels for old computers (like me), then this place is your kind of place!

@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
-import SchemaOrg from './SchemaOrg'
+import SchemaOrg from "./SchemaOrg";
 
 const SEO = ({ postData, frontmatter = {}, seoImage, isBlogPost }) => (
   <StaticQuery
@@ -29,8 +29,10 @@ const SEO = ({ postData, frontmatter = {}, seoImage, isBlogPost }) => (
         frontmatter || postData.childMarkdownRemark.frontmatter || {};
       const title = postMeta.title || seo.title;
       const description = postMeta.description || seo.description;
-      const image = seoImage ? `${seo.canonicalUrl}${seoImage}` : `${seo.canonicalUrl}${seo.image}`;
-      const url = postMeta.slug ? `${seo.canonicalUrl}/${postMeta.slug}` : seo.canonicalUrl
+      const image = seoImage ? `${seo.canonicalUrl}${seoImage}` : ``;
+      const url = postMeta.slug
+        ? `${seo.canonicalUrl}/${postMeta.slug}`
+        : seo.canonicalUrl;
       const datePublished = isBlogPost ? postMeta.date : false;
       return (
         <React.Fragment>
@@ -42,7 +44,11 @@ const SEO = ({ postData, frontmatter = {}, seoImage, isBlogPost }) => (
 
             {/* OpenGraph tags */}
             <meta property="og:url" content={url} />
-            {isBlogPost ? <meta property="og:type" content="article" /> : null}
+            {isBlogPost ? (
+              <meta property="og:type" content="article" />
+            ) : (
+              <meta property="og:type" content="website" />
+            )}
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />
             <meta property="og:image" content={image} />
@@ -76,15 +82,15 @@ SEO.propTypes = {
   postData: PropTypes.shape({
     childMarkdownRemark: PropTypes.shape({
       frontmatter: PropTypes.any,
-      excerpt: PropTypes.any
-    })
-  })
+      excerpt: PropTypes.any,
+    }),
+  }),
 };
 
 SEO.defaultProps = {
   isBlogPost: false,
   postData: { childMarkdownRemark: {} },
-  postImage: null
+  postImage: null,
 };
 
 export default SEO;

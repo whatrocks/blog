@@ -1,5 +1,5 @@
-import React from "react";
-import s from "./style.module.scss";
+import React from 'react'
+import s from './style.module.scss'
 
 export default () => (
   <div>
@@ -10,11 +10,11 @@ export default () => (
       target="popupwindow"
       onSubmit={() => {
         window.open(
-          "https://tinyletter.com/whatrocks",
-          "popupwindow",
-          "scrollbars=yes,width=800,height=600"
-        );
-        return true;
+          'https://tinyletter.com/whatrocks',
+          'popupwindow',
+          'scrollbars=yes,width=800,height=600'
+        )
+        return true
       }}
     >
       <input
@@ -28,7 +28,8 @@ export default () => (
       <input className={s.subscribeButton} type="submit" value="Update Me 👋" />
     </form>
     <p className={s.warning}>
-      The almost-never newsletter. I won't spam you, and you can unsubscribe anytime.
+      The almost-never newsletter. I won't spam you, and you can unsubscribe
+      anytime.
     </p>
   </div>
-);
+)

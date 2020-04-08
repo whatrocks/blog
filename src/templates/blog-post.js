@@ -1,18 +1,26 @@
-import React from "react";
-import { graphql } from "gatsby";
-import Layout from "../layouts";
-import SEO from "../components/SEO";
-import Subscribe from "../layouts/subscribe";
-import s from "./style.module.scss";
+import React from 'react'
+import { graphql } from 'gatsby'
+import Layout from '../layouts'
+import SEO from '../components/SEO'
+import Subscribe from '../layouts/subscribe'
+import s from './style.module.scss'
 
 export default function Template({ pageContext, data, children }) {
-  const { markdownRemark: post } = data;
+  const { markdownRemark: post } = data
   return (
     <Layout>
-      <SEO frontmatter={post.frontmatter} seoImage={pageContext.seoImage} isBlogPost />
+      <SEO
+        frontmatter={post.frontmatter}
+        seoImage={pageContext.seoImage}
+        isBlogPost
+      />
       <div className={s.postTemplate}>
         <h2 className={s.title}>{post.frontmatter.title}</h2>
-        {post.frontmatter.date && post.frontmatter.date.length && post.frontmatter.date !== "2000-01-01" && <h3 className={s.subtitle}>{post.frontmatter.date}</h3>}
+        {post.frontmatter.date &&
+          post.frontmatter.date.length &&
+          post.frontmatter.date !== '2000-01-01' && (
+            <h3 className={s.subtitle}>{post.frontmatter.date}</h3>
+          )}
         <div className={s.borderLine} />
         <div
           className={s.post}
@@ -22,7 +30,7 @@ export default function Template({ pageContext, data, children }) {
         <Subscribe />
       </div>
     </Layout>
-  );
+  )
 }
 
 export const pageQuery = graphql`
@@ -39,4 +47,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`

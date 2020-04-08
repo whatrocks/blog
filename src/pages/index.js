@@ -1,43 +1,43 @@
-import React from "react";
-import { Link, graphql } from "gatsby";
-import Layout from "../layouts";
-import s from "./index.module.scss";
-import Subscribe from "../layouts/subscribe";
+import React from 'react'
+import { Link, graphql } from 'gatsby'
+import Layout from '../layouts'
+import s from './index.module.scss'
+import Subscribe from '../layouts/subscribe'
 
 function getCategoryStyle(category) {
   switch (category) {
-    case "design":
-      return ["green", "🎨"];
-    case "music":
-      return ["teal", "🎵"];
-    case "computers":
-      return ["orange", "🖥️"];
-    case "writing":
-      return ["purple", "📖"];
-    case "learning":
-      return ["dodgerblue", "💡"];
-    case "outdoors":
-      return ["tomato", "🕶️"];
-    case "talks":
-      return ["black", "🤐"];
+    case 'design':
+      return ['green', '🎨']
+    case 'music':
+      return ['teal', '🎵']
+    case 'computers':
+      return ['orange', '🖥️']
+    case 'writing':
+      return ['purple', '📖']
+    case 'learning':
+      return ['dodgerblue', '💡']
+    case 'outdoors':
+      return ['tomato', '🕶️']
+    case 'talks':
+      return ['black', '🤐']
     default:
-      return ["blue", "⚡"];
+      return ['blue', '⚡']
   }
 }
 
 export default function Index({ data }) {
-  const { edges: mdPosts } = data.allMarkdownRemark;
+  const { edges: mdPosts } = data.allMarkdownRemark
   return (
     <Layout>
       <div className={s.index}>
         {mdPosts
           .filter(
-            post =>
+            (post) =>
               post.node.frontmatter.title.length > 0 &&
               post.node.frontmatter.isBlogPost
           )
           .map(({ node: post }, index) => {
-            const categoryStyles = getCategoryStyle(post.frontmatter.category);
+            const categoryStyles = getCategoryStyle(post.frontmatter.category)
             return (
               <Link
                 key={index}
@@ -59,12 +59,12 @@ export default function Index({ data }) {
                   </span>
                 </div>
               </Link>
-            );
+            )
           })}
         <Subscribe />
       </div>
     </Layout>
-  );
+  )
 }
 
 export const pageQuery = graphql`
@@ -86,4 +86,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`

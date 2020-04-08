@@ -1,11 +1,11 @@
-import React from "react";
-import { graphql } from "gatsby";
-import Img from "gatsby-image";
-import Layout from "../layouts";
-import s from "./walkingman.module.scss";
+import React from 'react'
+import { graphql } from 'gatsby'
+import Img from 'gatsby-image'
+import Layout from '../layouts'
+import s from './walkingman.module.scss'
 
 export default function Walkingman({ data }) {
-  const { edges } = data.allInstagramContent;
+  const { edges } = data.allInstagramContent
   return (
     <Layout>
       <h1 className={s.title}>#walkingman</h1>
@@ -20,18 +20,20 @@ export default function Walkingman({ data }) {
           >
             <Img
               style={{
-                marginRight: "0.75rem",
-                height: "250px",
-                width: "250px"
+                marginRight: '0.75rem',
+                height: '250px',
+                width: '250px',
               }}
               fixed={edge.node.localImage.childImageSharp.fixed}
             />
-            <p className={s.label}>{edge.node.location ? edge.node.location.name : ""}</p>
+            <p className={s.label}>
+              {edge.node.location ? edge.node.location.name : ''}
+            </p>
           </a>
         ))}
       </div>
     </Layout>
-  );
+  )
 }
 
 export const pageQuery = graphql`
@@ -64,4 +66,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`

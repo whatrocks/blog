@@ -52,4 +52,4 @@ We are **Hotdog Johnny and the Shady Oaks**:
 * Peter Clabby - Electric Guitar
 * Alex "The Grones" Groneman - Acoustic Guitar
 * Some dude no one knew - Bass
-* Henry Clabby - Sound engineer
+* Tommy Clabby - Sound engineer

@@ -4,7 +4,7 @@ import Helmet from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
 import SchemaOrg from './SchemaOrg'
 
-const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
+const SEO = ({ postData, frontmatter = {}, seoImage, isBlogPost }) => (
   <StaticQuery
     query={graphql`
       {
@@ -29,9 +29,7 @@ const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
         frontmatter || postData.childMarkdownRemark.frontmatter || {};
       const title = postMeta.title || seo.title;
       const description = postMeta.description || seo.description;
-      // TODO: Custom image for blog posts isn't working
-      // const image = postMeta.image ? `${seo.canonicalUrl}/${postMeta.image}` : seo.image;
-      const image = `${seo.canonicalUrl}${seo.image}`;
+      const image = seoImage ? `${seo.canonicalUrl}${seoImage}` : `${seo.canonicalUrl}${seo.image}`;
       const url = postMeta.slug ? `${seo.canonicalUrl}/${postMeta.slug}` : seo.canonicalUrl
       const datePublished = isBlogPost ? postMeta.date : false;
       return (

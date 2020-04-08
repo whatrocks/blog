@@ -4,7 +4,7 @@ path: "/notes-on-nike-missile-site-sf-88l"
 date: "2020-04-07"
 title: "Notes on Nike Missile Site SF-88L"
 category: "learning"
-image: "cool.jpg"
+image: "controls.jpeg"
 isBlogPost: true
 ---
 

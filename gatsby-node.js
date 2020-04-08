@@ -71,6 +71,9 @@ exports.createPages = ({ actions, graphql }) => {
                 height
                 src
               }
+              fluid {
+                originalName
+              }
             }
           }
         }
@@ -83,9 +86,21 @@ exports.createPages = ({ actions, graphql }) => {
         createPage({
           path: node.frontmatter.path,
           component: blogPostTemplate,
-          context: {}
+          context: {
+            seoImage: getSEOImage(result.data.allImageSharp.edges, node.frontmatter.image),
+          }
         });
       });
     });
   });
 };
+
+function getSEOImage(edges, image) {
+  for (let i = 0; i < edges.length; i++) {
+    const current = edges[i].node.fluid.originalName
+    if (current === image) {
+      return edges[i].node.original.src
+    } 
+  }
+  return ""
+}

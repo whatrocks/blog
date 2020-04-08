@@ -5,11 +5,11 @@ import SEO from "../components/SEO";
 import Subscribe from "../layouts/subscribe";
 import s from "./style.module.scss";
 
-export default function Template({ data, children }) {
+export default function Template({ pageContext, data, children }) {
   const { markdownRemark: post } = data;
   return (
     <Layout>
-      <SEO frontmatter={post.frontmatter} isBlogPost />
+      <SEO frontmatter={post.frontmatter} seoImage={pageContext.seoImage} isBlogPost />
       <div className={s.postTemplate}>
         <h2 className={s.title}>{post.frontmatter.title}</h2>
         {post.frontmatter.date && post.frontmatter.date.length && post.frontmatter.date !== "2000-01-01" && <h3 className={s.subtitle}>{post.frontmatter.date}</h3>}

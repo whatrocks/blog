@@ -44,7 +44,7 @@ Apparently, George Lucas visited the Nike missile site before filming *A New Hop
 
 ![trash](./images/trash.jpg)
 
-This experience now lends more credence to the apocraphal story of how those Oakland shipping container lift thingies became proto AT-ATs for a day-dreaming Lucas.
+This experience now lends more credence to the apocryphal story of how those Oakland shipping container lift thingies became proto AT-ATs for a day-dreaming Lucas.
 
 Anyway, as mentioned, here's what I scribbled down during the tour:
 

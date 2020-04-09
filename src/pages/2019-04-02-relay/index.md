@@ -5,6 +5,7 @@ date: "2019-04-02"
 title: "Relay"
 category: "music"
 image: ""
+description: "terminal man relay"
 isBlogPost: true
 ---
 

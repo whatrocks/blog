@@ -5,6 +5,7 @@ date: "2020-03-29"
 title: "'Escaping Web' Season One Retrospective"
 category: "computers"
 image: "ew.jpg"
+description: "escaping web podcast"
 isBlogPost: true
 ---
 

@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2014-10-18"
 title: "edCrunch in Moscow"
 category: "talks"
+description: "edcrunch moscow talk"
 image: "edcrunch.jpg"
 ---
 

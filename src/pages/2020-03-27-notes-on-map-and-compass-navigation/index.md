@@ -5,6 +5,7 @@ date: "2020-03-27"
 title: "Notes on Map and Compass Navigation"
 category: "outdoors"
 image: "p5.jpg"
+description: "map compass navigation"
 isBlogPost: true
 ---
 

@@ -5,6 +5,7 @@ date: "2020-04-07"
 title: "Notes on Nike Missile Site SF-88L"
 category: "learning"
 image: "controls.jpeg"
+description: "nike missile"
 isBlogPost: true
 ---
 

@@ -6,6 +6,7 @@ date: "2000-01-01"
 title: "About"
 category: "About"
 image: ""
+description: "about"
 ---
 
 My name is Charlie Harrington. I'm a software engineer at [Cruise](https://www.getcruise.com) in San Francisco.

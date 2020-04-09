@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2015-08-04"
 title: "Golden Olden"
 category: "music"
+description: "terminal man golden olden"
 image: "forest.jpg"
 ---
 

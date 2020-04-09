@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2018-04-28"
 title: "The Long Hour"
 category: "music"
+description: "terminal man the long hour"
 image: ""
 ---
 

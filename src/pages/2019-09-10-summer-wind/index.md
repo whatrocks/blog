@@ -4,6 +4,7 @@ path: "/summer-wind"
 date: "2019-09-10"
 title: "Summer Wind"
 category: "design"
+description: "summer wind photography"
 image: "summerwind.jpg"
 isBlogPost: true
 ---

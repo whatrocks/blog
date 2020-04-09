@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2016-02-10"
 title: "Too Much"
 category: "music"
+description: "terminal man too much music"
 image: "space.jpg"
 ---
 

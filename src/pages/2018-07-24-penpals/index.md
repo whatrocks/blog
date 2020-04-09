@@ -4,6 +4,7 @@ path: "/penpals"
 isBlogPost: true
 date: "2018-07-24"
 title: "Penpals"
+description: "terminal man penpals"
 category: "music"
 image: ""
 ---

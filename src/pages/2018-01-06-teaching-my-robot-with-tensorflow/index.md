@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2018-01-06"
 title: "Teaching My Robot With TensorFlow"
 category: "computers"
+description: "robot tensorflow cozmo"
 image: "cozmo-paparazzi.gif"
 ---
 

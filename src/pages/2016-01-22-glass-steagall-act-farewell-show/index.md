@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2016-01-22"
 title: "Glass-Steagall Act Farewell Show"
 category: "music"
+description: "beatles glass steagall act"
 image: "band.jpg"
 ---
 

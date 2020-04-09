@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2018-07-23"
 title: "Using NLP to Write Graduation Speeches"
 category: "computers"
+description: "nlp graduation speeches"
 image: ""
 ---
 

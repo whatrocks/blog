@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2018-07-30"
 title: "Humans of Machine Learning"
 category: "computers"
+description: "humans of machine learning"
 image: ""
 ---
 

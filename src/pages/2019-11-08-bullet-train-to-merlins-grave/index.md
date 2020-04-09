@@ -5,6 +5,7 @@ date: "2019-11-08"
 title: "Bullet Train to Merlin's Grave"
 category: "music"
 image: "cool.jpg"
+description: "bullet train merlin grave hotdog johnny"
 isBlogPost: true
 ---
 

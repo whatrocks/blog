@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2014-08-04"
 title: "Over Water, Under You"
 category: "music"
+description: "terminal man music over water, under you"
 image: "water.jpg"
 ---
 

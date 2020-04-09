@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2019-01-10"
 title: "The Walkingman Collection"
 category: "design"
+description: "walkingman instagram"
 image: "walkingman.png"
 ---
 

@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2013-01-21"
 title: "Cape Seafood Logo"
 category: "design"
+description: "cape seafood logo design"
 image: "capeseafood.png"
 ---
 

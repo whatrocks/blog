@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2017-02-11"
 title: "Upside Down"
 category: "music"
+description: "terminal man upside down"
 image: "troll.jpg"
 ---
 

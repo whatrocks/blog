@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2015-03-05"
 title: "Merlin's Advice"
 category: "learning"
+description: "merlin advice"
 image: "ma.jpg"
 ---
 

@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2016-01-02"
 title: "Space Time Travel with Wormie"
 category: "computers"
+description: "wormie app space time travel"
 image: "WormieLive.gif"
 ---
 

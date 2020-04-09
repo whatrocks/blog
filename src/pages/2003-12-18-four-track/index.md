@@ -5,6 +5,7 @@ date: "2003-12-18"
 title: "Four Track"
 isBlogPost: true
 category: "music"
+description: "four-track recording"
 image: "link.jpg"
 ---
 

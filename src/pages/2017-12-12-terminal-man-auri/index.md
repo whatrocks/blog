@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2017-12-12"
 title: "Auri"
 category: "music"
+description: "terminal man auri"
 image: "willow.jpg"
 ---
 

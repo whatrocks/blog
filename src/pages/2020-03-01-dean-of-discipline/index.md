@@ -5,6 +5,7 @@ date: "2020-03-01"
 title: "Dean of Discipline"
 category: "learning"
 image: "cool.jpg"
+description: "dean of discipline"
 isBlogPost: true
 ---
 

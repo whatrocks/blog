@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2016-12-06"
 title: "One Day Lord Shardik Will Return"
 category: "music"
+description: "terminal man lord shardik book music"
 image: "bear.jpg"
 ---
 

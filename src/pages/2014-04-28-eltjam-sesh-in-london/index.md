@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2014-04-28"
 title: "ELTJam Sesh in London"
 category: "talks"
+description: "eltjam talk in london"
 image: "elt.png"
 ---
 

@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2016-12-16"
 title: "Alcatraz Challenge 2016 - Review"
 category: "outdoors"
+description: "alcatraz challenge race run swim"
 image: "connery.png"
 ---
 

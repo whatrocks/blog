@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2016-12-28"
 title: "LendUp Critters"
 category: "design"
+description: "lendup design"
 image: "cubicle.png"
 ---
 

@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2015-04-07"
 title: "Terminal Man - Live in Concert"
 category: "music"
+description: "terminal man live in concert"
 image: "skull.png"
 ---
 

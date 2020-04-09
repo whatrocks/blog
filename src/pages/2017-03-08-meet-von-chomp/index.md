@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2017-03-08"
 title: "Meet Von Chomp"
 category: "computers"
+description: "von chomp ios app react native"
 image: "vc.gif"
 ---
 

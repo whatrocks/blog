@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2015-05-02"
 title: "Introducing Knerds"
 category: "computers"
+description: "knerds game ios"
 image: "gang-close.png"
 ---
 

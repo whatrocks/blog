@@ -5,6 +5,7 @@ date: "2019-03-28"
 title: "An Afternoon with Arduino"
 category: "computers"
 image: "uno.jpg"
+description: "afternoon with arduino"
 isBlogPost: true
 ---
 

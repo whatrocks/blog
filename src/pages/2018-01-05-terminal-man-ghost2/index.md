@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2018-01-05"
 title: "Ghost2"
 category: "music"
+description: "terminal man ghost2"
 image: "crab.jpg"
 ---
 

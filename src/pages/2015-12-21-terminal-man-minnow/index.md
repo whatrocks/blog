@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2015-12-21"
 title: "Minnow"
 category: "music"
+description: "terminal man minnow"
 image: "minnow.jpg"
 ---
 

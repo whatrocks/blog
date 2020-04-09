@@ -5,6 +5,7 @@ isBlogPost: true
 date: "2015-10-26"
 title: "Pseudoclassical Star Wars"
 category: "computers"
+description: "star wars javascript"
 image: ""
 ---
 

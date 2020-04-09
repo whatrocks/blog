@@ -3,11 +3,13 @@ import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import Layout from '../layouts'
 import s from './walkingman.module.scss'
+import Helmet from 'react-helmet'
 
 export default function Walkingman({ data }) {
   const { edges } = data.allInstagramContent
   return (
     <Layout>
+      <Helmet title="#walkingman" />
       <h1 className={s.title}>#walkingman</h1>
       <div className={s.grid}>
         {edges.map((edge, i) => (

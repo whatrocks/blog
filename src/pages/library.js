@@ -2,7 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../layouts";
 import s from "./library.module.scss";
-import Helmet from 'react-helmet'
+import Helmet from "react-helmet";
 
 export default function Library({ data }) {
   const { edges } = data.allGoodreadsShelf;
@@ -66,6 +66,11 @@ export default function Library({ data }) {
         </thead>
         <tbody>
           {books.map((book, i) => {
+            // if (!amazonLinkMap[book.book.id]) {
+            //   console.log(
+            //     `missing: ${book.book.title_without_series} :: ${book.book.id}`
+            //   );
+            // }
             return (
               <tr key={i}>
                 <td>
@@ -154,6 +159,10 @@ export const pageQuery = graphql`
 `;
 
 const amazonLinkMap = {
+  "79df89b9-74ed-5d41-a2b8-4a88fe229ebc":
+    "https://www.amazon.com/gp/product/0399182101/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0399182101&linkId=dccd22998789537596b65c580a860b85", // Wanderers
+  "3281ab48-8917-58ce-9ebe-0acf4d386108":
+    "https://www.amazon.com/gp/product/1590593898/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1590593898&linkId=f24cc5e9312a1a4042c6022cef678d51", // Joel on Software
   "716e07f4-672b-579b-aa31-a3f7a676615e":
     "https://www.amazon.com/gp/product/0201835959/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0201835959&linkCode=as2&tag=whatrocks09-20&linkId=a25cd95674c817aface75a02b25957c6", // The Mythical Man-Month: Essays on Software Engineering
   "79588e87-318e-5c05-9a23-d636322d850c":

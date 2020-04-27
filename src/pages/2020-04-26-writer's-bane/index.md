@@ -39,3 +39,7 @@ I hope this guide proves useful when you're looking to read about how to write i
 ## Newsletters
 
 - **[The Perils of the Overworld - Robin Sloan](https://www.robinsloan.com/overworld/)**: What happens when an engineer-author-olive-oil-maker makes a video game? He's not sure either. 
+
+![balrog](./images/durin.jpg)
+
+> "Write, you fools!" he cried, and was gone.

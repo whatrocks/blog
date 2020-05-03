@@ -66,11 +66,11 @@ export default function Library({ data }) {
         </thead>
         <tbody>
           {books.map((book, i) => {
-            if (!amazonLinkMap[book.book.id]) {
-              console.log(
-                `missing: ${book.book.title_without_series} :: ${book.book.id}`
-              );
-            }
+            // if (!amazonLinkMap[book.book.id]) {
+            //   console.log(
+            //     `missing: ${book.book.title_without_series} :: ${book.book.id}`
+            //   );
+            // }
             return (
               <tr key={i}>
                 <td>

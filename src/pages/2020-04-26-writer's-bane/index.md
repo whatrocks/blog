@@ -18,6 +18,8 @@ I hope this guide proves useful when you're looking to read about how to write i
 
 ## Books
 
+- **[Story Genius](https://www.amazon.com/gp/product/1607748894/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1607748894&linkId=964c14964dbe0dc13bcfacb3a3594f85) - Lisa Cron**: Learn how to write a riveting story using *brain science* - make sure to bring a pen and a notebook along for the ride!
+
 - **[On Writing](https://www.amazon.com/gp/product/1439156816/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1439156816&linkCode=as2&tag=whatrocks09-20&linkId=dc4290e47818db79d2fa6b284f9f3e1b) - Stephen King**: King's biographical guidebook to his craft.
 
 - **[Bird by Bird](https://www.amazon.com/gp/product/0385480016/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0385480016&linkId=3cb65bd21cb9764f04be702fe152c1ff) - Anne Lamott**: The best advice you'll get about life and writing.

@@ -29,37 +29,38 @@ And now, onto the notes!
 ### Learning with computers
 
 * **Bricolage**: creation from diverse range of things
-* Computers have the power to **simulate**, can take 1000 forms and server 1000 functions
+* Computers have the power to **simulate**. They can take 1000 forms and serve 1000 functions
   * Flexible enough so children can each create with them
-  * Flexible models
-* People seldom get things right on the first try
+  * Flexible enough to model the world
+* Remember: people seldom get things right on the first try
 * He is not recommending "computer-aided instruction" - like a quiz app
   * Instead, he envisions the child programming the computer!
 * Learning to program can be a natural process like language acquisition
 * Learning to communicate with a computer can change the ways we learn other things
 * **Jean Piaget**
   * Papert's mentor / teacher
-  * "Learning without being taught
-  * Children build their own intellectual structures / models and evolve them over time when proven false
-    * All without being __taught__
+  * "Learning without being taught" is perhaps Piaget's main idea
+  * Piaget says that children build their own intellectual structures, models, and then evolve them over time when proven false
+  * Children do thise all without being *taught*
   * "Child as builder"
 
 ### Mathophobia
 
-* Mathophobia is endemic and if we see math, we avoid it. But we often have no trouble with math knowledge if we don't perceive it as "math"
+* Mathophobia is endemic. To this day, if we see math, we avoid it.
+* But we often have no trouble with math knowledge if we don't perceive it as "math"
 * People's images of themselves as learners is contaminated by mathophobia
-  * "not a math person"
-  * "not artistic"
-  * "not musical"
-  * It begins to extend to other disciplines... "not an X person"
-* Mathophobia leads to insecurity and self-impose restrictions rather than a child's free exploration of the world
-* Computer can be a carrier of cultural germs / seeds whos intellectual products won't need a computer once they can take root in actively growing mind
-* "Body knowledge" - useful to think about things in relation to your body. Children do this instinctively
-* Children need an "object to think with"
-  * This object is "the Turtle"
+  * "I'm not a math person"
+  * "I'm not artistic"
+  * "I'm not musical"
+  * As you can see, it dangerously spreads to other disciplines... "not an X person"
+* Mathophobia leads to insecurity and self-imposed restrictions, rather than a child's instinctive free exploration of the world
+* However, the computer can be a carrier of cultural germs and seeds whos intellectual products won't need a computer once they can take root in actively growing mind
 
 ### The Turtle
 
+* "Body knowledge" - useful to think about things in relation to your body. Children do this instinctively
+* Children need an "object to think with"
+  * This object is "the Turtle"
 * The Turtle is not a panacea, just a model for other objects not yet invented by the child
 * LOGO programming language is how children communicate with the Turtle
 * The Turtle serves no purpose other than being good to program and good to think with
@@ -75,7 +76,7 @@ And now, onto the notes!
 * Importance of learning systematic procedures and debugging them
 * Learning to be a master programmer is learning to become highly skilled at isolating and fixing bugs
 * Programs are not WRONG or RIGHT -> but they are fixable
-* Deliberately thinking like a computer is extremely valuable (step by step, literal, mechanical). Thinking like a comptuer is just one "style of thinking", and helps students understand that there are different ways of thinking.
+* Deliberately thinking like a computer is extremely valuable (step by step, literal, mechanical). Thinking like a computer is just one "style of thinking", and helps students understand that there are different ways of thinking.
 * Computers are not something that "rots our brains"
 
 ### Teaching without curriculum
@@ -94,48 +95,40 @@ And now, onto the notes!
 
 * Radical change is possible, directly tied to the impact of the computer
   * Unfortunately, conservatism in the world of education is a self-perpetuating social phenomenon
-  * But as individuals get computers, education can become a private act, an open marketplace, a Renaissance of thinking about education523;
+  * But as individuals get computers, education can become a private act, an open marketplace, a Renaissance of thinking about education
 * Our culture has unneeded split between "humanities" and "science"
   * But Plato was both
 * Computer can break down this line
 * "Math" just means "learning" in Greek
   * e.g. "polymath" is a person of many learnings
-  * "mathetic" means "having to do with "learning"
+  * "Mathetic" means "having to do with "learning"
 * Children begin their lives as eager and competant learners. They have to learn to have trouble with learning in general and mathematics in particular
 * Conservation of liquids example from Piaget
   * Children take a while to learn this principle
   * They have their own coherent world view (taller glass must have more liquid)
   * This model was spontaneously developed by them
 * Mathophobia limit's people's lives. Deficiency becomes part of their identity. It is a self-reinforcing taboo
-* "school math" is not the same as "mathematics"
+* "Cchool math" is not the same as "mathematics"
 
 ### Turtle geometry
 
-* Types of geometry
-  * Turtle geometry = computational
-    * position
-    * heading
-  * Euclidean geometry = logical
-    * point
-    * position
+* There are multiple types of geometry
+  * Turtle geometry = computational (tracks Position and Heading of the Turtle)
+  * Euclidean geometry = logical (tracks Position and Point)
   * Descartes geometry = algebraic
-* How can I make the Turtle draw a circle?
-  * Good teacher doesn't answer the question, but encourages the student to act it out. They "play Turtle" themselves.
-* Learning to "program computers" is done by teaching the Turtle a new word (aka subroutine / function)
-* Students learn about **modularity** and **state**
-* Don't forget the error - instead study the bug!
-* Make sense of what you want to learn
+* Geometry arises when child asks "How can I make the Turtle draw a circle?"
+  * A good teacher doesn't answer the question, but encourages the student to act it out. Literally, to have the child "play Turtle" themselves. What steps do they take to move in a circle?
+* Learning to "program computers" is done by teaching the Turtle a new word (aka subroutine / function) like CIRCLE, SQUARE, TRIANGLE
+* Along the way, students learn about **modularity** and **state**
+* Don't forget the error - instead study the bugs!
+* Try to make sense of what you want to learn
 * **Syntonic learning**
   * The Turtle is body syntonic - firmly related to child's sense and knowledge about their own bodies
-  * Also is "ego syntonic" - the Turtle is coherent with child's sense of themselves with things like:
-    * intentions
-    * goals
-    * desires
-    * dislikes
+  * Also is "ego syntonic" - the Turtle is coherent with child's sense of themselves with things like (e.g. intentions, goals, desires, dislikes)
 * Turtle geometry is learnable because it is syntonic.
 * Turtle geometry encourages deliberate use of problem-solving
 * **George Polya**
-  * general methods for problem solving
+  * Came up with a general method for problem solving
   * Turtle geometry lends itself well to Polya's methods (e.g. "look for something like it")
   * Turtle geometry is great for learning heuristic thinking
 * Disassociative learning is something like memorizing the multiplication tables
@@ -143,9 +136,9 @@ And now, onto the notes!
   * "Make your mind a blank and saying it over and over until you know it"
 * Turtle geometry on the other hand has rhythm, movement, navigational knowledger
 * Differential Calculus
- * Differential calculus is ability to describe growth by what is happening at the growing tip
- * Newton modeled the motions of the planets with it
- * The Turtle's circle program ( FORWARD 1, RIGHTTURN 1) is a set of DIFFERENTIAL instructions!
+  * Differential calculus is ability to describe growth by what is happening at the growing tip
+  * Newton modeled the motions of the planets with it
+  * The Turtle's circle program ( FORWARD 1, RIGHTTURN 1) is a set of DIFFERENTIAL instructions!
 * Many students come to Turtle geometry hating numbers as alien concepts, and leave it loving them. For example, angles.
   * Turtle geometry shows students that angles have body syntoncity with compass navigation. The Turtle parallels this
 * Idea of a "variable" in programming: using a symbol to name an unknown entity
@@ -154,42 +147,35 @@ And now, onto the notes!
 * The Total Turtle Trip Theorem
   * If a Turtle tasks a trip around the boundaries of any area and ends up in the state in which it started (direction and place), then the sum of all the turns will be 360 degrees
 * One learns to enjoy and to respect the power of powerful ideas. One learns that the most powerful idea is the idea of powerful ideas.
-* Computers can influence the language we use to talk about ourselves
-  * input
-  * output
-  * feedback
+* Computers can influence the language we use to talk about ourselves (e.g. input, output, feedback)
 
 ### Structure programming
 
-* Learn to write subprocedures
-* Procedures are "mind-sized bites"
+* Learn to write subprocedures, aka "mind-sized bites"
 * It's possible to build a large intellectual system without ever making a step that cannot be comprehended, using hierachy of subprocedures
 * Example of teaching the Turtle to draw a person can use multiple subprocedures, each of which is easily understood
 * Computers give enough flexibility and power so that child's exploration can be genuine and their own
 * "Brute force" would be trying to have the Turtle draw the person without any subprocedures - the straight line approach.
 * Brute force with no internal structure is not a good model for computer programming
-* Juggle example
- * Juggling in real life is composed of many subroutines
- * Timing
-  * parallel processes vs serial processes
- * The "WHEN demon" for conditional logic
-    * "When something happens, the demon pounces out and does its own action"
+* For example, in real life, juggling is actually composed of many subroutines
+* Introduces notion of timing:
+`* parallel processes vs serial processes
+* Introduce notion of condition logic with The "WHEN demon"
+* "When something happens, the demon pounces out and does its own action"
 
 ### Debugging
 
 * Children seem to have a resistance to debugging
-* Would rather "throw it out" and start over
-* They want to do it correctly in one shot
+* They would rather "throw it out" and start over
+* Seemingly, they want to do it correctly in one shot
 * We can empathize, because a bug seems like WRONG or MISTAKE or BAG
 * Kids like that computers can remove any trace of their errors
-* But erros and debugging are good!
-* Learn to study what happened
-* Understand what went wrong
-* Through that understanding, fix it
+* But errors and debugging are good!
+* We must learn to study what happened and understand what went wrong. Through that understanding, we can fix the bug.
 * Computers will help children "believe in" debugging
 * Contact with LOGO and the Turtle eventually, gradually, underminds the long-standing resistance to debugging and subprocedures
 * With LOGO, the teacher is also a learner, and everyone makes mistakes
 * Children know when teacher "fakes it" with "let's try this one together" - they see right through this.
 * But LOGO makes that situation feel genuine, because the teacher is trying to figure it out, too, and they make mistakes together
 * Real intellectual collaboration - together they try to understand the computer and get it to do what they want
-* Affirmation of the power of ideas and the power of the mind
+* Affirmation of the power of ideas and the power of the mind!

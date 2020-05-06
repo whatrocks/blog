@@ -24,7 +24,6 @@ a.gatsby-resp-image-link {
 }
 
 html {
-  // font-family: 'Inter', sans-serif;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -38,8 +37,10 @@ body {
 p {
   line-height: 27.6px;
   font-family: 'Inter', sans-serif;
-  // font-weight: 300;
-  // font-size: 20px;
+}
+
+li {
+  font-family: 'Inter', sans-serif;
 }
 
 blockquote {

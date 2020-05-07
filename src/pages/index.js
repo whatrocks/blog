@@ -7,19 +7,19 @@ import Subscribe from '../layouts/subscribe'
 function getCategoryStyle(category) {
   switch (category) {
     case 'design':
-      return ['green', '🎨']
+      return ['rgb(231,76,60)', '🎨']
     case 'music':
-      return ['teal', '🎵']
+      return ['rgb(52,152,219)', '🎵']
     case 'computers':
-      return ['orange', '🖥️']
+      return ['rgb(46,204,113)', '🖥️']
     case 'writing':
-      return ['purple', '📖']
+      return ['rgb(241,196,15)', '📖']
     case 'learning':
-      return ['dodgerblue', '💡']
+      return ['rgb(40,116,166)', '💡']
     case 'outdoors':
-      return ['tomato', '🕶️']
+      return ['rgb(14,102,85)', '🕶️']
     case 'talks':
-      return ['black', '🤐']
+      return ['rgb(175,122,197)', '🤐']
     default:
       return ['blue', '⚡']
   }

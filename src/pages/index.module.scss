@@ -11,17 +11,17 @@
 }
 
 .blogLink {
+    text-decoration: none;
     padding: 1rem;
-    border: 4px double #eee;
+    border: 2px double #eee;
     margin-bottom: 1rem;
     border-radius: 4px;
+    max-width: 720px;
+    background-color: white;
     cursor: pointer;
-    transition: transform 0.3s;
+    // transition: transform 0.3s;
     &:hover {
-        border: 4px solid rgb(33,93,211);
-        // transform: translate3d(4px, -4px, 10px);
-        transform: scale(1.001);
-        background-color: lighten(rgb(33,94,211), 50%);
+        border: 2px solid rgb(33,93,211);
     }
     width: 100%;
     display: flex;
@@ -32,10 +32,10 @@
 
 .linkContents {
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: center;
+    // align-items: center;
 }
 
 .title {
@@ -64,7 +64,7 @@
     display: inline-flex;
     padding: 0.25rem 0.5rem;
     text-align: center;
-    font-size: 0.5rem;
+    font-size: 0.75rem;
 }
 
 .emoji {
@@ -74,6 +74,6 @@
 }
 
 .new {
-    font-weight: 600;
-    font-size: 0.9rem;
+    font-weight: 700;
+    font-size: 16px;
 } 

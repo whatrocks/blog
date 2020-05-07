@@ -1,6 +1,5 @@
 @import "~@openfonts/poppins_all/index.css";
 
-// Variables
 $grey: #eee;
 $navBg: rgb(241, 245, 248);
 $darkBg: #202020;
@@ -8,23 +7,28 @@ $linkBlue: rgb(33,93,211);
 $font: rgb(17, 17, 17);
 $darkborder: darken($linkBlue, 2%);
 
-
-
-// Overrides
 a {
-  text-decoration: none;
+  text-decoration: none;  
   color: $linkBlue;
-  &:hover {
-    color: darken($linkBlue, 5%);
-  }
+  // &:hover {
+  //   border-bottom: 1.5px dashed $linkBlue;
+  // }
 }
 
 a.gatsby-resp-image-link {
   border-bottom: none !important;
 }
 
+* {
+  // box-sizing: border-box;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;  
+}
+
 html {
   font-family: 'Poppins', sans-serif;
+  background-color: #fafafa;
 }
 
 body {
@@ -62,7 +66,7 @@ ul > li {
 .leftPanel {
   text-align: center;
   padding: 0.5rem;
-  background-color: white;
+  // background-color: white;
   border-bottom: 1px solid #eee;
 }
 .rightPanel {
@@ -79,6 +83,7 @@ ul > li {
   margin-right: .75rem;
   &:hover {
     color: $linkBlue;
+    text-decoration: none !important;
   }
 }
 
@@ -95,6 +100,7 @@ ul > li {
   padding: 0;
   &:hover {
     color: $linkBlue;
+    text-decoration: none;
   }
 }
 
@@ -106,6 +112,10 @@ ul > li {
   color: $font;
   font-weight: 400;
   border-bottom: none;
+  text-decoration: none !important;
+  &:hover {
+    text-decoration: none !important;
+  }
 }
 
 .dot {
@@ -134,7 +144,7 @@ ul > li {
   width: 225px;
   font-size: 1rem;
   border: 2px solid $linkBlue;
-  background-color: lighten($linkBlue, 50%);
+  background-color: lighten($linkBlue, 60%);
   border-right: none;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;

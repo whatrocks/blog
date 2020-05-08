@@ -159,8 +159,12 @@ export const pageQuery = graphql`
 `;
 
 const amazonLinkMap = {
-  "d192e7dc-13ca-5ec1-8ae2-37dc63c0a3a0": "https://www.amazon.com/gp/product/1607748894/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1607748894&linkId=964c14964dbe0dc13bcfacb3a3594f85", // story genius
-  "78d8a077-02e1-5211-a4ec-63e68d2f28fb": "https://www.amazon.com/gp/product/0547928211/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0547928211&linkId=dc470c0a8230a08b85ae90f094338053", // fellowship of the ring
+  "a77d00b5-8735-51ae-9f87-84b6ba268148":
+    "https://www.amazon.com/gp/product/0547928203/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0547928203&linkId=5f6c71737d8642fe73475aa20f211264", // two towers
+  "d192e7dc-13ca-5ec1-8ae2-37dc63c0a3a0":
+    "https://www.amazon.com/gp/product/1607748894/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1607748894&linkId=964c14964dbe0dc13bcfacb3a3594f85", // story genius
+  "78d8a077-02e1-5211-a4ec-63e68d2f28fb":
+    "https://www.amazon.com/gp/product/0547928211/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0547928211&linkId=dc470c0a8230a08b85ae90f094338053", // fellowship of the ring
   "79df89b9-74ed-5d41-a2b8-4a88fe229ebc":
     "https://www.amazon.com/gp/product/0399182101/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0399182101&linkId=dccd22998789537596b65c580a860b85", // Wanderers
   "3281ab48-8917-58ce-9ebe-0acf4d386108":

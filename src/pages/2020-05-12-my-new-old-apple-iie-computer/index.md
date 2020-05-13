@@ -4,7 +4,7 @@ path: "/my-new-old-apple-iie-computer"
 date: "2020-05-12"
 title: "My New Old Apple IIe Computer"
 category: "computers"
-image: "cool.jpg"
+image: "80col.jpeg"
 isBlogPost: true
 ---
 

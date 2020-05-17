@@ -1,5 +1,5 @@
-import React from 'react'
-import s from './style.module.scss'
+import React from "react";
+import s from "./style.module.scss";
 
 export default () => (
   <div>
@@ -10,11 +10,11 @@ export default () => (
       target="popupwindow"
       onSubmit={() => {
         window.open(
-          'https://tinyletter.com/whatrocks',
-          'popupwindow',
-          'scrollbars=yes,width=800,height=600'
-        )
-        return true
+          "https://tinyletter.com/whatrocks",
+          "popupwindow",
+          "scrollbars=yes,width=800,height=600"
+        );
+        return true;
       }}
     >
       <input
@@ -31,5 +31,28 @@ export default () => (
       The almost-never newsletter. I won't spam you, and you can unsubscribe
       anytime.
     </p>
+    <div className={s.copyright}>
+      <span>© 2020 Charlie Harrington</span>
+      <span> | </span>
+      <span>
+        <a
+          href="https://www.charlieharrington.com/rss.xml"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          RSS feed
+        </a>
+      </span>
+      <span> | </span>
+      <span>
+        <a
+          href="https://www.twitter.com/whatrocks"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Follow @whatrocks on Twitter
+        </a>
+      </span>
+    </div>
   </div>
-)
+);

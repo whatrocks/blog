@@ -178,6 +178,7 @@ ul > li {
 .warning {
   font-size: .9rem;
   margin-left: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .footer {
@@ -186,4 +187,15 @@ ul > li {
   font-weight: 300;
   text-align: center;
   margin: 1rem 0;
+}
+
+.copyright {
+  // color: #aaa;
+  margin-top: 0;
+  font-size: .9rem;
+  line-height: 27.6px;
+  font-family: 'Inter', sans-serif;
+  > p {
+    margin: 0;
+  }
 }

@@ -82,7 +82,7 @@ I flipped off the power. I forgot to mention I already had the fire extinguisher
 
 Some more Googling revealed the likely problem: a capacitor popped in the power supply. I unscrewed the power supply from the computer (held on by just four small screws), and put it somewhere far away. Days later, weeks later, the power supply still smelled.
 
-At this point, if had been a more experienced solder-er, I would have considered buying a capacitor for like ten cents and replacing it myself. But as I'm still learning the ropes of soldering, and hacking with power supplies felt a little ahead of me, I thought about getting some more experienced help. (Also, I was kinda terrified that I would accidentally short circuit something and fry the motherboard, before I ever got to really play with the computer).
+At this point, if I had been a more experienced solder-er, I would have considered buying a capacitor for like ten cents and replacing it myself. But as I'm still learning the ropes of soldering, and hacking with power supplies felt a little ahead of me, I thought about getting some more experienced help. (Also, I was kinda terrified that I would accidentally short circuit something and fry the motherboard, before I ever got to really play with the computer).
 
 I spent some time looking for an Apple repair store that would service Apple II's. Even in the Bay Area, this felt like a lost cause. Then someone suggested this site: [ReActiveMicro](https://www.reactivemicro.com/). Its tagline: `Reactivate Your Vintage Apple Computer`. For $95, I could order a [new power supply](https://www.reactivemicro.com/product/ultimate-universal-power-supply/) for my Apple IIe.
 
@@ -166,7 +166,7 @@ The card uses the same Disk II system famously designed by Woz. The [Wikipedia](
 
 If anyone's got any spare 5 1⁄4-inch floppies, let me know, because now I've got two whole slots for them (this is actually a serious inquiry, please [tweet](https://twitter.com/whatrocks) at me!).
 
-### So, what are you doing to do with your new old computer, Charlie?
+### So, what are you going to do with your new old computer, Charlie?
 
 I'm not sure. Here are some of my thoughts.
 

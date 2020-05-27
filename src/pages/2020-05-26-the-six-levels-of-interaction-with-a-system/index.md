@@ -1,7 +1,7 @@
 ---
-fullPath: "2020-05-21-the-six-levels-of-interaction-with-a-system"
+fullPath: "2020-05-26-the-six-levels-of-interaction-with-a-system"
 path: "/the-six-levels-of-interaction-with-a-system"
-date: "2020-05-21"
+date: "2020-05-26"
 title: "The Six Levels of Interaction with a System"
 category: "learning"
 image: "onion.png"

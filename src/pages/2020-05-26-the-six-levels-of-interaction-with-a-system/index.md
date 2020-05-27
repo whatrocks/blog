@@ -60,7 +60,7 @@ Not funny enough? How about a concentric-circle approach? That probably makes mo
 
 Yes, those are the vintage Apple logo colors, because I literally cannot help myself (it was hard enough not to write another post about [my Apple IIe](/my-new-old-apple-iie-computer)).
 
-Let's go through the levels them one-by-one, continuing our use of a car as the example.
+Let's go through the levels one-by-one, continuing our use of a car as the example.
 
 ### Level 0: Non-use
 

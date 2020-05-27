@@ -17,7 +17,7 @@ We recently borrowed our friends' car, because they're awesome. Along with the k
 
 I nodded throughout. Yup, needs prem-o gas. Trunk's weird, okay. Tail-light-light's-not-alright, good to know. Oil, yes, oil's a thing that cars need.
 
-Meanwhile, I caught myself thinking, "Man, they really know a lot about cars."
+Meanwhile, I caught myself thinking, "Wow, they really know a lot about cars."
 
 I, for one, don't. My dad knows how to take a car apart and put it back together. I know how to get 120 stars in Super Mario 64. Sure, I learned *some stuff* about cars growing up. I've changed flat tires in a pinch, once helped my dad replace brake pads on our monstrous Suburban, and sorta payed attention while I helped him change the oil in Old Blue (his beloved sky blue '85 Blazer).
 
@@ -31,7 +31,7 @@ Where does this fantasy come from? Well, I've been told that Beetles have a rela
 
 Why do I jump all the way to wanting to understand things from first principles?
 
-Maybe because this has been a successful way for me to learn programming as an adult, and I'm now pattern-matching into other complex systems. But, certainly, I should be able to productive with a system far in advance of knowing how to build it from scratch. Isn't that what interfaces are all about?
+Maybe because this has been a mostly-successful ideal for me to aspire to when I learned programming as an adult, and I'm now pattern-matching into other complex systems. But, certainly, I should be able to productive with a system far in advance of knowing how to build it from scratch. Isn't that what interfaces are all about?
 
 Which brings me to the following shower thought:
 

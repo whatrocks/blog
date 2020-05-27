@@ -159,6 +159,8 @@ export const pageQuery = graphql`
 `;
 
 const amazonLinkMap = {
+  "beb7924a-1c2d-5244-810f-38f097372576":"https://www.amazon.com/gp/product/1250192757/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1250192757&linkId=041dcc62a5770e833dc59991bf57e5ee", // sourdough
+  "fa4fff39-39b1-5dc4-a13f-0282762164e5":"https://www.amazon.com/gp/product/0307389839/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0307389839&linkId=59d2f242a83664a73402b2e316aae20f", // what i talk about when i talk about running
   "a77d00b5-8735-51ae-9f87-84b6ba268148":
     "https://www.amazon.com/gp/product/0547928203/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0547928203&linkId=5f6c71737d8642fe73475aa20f211264", // two towers
   "d192e7dc-13ca-5ec1-8ae2-37dc63c0a3a0":

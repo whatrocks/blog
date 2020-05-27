@@ -4,7 +4,7 @@ path: "/the-six-levels-of-interaction-with-a-system"
 date: "2020-05-26"
 title: "The Six Levels of Interaction with a System"
 category: "learning"
-image: "onion.png"
+image: "people.png"
 isBlogPost: true
 ---
 

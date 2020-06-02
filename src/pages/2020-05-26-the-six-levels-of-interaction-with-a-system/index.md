@@ -5,6 +5,7 @@ date: "2020-05-26"
 title: "The Six Levels of Interaction with a System"
 category: "learning"
 image: "people.png"
+description: "systems computers interaction"
 isBlogPost: true
 ---
 

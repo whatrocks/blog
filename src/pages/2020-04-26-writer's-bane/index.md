@@ -5,6 +5,7 @@ date: "2020-04-26"
 title: "Writer's Bane"
 category: "writing"
 image: "durin.jpg"
+description: "writing advice amwriting amediting author books"
 isBlogPost: true
 ---
 

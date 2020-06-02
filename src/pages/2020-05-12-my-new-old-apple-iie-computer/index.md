@@ -5,6 +5,7 @@ date: "2020-05-12"
 title: "My New Old Apple IIe Computer"
 category: "computers"
 image: "80col.jpeg"
+description: "apple appleiie appleii apple2 vintage computer"
 isBlogPost: true
 ---
 

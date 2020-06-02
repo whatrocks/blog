@@ -19,6 +19,8 @@ date=${date:-$TODAY}
 fullPath=`join_by - $date $lowercasetitle`
 read -p "category: (music) " category
 category=${category:-Deep Learning}
+read -p "meta tags: (computers) " meta
+meta=${meta:-computers}
 read -p "image: (cool.jpg) " image
 image=${image:-cool.jpg}
 
@@ -31,6 +33,7 @@ echo "path: $path"
 echo "date: $date"
 echo "fullPath: $fullPath"
 echo "category: $category"
+echo "description: $meta"
 echo "image: $image"
 
 echo " "
@@ -43,6 +46,7 @@ path: \"${path}\"
 date: \"${date}\"
 title: \"${title}\"
 category: \"${category}\"
+description: \"${meta}\"
 image: \"${image}\"
 isBlogPost: true
 ---

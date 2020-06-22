@@ -159,6 +159,7 @@ export const pageQuery = graphql`
 `;
 
 const amazonLinkMap = {
+  "d8b1d1cd-24b7-50e5-bc24-05761f9fab3d": "https://www.amazon.com/gp/product/0553293354/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0553293354&linkId=524a8a76acee2975c6a9b1ea1681e6ce", // foundation
   "6fe13e9d-e146-59cd-a7be-1275f65785d9": "https://www.amazon.com/gp/product/1732265119/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1732265119&linkId=39b9e6d277262210ac709f2855b9f38b",// the dream machine
   "5c9f75ce-7bbf-594b-bc8b-efba4482c031":"https://www.amazon.com/gp/product/1449319777/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1449319777&linkId=cae89556bdd639cb0ae7efb842f14eb6", // cloud architecture patterns
   "b5bb9b3f-292e-56e3-9f54-63aacae9d801": "https://www.amazon.com/gp/product/054792819X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=054792819X&linkId=09f40c27b0f6ef5e970726577f7da32a", //return of the king

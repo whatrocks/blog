@@ -5,7 +5,7 @@ date: "2020-06-24"
 title: "Create wonderful things, be good, have fun"
 category: "writing"
 description: "writing klutz books stanford john cassidy juggling table top football"
-image: "cool.jpg"
+image: "klutz.jpg"
 isBlogPost: true
 ---
 

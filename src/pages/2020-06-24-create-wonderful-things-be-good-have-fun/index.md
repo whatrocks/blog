@@ -1,10 +1,10 @@
 ---
-fullPath: "2020-06-22-create-wonderful-things-be-good-have-fun"
+fullPath: "2020-06-24-create-wonderful-things-be-good-have-fun"
 path: "/create-wonderful-things-be-good-have-fun"
-date: "2020-06-22"
+date: "2020-06-24"
 title: "Create wonderful things, be good, have fun"
 category: "writing"
-description: "writing klutz books stanford"
+description: "writing klutz books stanford john cassidy juggling table top football"
 image: "cool.jpg"
 isBlogPost: true
 ---

@@ -5,7 +5,7 @@ date: "2020-06-24"
 title: "Create wonderful things, be good, have fun"
 category: "writing"
 description: "writing klutz books stanford john cassidy juggling table top football"
-image: "klutz.jpg"
+image: "juggling.png"
 isBlogPost: true
 ---
 
@@ -13,7 +13,7 @@ isBlogPost: true
 
 This is the credo of Klutz Press, the most important book publisher of my childhood. It being summer and all, Hobbes, ol' buddy... let's going exploring!
 
-## The magic of a Klutz book
+## What makes a Klutz Press book so good for learning stuff?
 
 If you've heard of Klutz, then you've likely seen their debut: [Juggling For the Complete Klutz](https://www.amazon.com/gp/product/0932592007/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0932592007&linkId=adaa512e8af09feab7c571ec8f2863cc). 
 

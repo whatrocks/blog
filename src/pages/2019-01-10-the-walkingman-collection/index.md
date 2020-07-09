@@ -11,7 +11,9 @@ image: "walkingman.png"
 
 I've pulled all my [Instagram #walkingman](https://instagram.com/whatrocks) photos into a handy little page. [Check it out](/walkingman). 
 
-So long as the Instagram API continues to play nice (no guarantee of that), then [this page](/walkingman) will stay up-to-date as my travels continue.
+~~So long as the Instagram API continues to play nice (no guarantee of that), then [this page](/walkingman) will stay up-to-date as my travels continue.~~
+
+*The Instagram API isn't working anymore, at least not the way that this Gatsby plugin was working. I'll have to work on another way to serve up these little photos.*
 
 ![walkingmen](./images/walkingman.png)
 

@@ -1,43 +1,20 @@
 import React from 'react'
-import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
+//import { graphql } from 'gatsby'
+//import Img from 'gatsby-image'
 import Layout from '../layouts'
 import s from './walkingman.module.scss'
 import Helmet from 'react-helmet'
 
 export default function Walkingman({ data }) {
-  const { edges } = data.allInstagramContent
   return (
     <Layout>
       <Helmet title="#walkingman" />
       <h1 className={s.title}>#walkingman</h1>
-      <div className={s.grid}>
-        {edges.map((edge, i) => (
-          <a
-            href={edge.node.link}
-            rel="noopener noreferrer"
-            target="_blank"
-            className={s.box}
-            key={i}
-          >
-            <Img
-              style={{
-                marginRight: '0.75rem',
-                height: '250px',
-                width: '250px',
-              }}
-              fixed={edge.node.localImage.childImageSharp.fixed}
-            />
-            <p className={s.label}>
-              {edge.node.location ? edge.node.location.name : ''}
-            </p>
-          </a>
-        ))}
-      </div>
+      <p>Unfortunately, the Instagram API changed, so I'll need to source and store these images locally. I knew this was coming, and this is probably a good thing anyway. Hopefully will be back up soon. </p>
     </Layout>
   )
 }
-
+/* not working at the moment
 export const pageQuery = graphql`
   query walkingmanData {
     allInstagramContent(
@@ -68,4 +45,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`*/

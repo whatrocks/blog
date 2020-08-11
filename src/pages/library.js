@@ -159,6 +159,11 @@ export const pageQuery = graphql`
 `;
 
 const amazonLinkMap = {
+  "30c1e90e-68b7-552c-8cce-6d7fac312fea": "https://www.amazon.com/gp/product/1481487736/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1481487736&linkId=f668c0492ceb665bcede93ea4031ce79", // starfish
+  "0b9b9915-e985-5128-b91a-be4834f7886f": "https://www.amazon.com/gp/product/0345347951/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0345347951&linkId=ffebaec65d97b373096121b93afd39b4", // childhoods end
+  "1b04cf66-460d-58d9-acc9-64c12ec83764": "https://www.amazon.com/gp/product/1250297141/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1250297141&linkId=9d0d28a934ad77aaad491bab1ed427d1",// oathbringer,
+  "748711ae-d64b-548b-9ba5-c2608017bc19": "https://www.amazon.com/gp/product/0765365286/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0765365286&linkId=7c3b230e85458d3a01b78876a7860ab4", // words of radiance
+  "e9447839-0979-5dfe-b6de-bf3b8e52e413": "https://www.amazon.com/gp/product/B00H25FCSQ/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=B00H25FCSQ&linkId=d054d64632cdfe92382169259917fb81", // fifth season
   "d8b1d1cd-24b7-50e5-bc24-05761f9fab3d": "https://www.amazon.com/gp/product/0553293354/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0553293354&linkId=524a8a76acee2975c6a9b1ea1681e6ce", // foundation
   "6fe13e9d-e146-59cd-a7be-1275f65785d9": "https://www.amazon.com/gp/product/1732265119/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1732265119&linkId=39b9e6d277262210ac709f2855b9f38b",// the dream machine
   "5c9f75ce-7bbf-594b-bc8b-efba4482c031":"https://www.amazon.com/gp/product/1449319777/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1449319777&linkId=cae89556bdd639cb0ae7efb842f14eb6", // cloud architecture patterns

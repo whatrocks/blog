@@ -70,7 +70,7 @@ export default function Library({ data }) {
             //   console.log(
             //     `missing: ${book.book.title_without_series} :: ${book.book.id}`
             //   );
-            // }
+           //  }
             return (
               <tr key={i}>
                 <td>
@@ -159,6 +159,9 @@ export const pageQuery = graphql`
 `;
 
 const amazonLinkMap = {
+  "0358646e-f3e9-53b6-a3d2-7f0ed3eaadfe":"https://www.amazon.com/gp/product/0393064417/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0393064417&linkId=4a64dec892537f560416ce00200c94b1", // outer lands
+  "5da200e2-a391-584e-9c8c-1b67e7a987cd":"https://www.amazon.com/gp/product/0374514429/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0374514429&linkId=7d5ad52fdda91a4105774d4087ca8ee4", // pine barrens
+  "d40b9ec6-c3cc-5dfa-aae9-72540cb7cc51":"https://www.amazon.com/gp/product/1591848261/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1591848261&linkId=b6a65e2fe94851b968bed62340936dd0", //anthing you want
   "30c1e90e-68b7-552c-8cce-6d7fac312fea": "https://www.amazon.com/gp/product/1481487736/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1481487736&linkId=f668c0492ceb665bcede93ea4031ce79", // starfish
   "0b9b9915-e985-5128-b91a-be4834f7886f": "https://www.amazon.com/gp/product/0345347951/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0345347951&linkId=ffebaec65d97b373096121b93afd39b4", // childhoods end
   "1b04cf66-460d-58d9-acc9-64c12ec83764": "https://www.amazon.com/gp/product/1250297141/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1250297141&linkId=9d0d28a934ad77aaad491bab1ed427d1",// oathbringer,
@@ -210,7 +213,6 @@ const amazonLinkMap = {
     "https://www.amazon.com/gp/product/0262532034/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0262532034&linkId=3306f184e14b295779207b6bf6864bfe", // A History of Modern Computing
   "5d8482a2-b153-5f8d-878b-0effcc63a0aa":
     "https://www.amazon.com/gp/product/1501142976/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1501142976&linkId=4f340e78468dbc1ffcee128fa4e252bb", // It
-  "0358646e-f3e9-53b6-a3d2-7f0ed3eaadfe": "", // The Outer Lands: A Natural History Guide to Cape Cod, Martha's Vineyard, Nantucket, Block Island, and Long Island
   "20f47503-e81c-59e8-aca0-0d8fcfd287e1":
     "https://www.amazon.com/gp/product/1984823795/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1984823795&linkId=2f0acff66834c92cc604c7380dc88056", // The Warehouse
   "743df7de-4ed8-5b34-a42b-2758f83ad260":
@@ -426,7 +428,6 @@ const amazonLinkMap = {
     "https://www.amazon.com/gp/product/0553384619/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0553384619&linkId=69ea9bcbbbda91fe91951eceea06e054", // The Snowball: Warren Buffett and the Business of Life
   "cb8bea27-1a51-5ad9-861e-b1a8725c2005":
     "https://www.amazon.com/gp/product/0061120057/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0061120057&linkId=d4932ce6b06e961279b9cd526687d99e", // Little, Big
-  "d40b9ec6-c3cc-5dfa-aae9-72540cb7cc51": "", // Anything You Want
   "8ad5dd27-bed4-503b-a484-370266ecd689":
     "https://www.amazon.com/gp/product/0765382032/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0765382032&linkId=9bb7e145d53f482982dfb4f59268c8f6", // The Three-Body Problem
   "43d72363-9ce6-53fc-b352-3f69c275d114":

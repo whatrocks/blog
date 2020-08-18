@@ -70,7 +70,7 @@ export default function Library({ data }) {
             //   console.log(
             //     `missing: ${book.book.title_without_series} :: ${book.book.id}`
             //   );
-           //  }
+            // }
             return (
               <tr key={i}>
                 <td>
@@ -159,20 +159,36 @@ export const pageQuery = graphql`
 `;
 
 const amazonLinkMap = {
-  "0358646e-f3e9-53b6-a3d2-7f0ed3eaadfe":"https://www.amazon.com/gp/product/0393064417/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0393064417&linkId=4a64dec892537f560416ce00200c94b1", // outer lands
-  "5da200e2-a391-584e-9c8c-1b67e7a987cd":"https://www.amazon.com/gp/product/0374514429/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0374514429&linkId=7d5ad52fdda91a4105774d4087ca8ee4", // pine barrens
-  "d40b9ec6-c3cc-5dfa-aae9-72540cb7cc51":"https://www.amazon.com/gp/product/1591848261/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1591848261&linkId=b6a65e2fe94851b968bed62340936dd0", //anthing you want
-  "30c1e90e-68b7-552c-8cce-6d7fac312fea": "https://www.amazon.com/gp/product/1481487736/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1481487736&linkId=f668c0492ceb665bcede93ea4031ce79", // starfish
-  "0b9b9915-e985-5128-b91a-be4834f7886f": "https://www.amazon.com/gp/product/0345347951/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0345347951&linkId=ffebaec65d97b373096121b93afd39b4", // childhoods end
-  "1b04cf66-460d-58d9-acc9-64c12ec83764": "https://www.amazon.com/gp/product/1250297141/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1250297141&linkId=9d0d28a934ad77aaad491bab1ed427d1",// oathbringer,
-  "748711ae-d64b-548b-9ba5-c2608017bc19": "https://www.amazon.com/gp/product/0765365286/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0765365286&linkId=7c3b230e85458d3a01b78876a7860ab4", // words of radiance
-  "e9447839-0979-5dfe-b6de-bf3b8e52e413": "https://www.amazon.com/gp/product/B00H25FCSQ/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=B00H25FCSQ&linkId=d054d64632cdfe92382169259917fb81", // fifth season
-  "d8b1d1cd-24b7-50e5-bc24-05761f9fab3d": "https://www.amazon.com/gp/product/0553293354/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0553293354&linkId=524a8a76acee2975c6a9b1ea1681e6ce", // foundation
-  "6fe13e9d-e146-59cd-a7be-1275f65785d9": "https://www.amazon.com/gp/product/1732265119/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1732265119&linkId=39b9e6d277262210ac709f2855b9f38b",// the dream machine
-  "5c9f75ce-7bbf-594b-bc8b-efba4482c031":"https://www.amazon.com/gp/product/1449319777/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1449319777&linkId=cae89556bdd639cb0ae7efb842f14eb6", // cloud architecture patterns
-  "b5bb9b3f-292e-56e3-9f54-63aacae9d801": "https://www.amazon.com/gp/product/054792819X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=054792819X&linkId=09f40c27b0f6ef5e970726577f7da32a", //return of the king
-  "beb7924a-1c2d-5244-810f-38f097372576":"https://www.amazon.com/gp/product/1250192757/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1250192757&linkId=041dcc62a5770e833dc59991bf57e5ee", // sourdough
-  "fa4fff39-39b1-5dc4-a13f-0282762164e5":"https://www.amazon.com/gp/product/0307389839/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0307389839&linkId=59d2f242a83664a73402b2e316aae20f", // what i talk about when i talk about running
+  "a0623588-828a-51fc-8127-5fa1831e9fbc":
+    "https://www.amazon.com/gp/product/0735211752/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0735211752&linkId=902d223d83283c9565dd8b12dd6aea9a", // broad band
+  "0358646e-f3e9-53b6-a3d2-7f0ed3eaadfe":
+    "https://www.amazon.com/gp/product/0393064417/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0393064417&linkId=4a64dec892537f560416ce00200c94b1", // outer lands
+  "5da200e2-a391-584e-9c8c-1b67e7a987cd":
+    "https://www.amazon.com/gp/product/0374514429/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0374514429&linkId=7d5ad52fdda91a4105774d4087ca8ee4", // pine barrens
+  "d40b9ec6-c3cc-5dfa-aae9-72540cb7cc51":
+    "https://www.amazon.com/gp/product/1591848261/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1591848261&linkId=b6a65e2fe94851b968bed62340936dd0", //anthing you want
+  "30c1e90e-68b7-552c-8cce-6d7fac312fea":
+    "https://www.amazon.com/gp/product/1481487736/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1481487736&linkId=f668c0492ceb665bcede93ea4031ce79", // starfish
+  "0b9b9915-e985-5128-b91a-be4834f7886f":
+    "https://www.amazon.com/gp/product/0345347951/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0345347951&linkId=ffebaec65d97b373096121b93afd39b4", // childhoods end
+  "1b04cf66-460d-58d9-acc9-64c12ec83764":
+    "https://www.amazon.com/gp/product/1250297141/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1250297141&linkId=9d0d28a934ad77aaad491bab1ed427d1", // oathbringer,
+  "748711ae-d64b-548b-9ba5-c2608017bc19":
+    "https://www.amazon.com/gp/product/0765365286/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0765365286&linkId=7c3b230e85458d3a01b78876a7860ab4", // words of radiance
+  "e9447839-0979-5dfe-b6de-bf3b8e52e413":
+    "https://www.amazon.com/gp/product/B00H25FCSQ/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=B00H25FCSQ&linkId=d054d64632cdfe92382169259917fb81", // fifth season
+  "d8b1d1cd-24b7-50e5-bc24-05761f9fab3d":
+    "https://www.amazon.com/gp/product/0553293354/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0553293354&linkId=524a8a76acee2975c6a9b1ea1681e6ce", // foundation
+  "6fe13e9d-e146-59cd-a7be-1275f65785d9":
+    "https://www.amazon.com/gp/product/1732265119/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1732265119&linkId=39b9e6d277262210ac709f2855b9f38b", // the dream machine
+  "5c9f75ce-7bbf-594b-bc8b-efba4482c031":
+    "https://www.amazon.com/gp/product/1449319777/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1449319777&linkId=cae89556bdd639cb0ae7efb842f14eb6", // cloud architecture patterns
+  "b5bb9b3f-292e-56e3-9f54-63aacae9d801":
+    "https://www.amazon.com/gp/product/054792819X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=054792819X&linkId=09f40c27b0f6ef5e970726577f7da32a", //return of the king
+  "beb7924a-1c2d-5244-810f-38f097372576":
+    "https://www.amazon.com/gp/product/1250192757/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1250192757&linkId=041dcc62a5770e833dc59991bf57e5ee", // sourdough
+  "fa4fff39-39b1-5dc4-a13f-0282762164e5":
+    "https://www.amazon.com/gp/product/0307389839/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0307389839&linkId=59d2f242a83664a73402b2e316aae20f", // what i talk about when i talk about running
   "a77d00b5-8735-51ae-9f87-84b6ba268148":
     "https://www.amazon.com/gp/product/0547928203/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0547928203&linkId=5f6c71737d8642fe73475aa20f211264", // two towers
   "d192e7dc-13ca-5ec1-8ae2-37dc63c0a3a0":

@@ -159,6 +159,7 @@ export const pageQuery = graphql`
 `;
 
 const amazonLinkMap = {
+  "56d9dbd0-8cfe-551b-a0fc-8d51e1671c3a": "https://www.amazon.com/gp/product/006210490X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=006210490X&linkId=a4be26c533f2a9c222a200d4fbce5c97", //school evil
   "a0623588-828a-51fc-8127-5fa1831e9fbc":
     "https://www.amazon.com/gp/product/0735211752/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0735211752&linkId=902d223d83283c9565dd8b12dd6aea9a", // broad band
   "0358646e-f3e9-53b6-a3d2-7f0ed3eaadfe":

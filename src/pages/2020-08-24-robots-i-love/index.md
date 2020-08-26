@@ -34,11 +34,11 @@ It's a robot... for your original Nintendo. I'm embarassed to admit it, but I've
 
 These Nintendo ads are just perfection. I'm still more excited for the promise of this system than any game console out today.
 
-![rob2](./images/rob-ad1.jpeg)
+![rob2](./images/rob-1.jpeg)
 
-![rob3](./images/rob-ad2.jpeg)
+![rob3](./images/rob-2.jpeg)
 
-![rob4](./images/rob-ad3.jpeg)
+![rob4](./images/rob-3.jpeg)
 > Source: [Twitter](https://twitter.com/heyphilsummers/status/1199532600911683585)
 
 R.O.B. only ever worked with two Nintendo games. From what I've read, neither is very fun. But I'm sure there are some great ROM-hacks out there with more robotic operating buddy interactions.

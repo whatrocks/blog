@@ -66,11 +66,13 @@ export default function Library({ data }) {
         </thead>
         <tbody>
           {books.map((book, i) => {
-            // if (!amazonLinkMap[book.book.id]) {
-            //   console.log(
-            //     `missing: ${book.book.title_without_series} :: ${book.book.id}`
-            //   );
-            // }
+           /* 
+            if (!amazonLinkMap[book.book.id]) {
+               console.log(
+                 `missing: ${book.book.title_without_series} :: ${book.book.id}`
+               );
+             }
+            */
             return (
               <tr key={i}>
                 <td>
@@ -159,6 +161,7 @@ export const pageQuery = graphql`
 `;
 
 const amazonLinkMap = {
+  "d33422f3-56ea-5401-a8d9-30ac52f50a66":"https://www.amazon.com/gp/product/0140386335/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0140386335&linkId=1ca0679baf9564bc3a744a462af5fda0", //Never ending story
   "56d9dbd0-8cfe-551b-a0fc-8d51e1671c3a": "https://www.amazon.com/gp/product/006210490X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=006210490X&linkId=a4be26c533f2a9c222a200d4fbce5c97", //school evil
   "a0623588-828a-51fc-8127-5fa1831e9fbc":
     "https://www.amazon.com/gp/product/0735211752/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0735211752&linkId=902d223d83283c9565dd8b12dd6aea9a", // broad band

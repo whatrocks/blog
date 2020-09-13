@@ -66,13 +66,13 @@ export default function Library({ data }) {
         </thead>
         <tbody>
           {books.map((book, i) => {
-           /*
-           if (!amazonLinkMap[book.book.id]) {
+          /*
+            if (!amazonLinkMap[book.book.id]) {
                console.log(
                  `missing: ${book.book.title_without_series} :: ${book.book.id}`
                );
              }
-             */
+            */
             return (
               <tr key={i}>
                 <td>
@@ -161,7 +161,7 @@ export const pageQuery = graphql`
 `;
 
 const amazonLinkMap = {
-"7b924d36-091f-557d-94c7-358393794f36":"https://www.amazon.com/gp/product/0593117026/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0593117026&linkId=381edf93abd95aa7bc1d8e2199409975", // Thirteens
+"2daa252d-30b8-593d-9ed6-a9649bc1d04e":"https://www.amazon.com/gp/product/0525552979/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0525552979&linkId=b3281433f94c8902d807f437261626f9","7b924d36-091f-557d-94c7-358393794f36":"https://www.amazon.com/gp/product/0593117026/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0593117026&linkId=381edf93abd95aa7bc1d8e2199409975", // Thirteens
   "bf60138f-687e-5cb8-bda5-52e199e3930c":"https://www.amazon.com/gp/product/0316539538/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0316539538&linkId=7096dcfae5d79a0e683d93c2e0b82184", // The Silver Arrow
 "d33422f3-56ea-5401-a8d9-30ac52f50a66":"https://www.amazon.com/gp/product/0140386335/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0140386335&linkId=1ca0679baf9564bc3a744a462af5fda0", //Never ending story
   "56d9dbd0-8cfe-551b-a0fc-8d51e1671c3a": "https://www.amazon.com/gp/product/006210490X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=006210490X&linkId=a4be26c533f2a9c222a200d4fbce5c97", //school evil

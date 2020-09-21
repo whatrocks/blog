@@ -66,12 +66,12 @@ export default function Library({ data }) {
         </thead>
         <tbody>
           {books.map((book, i) => {
-          /*
+            /*
             if (!amazonLinkMap[book.book.id]) {
-               console.log(
-                 `missing: ${book.book.title_without_series} :: ${book.book.id}`
-               );
-             }
+              console.log(
+                `missing: ${book.book.title_without_series} :: ${book.book.id}`
+              );
+            }
             */
             return (
               <tr key={i}>
@@ -161,10 +161,18 @@ export const pageQuery = graphql`
 `;
 
 const amazonLinkMap = {
-"2daa252d-30b8-593d-9ed6-a9649bc1d04e":"https://www.amazon.com/gp/product/0525552979/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0525552979&linkId=b3281433f94c8902d807f437261626f9","7b924d36-091f-557d-94c7-358393794f36":"https://www.amazon.com/gp/product/0593117026/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0593117026&linkId=381edf93abd95aa7bc1d8e2199409975", // Thirteens
-  "bf60138f-687e-5cb8-bda5-52e199e3930c":"https://www.amazon.com/gp/product/0316539538/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0316539538&linkId=7096dcfae5d79a0e683d93c2e0b82184", // The Silver Arrow
-"d33422f3-56ea-5401-a8d9-30ac52f50a66":"https://www.amazon.com/gp/product/0140386335/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0140386335&linkId=1ca0679baf9564bc3a744a462af5fda0", //Never ending story
-  "56d9dbd0-8cfe-551b-a0fc-8d51e1671c3a": "https://www.amazon.com/gp/product/006210490X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=006210490X&linkId=a4be26c533f2a9c222a200d4fbce5c97", //school evil
+  "e233b3a1-0eaf-5c62-a705-62eb5f859507":
+    "https://www.amazon.com/gp/product/0061339202/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0061339202&linkId=b76eed264fa980c5471f8c0cc351b2a1", //flow
+  "2daa252d-30b8-593d-9ed6-a9649bc1d04e":
+    "https://www.amazon.com/gp/product/0525552979/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0525552979&linkId=b3281433f94c8902d807f437261626f9",
+  "7b924d36-091f-557d-94c7-358393794f36":
+    "https://www.amazon.com/gp/product/0593117026/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0593117026&linkId=381edf93abd95aa7bc1d8e2199409975", // Thirteens
+  "bf60138f-687e-5cb8-bda5-52e199e3930c":
+    "https://www.amazon.com/gp/product/0316539538/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0316539538&linkId=7096dcfae5d79a0e683d93c2e0b82184", // The Silver Arrow
+  "d33422f3-56ea-5401-a8d9-30ac52f50a66":
+    "https://www.amazon.com/gp/product/0140386335/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0140386335&linkId=1ca0679baf9564bc3a744a462af5fda0", //Never ending story
+  "56d9dbd0-8cfe-551b-a0fc-8d51e1671c3a":
+    "https://www.amazon.com/gp/product/006210490X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=006210490X&linkId=a4be26c533f2a9c222a200d4fbce5c97", //school evil
   "a0623588-828a-51fc-8127-5fa1831e9fbc":
     "https://www.amazon.com/gp/product/0735211752/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0735211752&linkId=902d223d83283c9565dd8b12dd6aea9a", // broad band
   "0358646e-f3e9-53b6-a3d2-7f0ed3eaadfe":

@@ -38,6 +38,10 @@ body {
   color: $font;
 }
 
+code[class*="language-"] {
+  white-space: pre-wrap;
+}
+
 p {
   line-height: 27.6px;
   font-family: 'Inter', sans-serif;

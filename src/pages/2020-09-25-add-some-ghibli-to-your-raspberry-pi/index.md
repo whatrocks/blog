@@ -111,7 +111,7 @@ Cannot open display:
 
 Awesome! I mean, the cron job still doesn't work, but at least we have some more info. That's a win. So, what have we learned? It seems like our cron job can't "open" the display. Some more Googling suggests that I need to add an env var for the display, so I add this `export DISPLAY=:0.0` to the beginning on my cron job right after the cron syntax.
 
-Did that fix it? No. But we get a new error message"
+Did that fix it? No. But we get a new error message:
 
 ```
 Message: x-terminal-emulator has very limited support, consider choose another terminal

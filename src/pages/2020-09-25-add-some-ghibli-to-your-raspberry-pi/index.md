@@ -68,7 +68,7 @@ karigurashi024.jpg
 
 But we want to pipe this randomly selected file to the `pcmanfm` command! I'm using `xargs` to do that in the next part of the command. There's probably an easier way, but this works for me.
 
-So, now that we have our command to randomly select a background, we just need to write a cron job to run this command every... let's say, five minutes. First, open up your computer's crontab file:
+So, now that we have our command to randomly select a background, we just need to write a cron job to run this command every... let's say, ten minutes. First, open up your computer's crontab file:
  
 ```bash
 crontab -e

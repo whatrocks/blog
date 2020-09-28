@@ -11,10 +11,7 @@ isBlogPost: true
 
 Maybe you caught this week's [HN post](https://news.ycombinator.com/item?id=24564775) that [Studio Ghibli](http://www.ghibli.jp/info/013344/) dropped 400 images into the public domain. The comments suggested that there's something odd in Japanese copyright law about taking screenshots of films, and that Studio Ghibli might have furnished these to help keep people talking about their films in reviews and whatnot.
 
-![marnie](./images/marnie004.jpg)
-
-<form style="border:1px solid #ccc; background-color: #eee; padding:3px;text-align:center;" action="https://tinyletter.com/whatrocks" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/whatrocks', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail" style="letter-spacing: 0.15rem;">Subscribe to Charlie's <i>almost-never</i> newsletter</label></p><p><input type="text" style="width:225px; padding: 1rem 0.5rem; font-size: 1rem; border: 2px solid rgb(33,93,211); border-top-left-radius: 4px; border-bottom-left-radius: 4px; outline:none;" name="email" id="tlemail" placeholder="foo@bar.com" /><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" style="font-size: 1rem; border: 2px solid rgb(33,93,211); color: white; font-weight: 500;padding: 1rem; border-top-right-radius: 4px; border-bottom-right-radius: 4px; background-color: rgb(33,93,211); cursor: pointer; outline:none; margin-bottom: 0.5rem;" /></p></form>
-        
+![marnie](./images/marnie004.jpg)        
 
 A more useful comment gave a nice tip for scraping the images in a single `wget` command:
 

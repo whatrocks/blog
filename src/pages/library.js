@@ -161,6 +161,7 @@ export const pageQuery = graphql`
 `;
 
 const amazonLinkMap = {
+  "dffd3227-ccaf-5f6a-a816-4a33bc47f020":"https://www.amazon.com/gp/product/0374514968/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0374514968&linkId=b2fb08d7f53e431bab9b1133f422adb3", // the headmaster
   "037393a4-ebbb-509a-ad23-7cbcde4f1f61":
     "https://www.amazon.com/gp/product/163557563X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=163557563X&linkId=e7c7c9948f624b2457e090b1f3be7798", // piranesi
   "e233b3a1-0eaf-5c62-a705-62eb5f859507":

@@ -1,48 +1,64 @@
-import React from 'react'
-//import { graphql } from 'gatsby'
-//import Img from 'gatsby-image'
-import Layout from '../layouts'
-import s from './walkingman.module.scss'
-import Helmet from 'react-helmet'
+import React from "react";
+import { graphql } from "gatsby";
+import Img from "gatsby-image";
+import Layout from "../layouts";
+import s from "./walkingman.module.scss";
+import Helmet from "react-helmet";
 
 export default function Walkingman({ data }) {
+  const { edges } = data.allInstagramContent;
   return (
     <Layout>
       <Helmet title="#walkingman" />
       <h1 className={s.title}>#walkingman</h1>
-      <p>Unfortunately, the Instagram API changed, so I'll need to source and store these images locally. I knew this was coming, and this is probably a good thing anyway. Hopefully will be back up soon. </p>
+      <div className={s.grid}>
+        {edges.map((edge, i) => {
+          console.log("edge: ", edge);
+          if (edge.node.localImage.childImageSharp) {
+            return (
+              <a
+                href={edge.node.media_url}
+                rel="noopener noreferrer"
+                target="_blank"
+                className={s.box}
+                key={i}
+              >
+                <Img
+                  style={{
+                    marginRight: "0.75rem",
+                    height: "250px",
+                    width: "250px",
+                  }}
+                  fluid={edge.node.localImage.childImageSharp.fluid}
+                />
+                <p className={s.label}>
+                  {edge.node.caption.slice(0, edge.node.caption.indexOf("#"))}
+                </p>
+              </a>
+            );  
+          } else return (<span />)
+        })}
+      </div>
     </Layout>
-  )
+  );
 }
-/* not working at the moment
+
 export const pageQuery = graphql`
   query walkingmanData {
-    allInstagramContent(
-      filter: { caption: { text: { regex: "/#walking/" } } }
-    ) {
+    allInstagramContent(filter: { caption: { regex: "/#walking/" } }) {
       edges {
         node {
           localImage {
             childImageSharp {
-              fixed(width: 250, height: 250) {
-                ...GatsbyImageSharpFixed
+              fluid(maxHeight: 500, maxWidth: 500, quality: 90) {
+                ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
-          link
-          location {
-            name
-          }
-          caption {
-            text
-          }
-          images {
-            standard_resolution {
-              url
-            }
-          }
+          caption
+          media_url
         }
       }
     }
   }
-`*/
+`;

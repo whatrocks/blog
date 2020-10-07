@@ -161,7 +161,12 @@ export const pageQuery = graphql`
 `;
 
 const amazonLinkMap = {
-  "dffd3227-ccaf-5f6a-a816-4a33bc47f020":"https://www.amazon.com/gp/product/0374514968/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0374514968&linkId=b2fb08d7f53e431bab9b1133f422adb3", // the headmaster
+  "ab3e8ce2-6160-5ca5-a3df-0aeb268ad9fc":
+    "https://www.amazon.com/gp/product/0399173102/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0399173102&linkId=b59fc63816197d06a73fd34ee1d70707", // the outsider
+  "71743b21-fa7c-5b5b-95d5-e17b269f0a24":
+    "https://www.amazon.com/gp/product/1877741094/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1877741094&linkId=e40ad924992964aff49708d25cd7fed0", // zen in the art of writing
+  "dffd3227-ccaf-5f6a-a816-4a33bc47f020":
+    "https://www.amazon.com/gp/product/0374514968/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0374514968&linkId=b2fb08d7f53e431bab9b1133f422adb3", // the headmaster
   "037393a4-ebbb-509a-ad23-7cbcde4f1f61":
     "https://www.amazon.com/gp/product/163557563X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=163557563X&linkId=e7c7c9948f624b2457e090b1f3be7798", // piranesi
   "e233b3a1-0eaf-5c62-a705-62eb5f859507":

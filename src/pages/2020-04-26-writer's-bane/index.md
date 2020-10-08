@@ -25,6 +25,8 @@ I hope this guide proves useful when you're looking to read about how to write i
 
 - **[Bird by Bird](https://www.amazon.com/gp/product/0385480016/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0385480016&linkId=3cb65bd21cb9764f04be702fe152c1ff) - Anne Lamott**: The best advice you'll get about life and writing.
 
+- **[Zen in the Art of Writing](https://www.amazon.com/gp/product/1877741094/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=1877741094&linkId=e40ad924992964aff49708d25cd7fed0) - Ray Bradbury**: How to delight in the joy of BEING ALIVE and also write about it.
+
 - **[The Elements of Style](https://www.amazon.com/gp/product/020530902X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=020530902X&linkId=d79e4ea383d10042e72b29d316802112) - Strunk and White**: Don't throw this out after high school English. It's tiny. Keep it in the bathroom. Don't tell anyone.
 
 ## Podcasts

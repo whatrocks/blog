@@ -29,7 +29,7 @@ This charming anecdote does factor into our story, because it means I've always 
 
 I first noticed blood two or three years ago. On a monthly or so cadence, I'd wipe and notice a reddish tinge. Not bright red, more like muddy-red. Poopy-red. Initially, I thought little of it. Just a minor curiousity. It certainly didn't happen every time. Still, I decided to check off the `Blood in stool` box on the forms at my annual physical with my primary care doctor that year.
 
-A brief aside on the phrase "your primary care doctor." Like in *Forgetting Sarah Marshall*, the last doctor I really thought of as "my doctor" was my pediatrician. Since "becoming an adult", I've lived in three cities in two countries, which means that've generally had no idea who my primary care doctor is or was, only that I'd need to find one to give me a referral to get this wart on my foot removed.
+A brief aside on the phrase "your primary care doctor." Like in *Forgetting Sarah Marshall*, the last doctor I really thought of as "my doctor" was my pediatrician. Since "becoming an adult", I've lived in three cities in two countries, which means that I've generally had no idea who my primary care doctor is or was, only that I'd need to find one to give me a referral to get this wart on my foot removed.
 
 ![Firetruck](./images/firetruck.png)
 
@@ -189,7 +189,7 @@ The big goal for me for the next 24 hours is to walk around. Being the Big Hero 
 
 Sure, my guts feel like someone took a blender to them, but I'm in great spirits, with incredible support from the UCSF team, Carly, and my mom.
 
-Side note that IVs are interesting. They're like open ports into your body, allowing the medical team can either remove or add fluids. I didn't expect that they'd just keep these ports open during your hospital stay, but they do. I guess that makes sense.
+Side note that IVs are interesting. They're like open ports into your body, allowing the medical team to either remove or add fluids. I didn't expect that they'd just keep these ports open during your hospital stay, but they do. I guess that makes sense.
 
 ![port](./images/port.jpg)
 

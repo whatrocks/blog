@@ -65,7 +65,7 @@ The village watched silently as Sren walked into the rippling quicksilver and di
 
 Everyone screamed when they entered the Peep-Hole. No one knew why.
 
-The villagers dispered, but Ori remained. Fig, a younger girl of thirteen, came over to him.
+The villagers dispersed, but Ori remained. Fig, a younger girl of thirteen, came over to him.
 
 "It's okay, Ori. There's always next ritual."
 

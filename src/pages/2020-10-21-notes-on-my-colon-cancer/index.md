@@ -227,7 +227,7 @@ In fact, I'm probably the luckiest cancer survivor ever, from my access to incre
 
 UCSF has me signed up for a 5+ year relationship with their cancer survivors unit (I'll learn more in a few weeks when I have my first session). I'm excited about this, because I want to learn as much as I can about how to stay safe and healthy going forward. A few of my friends have told me that there's good research into fasting and Keto and their link with preventing colon cancers. I'm queuing up some [Tim Ferriss episodes with Dom D'Agostino](https://tim.blog/2015/11/03/dominic-dagostino/) about this topic.
 
-My wife and my family are depending on me to stay healthy, and I'm going to do everything I can to do so. I'm going to own health and be my own health advocate.
+My wife and my family are depending on me to stay healthy, and I'm going to do everything I can to do so. I'm going to own my health and be my own health advocate.
 
 ## Some thanks
 

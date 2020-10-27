@@ -91,7 +91,7 @@ And so began one of the worst weeks of our lives.
 
 Let's talk about the odds for a moment.
 
-![odds](./images/odds.gif)
+![odds](./images/odds.png)
 
 We've already discussed my vigorous, proto-Batman level of health. And how I'm a fresh-faced, occasionally-bearded, 34 year old with the heart of a child and the strength of a chimpanzee (no, that's a [humanzee](https://en.wikipedia.org/wiki/Humanzee)).
 

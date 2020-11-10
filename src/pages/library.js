@@ -161,6 +161,7 @@ export const pageQuery = graphql`
 `;
 
 const amazonLinkMap = {
+  "305f6d89-111d-5414-b4ad-7b99ebaa68f0": "https://amzn.to/2Uah6On", // iowa baseball confederacy
   "9589b0fa-f81a-5a51-9123-8b0a0d5dc8bb": "https://amzn.to/2IWZ1B3", //draft no. 4
   "ab3e8ce2-6160-5ca5-a3df-0aeb268ad9fc":
     "https://www.amazon.com/gp/product/0399173102/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=whatrocks09-20&creative=9325&linkCode=as2&creativeASIN=0399173102&linkId=b59fc63816197d06a73fd34ee1d70707", // the outsider

@@ -9,7 +9,7 @@ image: "loop.png"
 isBlogPost: true
 ---
 
-Somedays I remember that I have a loop pedal.
+Somedays I remember that I have a [loop pedal](https://amzn.to/2H8SH8O).
 
 ![loop pedal](./images/loop.png)
 

@@ -72,7 +72,7 @@ export default function Library({ data }) {
                 `missing: ${book.book.title_without_series} :: ${book.book.id}`
               );
             }
-            */
+            //*/
             return (
               <tr key={i}>
                 <td>
@@ -161,6 +161,7 @@ export const pageQuery = graphql`
 `;
 
 const amazonLinkMap = {
+  "a9026a56-d58c-5b54-b6ea-cb585e669d07":"https://amzn.to/2Jxmxo9",//rhythm of war
  "09647fd9-ecb2-5ddc-81d2-b2be33bffd91":"https://amzn.to/36VGOvY", //garden of beats
   "305f6d89-111d-5414-b4ad-7b99ebaa68f0": "https://amzn.to/2Uah6On", // iowa baseball confederacy
   "9589b0fa-f81a-5a51-9123-8b0a0d5dc8bb": "https://amzn.to/2IWZ1B3", //draft no. 4

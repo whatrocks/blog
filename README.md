@@ -14,6 +14,7 @@ export GOODREADS_API_KEY="foo"
 export GOODREADS_USER_ID="foo"
 export GOOGLE_ANALYTICS_ID="foo"
 export GATSBY_GOOGLE_SITE_VERIFICATION="foo"
+export GATSBY_TELEMETRY_DISABLED="1"
 ```
 
 Then run these commands:

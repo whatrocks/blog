@@ -17,7 +17,7 @@ Those are the best sorts of days.
 
 Somedays that leads to a new song.
 
-### A loop pedal is a push-only stack
+### A loop pedal is a stack
 
 A loop pedal is a magical device that lets you record in stacked layers. It's almost like editing something in Figma or Sketch, except each layer is the same "shape" as the first or root layer. And by *shape* here what I actually mean is *length*.
 
@@ -93,7 +93,7 @@ Thus, one of the more common use cases of the loop pedal is to lay down some rep
 
 Reader beware that my loop pedal is relatively simple. There are other, better, more-intense loop pedals where you can have multiple different loop stacks going at the same time. For example, maybe you've got a loop going for the verses and another separate loop stack for the choruses in your song.
 
-But I appreciate the simplicity of my pedal. The one thing I still haven't figured out is whether or not you can do the `pop` stack operation on it. For now, I've been living in a `push` only world, flubs included, which you'll hear in the next section.
+But I appreciate the simplicity of my pedal. The one thing I still haven't figured out is whether or not you can do the `pop` stack operation on it. The [documentation](https://www.boss.info/us/products/rc-1/) suggests that you can erase the top layer of the stack, but I haven't figured it out yet. For now, I've been living in a `push` only world, flubs included, which you'll hear in the next section.
 
 ### School Supplies
 

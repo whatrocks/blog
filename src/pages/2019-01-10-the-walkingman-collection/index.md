@@ -11,7 +11,7 @@ image: "walkingman.png"
 
 I've pulled all my [Instagram #walkingman](https://instagram.com/whatrocks) photos into a handy little page. [Check it out](/walkingman).
 
-~~So long as the Instagram API continues to play nice (no guarantee of that), then [this page](/walkingman) will stay up-to-date as my travels continue.~~
+So long as the Instagram API continues to play nice (no guarantees), then [this page](/walkingman) will stay up-to-date as my travels continue.
 
 ![walkingmen](./images/walkingman.png)
 

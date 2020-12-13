@@ -66,7 +66,7 @@ export default function Library({ data }) {
         </thead>
         <tbody>
           {books.map((book, i) => {
-            /*
+            ///*
             if (!amazonLinkMap[book.book.id]) {
               console.log(
                 `missing: ${book.book.title_without_series} :: ${book.book.id}`
@@ -161,6 +161,7 @@ export const pageQuery = graphql`
 `;
 
 const amazonLinkMap = {
+  "d0dcc0aa-abca-55ba-a274-75a8a371188a":"https://amzn.to/3ngiiwf",//screaming staircase
   "a9026a56-d58c-5b54-b6ea-cb585e669d07":"https://amzn.to/2Jxmxo9",//rhythm of war
  "09647fd9-ecb2-5ddc-81d2-b2be33bffd91":"https://amzn.to/36VGOvY", //garden of beats
   "305f6d89-111d-5414-b4ad-7b99ebaa68f0": "https://amzn.to/2Uah6On", // iowa baseball confederacy

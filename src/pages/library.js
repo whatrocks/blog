@@ -161,6 +161,8 @@ export const pageQuery = graphql`
 `;
 
 const amazonLinkMap = {
+  "b7064172-a3e4-5026-be89-50c89accbd3c":"https://amzn.to/3hyu9ny",// deadhand
+  "67322d18-502b-56da-895f-c6cffd6127a9":"https://amzn.to/2X0YQs6", //expectingbetter
   "ba3a216f-0357-5592-8d31-10ad08edbef3": "https://amzn.to/2Jpw9BQ", // book scavenger
   "d0dcc0aa-abca-55ba-a274-75a8a371188a": "https://amzn.to/3ngiiwf", //screaming staircase
   "a9026a56-d58c-5b54-b6ea-cb585e669d07": "https://amzn.to/2Jxmxo9", //rhythm of war

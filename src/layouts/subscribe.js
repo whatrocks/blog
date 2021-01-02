@@ -32,7 +32,7 @@ export default () => (
       anytime.
     </p>
     <div className={s.copyright}>
-      <span>© 2020 Charlie Harrington</span>
+      <span>© 2021 Charlie Harrington</span>
       <span> | </span>
       <span>
         <a

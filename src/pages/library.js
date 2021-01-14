@@ -161,6 +161,7 @@ export const pageQuery = graphql`
 `;
 
 const amazonLinkMap = {
+  "0a34cb9e-7f63-573b-bf68-a3ecd069dfa7":"https://amzn.to/3qiFNpD",// unix
   "b7064172-a3e4-5026-be89-50c89accbd3c":"https://amzn.to/3hyu9ny",// deadhand
   "67322d18-502b-56da-895f-c6cffd6127a9":"https://amzn.to/2X0YQs6", //expectingbetter
   "ba3a216f-0357-5592-8d31-10ad08edbef3": "https://amzn.to/2Jpw9BQ", // book scavenger

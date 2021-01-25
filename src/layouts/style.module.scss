@@ -10,9 +10,6 @@ $darkborder: darken($linkBlue, 2%);
 a {
   text-decoration: none;  
   color: $linkBlue;
-  // &:hover {
-  //   border-bottom: 1.5px dashed $linkBlue;
-  // }
 }
 
 a.gatsby-resp-image-link {
@@ -20,7 +17,6 @@ a.gatsby-resp-image-link {
 }
 
 * {
-  // box-sizing: border-box;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   box-sizing: border-box;  
@@ -33,7 +29,7 @@ html {
 
 body {
   margin: 0;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 25.6px;
   color: $font;
 }

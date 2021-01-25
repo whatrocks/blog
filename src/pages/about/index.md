@@ -9,13 +9,13 @@ image: ""
 description: "about"
 ---
 
-My name is Charlie Harrington. I'm a software engineer at [Cruise](https://www.getcruise.com) in San Francisco.
+Hello! I'm Charlie Harrington. I'm a software engineer at [Cruise](https://www.getcruise.com).
 
 I love old computers, [books of all kinds](/library), building little things, playing music, and the Great Outdoors. Here's a grainy photo of me playing *Let It Be* on banjo:
 
 ![charlie](./images/ch.jpg)
 
-I'm also in the middle of ~~writing~~ editing a novel about robots. More on that soon!
+I'm also in the middle of ~~writing~~ ~~editing~~ re-editing a novel about robots. More on that soon!
 
 ### You can follow me elsewhere as @whatrocks
 

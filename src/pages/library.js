@@ -161,6 +161,7 @@ export const pageQuery = graphql`
 `;
 
 const amazonLinkMap = {
+  "b6f947a5-275c-5ee7-a6d4-fd15d6b21dee":"https://amzn.to/3cjlxAK", // poppy war
   "961938b1-fd33-5676-8bc0-c221af4b1e03": "https://amzn.to/368ySI0", //managers path
   "7c0916fe-1dee-5367-86e4-fc6799eb7cbd": "https://amzn.to/39jg0I8", // deep work
   "0a34cb9e-7f63-573b-bf68-a3ecd069dfa7": "https://amzn.to/3qiFNpD", // unix

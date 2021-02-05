@@ -127,7 +127,7 @@ Instead, insurance wants to make sure that you really-super-duper-need whatever 
 
 Insurance is frustrating and scary. I do not understand it. I do not want to understand it. I wish it was simpler. I wish I didn't have to make sure that I was "covered" for things related to my health and my family's health. I also know that I'm incredibly lucky to have good insurance. I took a screenshot from my insurance app back in December:
 
-// INSERT SCREENSHOT
+![insurance bill](./images/bill.png)
 
 WTF. That's an insane amount of money. But my life was saved, sooo...? The insurance company even assigned me a nurse to "check in on me" as a resource back in November and December, which sadly was more of a nuisance than anything else. And, then, when my company switched insurance providers at the beginning of 2021, this nurse service stopped abruptly. The whole thing's odd. But I can say again that I am extremely grateful to have had good insurance during my cancer treatment.
 
@@ -213,4 +213,4 @@ I have learned a lot about cancer and health. My heart breaks when I think about
 
 Thanks to Carly and my family and friends and work peeps for your love and support.
 
-Fuck cancer. Create wonderful things, be good, and have fun.
+Fuck cancer. [Create wonderful things, be good, and have fun.](/create-wonderful-things-be-good-have-fun)

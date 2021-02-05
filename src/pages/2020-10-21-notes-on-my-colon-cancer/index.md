@@ -247,3 +247,5 @@ Thank you to:
 * OneMedical!
 
 Also, if I got anything wrong in this missive from a medical perspective, let me know and I can attept to correct the errata. This is meant to be *my understanding* of *my situation*, YMMV.
+
+> **2021 Update!** Read Part II of my cancer story: [Notes on My Chemotherapy](/chemotherapy)

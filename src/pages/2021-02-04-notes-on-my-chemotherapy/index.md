@@ -155,6 +155,7 @@ Chemo has side effects. Here are the things that I've encountered so far:
 
 * super cold fingers and toes
 * lockjaw when I start eating
+* clenching claw hands
 * it hurts to cry (and I just finished the last season of Halt and Catch Fire, so yeah..)
 * no appetite, not even for pizza or beer
 * nausea
@@ -167,7 +168,9 @@ Let's talk about the sperm stuff. As a result of doing chemo, there's a good cha
 
 The sperm banking process is hilarious. You go to a building, then into a waiting room, then you are led to a tiny little room with a metal door in the wall. When you are done collecting your sample in a cup, you open the door in the wall and put the cup in there, and then press a button, and someone on the other side grabs it. In between that, there's literally a Roku porn subscription and a big TV. I went four times in a week. We got some good stuff collected.
 
-Now it's finally time to start chemo!
+Another note on the 3 months vs 6 months decision - there are other potential side effects to chemo that factor into the timing decision. The big one in my case is something called [neuropathy](https://en.wikipedia.org/wiki/Peripheral_neuropathy). Essentially, chemo can potentially cause long-term, life-altering nerve damage. The signs of it often begin with numb feet and hands, which I will admit seem rather easy to confuse with the expected, but not serious symptoms of cold hands and feet. The docs explain that any signs of neuropathy need to be reported immediately and we will halt chemo immediately, because the long-term negative effect of neuropathy far outweighs the gains in any reduction of recurrence rates in my case.
+
+Now, given of all that prep and preamble, it's finally time to start chemo!
 
 ## Charlie the Cyborg
 

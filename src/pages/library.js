@@ -25,6 +25,8 @@ export default function Library({ data }) {
                 alt={book.title}
                 className={s.bookCover}
                 src={book.coverUrl}
+                height="250"
+                width="165"
               />
               <div className={s.title}>
                 <a href={book.reviewLink} rel="noopener noreferrer" target="_blank">
@@ -68,6 +70,8 @@ export default function Library({ data }) {
                     alt={book.title}
                     className={s.bookCover}
                     src={book.coverUrl}
+                    height="250"
+                    width="165"
                   />
                 </td>
                 <td className={s.title}>

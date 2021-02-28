@@ -5,7 +5,7 @@ import s from "./library.module.scss";
 import Helmet from "react-helmet";
 
 export default function Library({ data }) {
-  const books  = data.allGoogleSheet.nodes[0].LIBRARY;
+  const books  = data.allGoogleSheet.nodes[0].LIBRARY.reverse();
   return (
     <Layout>
       <Helmet title="Charlie Harrington's Library" />
@@ -124,7 +124,6 @@ export const pageQuery = graphql`
           author
           coverUrl
           dateRead
-          dateReadStr
           id
           isbn
           parent

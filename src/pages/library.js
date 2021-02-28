@@ -51,7 +51,7 @@ export default function Library({ data }) {
                 <strong>Published:</strong> {book.yearPublished}
               </div>
               <div>
-                <strong>Book Age at Reading:</strong> {book.yearsBetween}
+                <strong>Age of Book at Reading:</strong> {book.yearsBetween}
               </div>
               <div>
                 <strong>Genre:</strong> {book.genre}

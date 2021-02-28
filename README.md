@@ -6,15 +6,10 @@ Source code for my website
 
 ## Local development
 
-Create `env.sh` with required env variables
+Create `env.sh` with required env variables (also set in Netlify)
 
 ```bash
-export INSTAGRAM_TOKEN="foo"
-export GOODREADS_API_KEY="foo"
-export GOODREADS_USER_ID="foo"
-export GOOGLE_ANALYTICS_ID="foo"
-export GATSBY_GOOGLE_SITE_VERIFICATION="foo"
-export GATSBY_TELEMETRY_DISABLED="1"
+export VAR_NAME="foo"
 ```
 
 Then run these commands:

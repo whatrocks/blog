@@ -5,7 +5,7 @@ import s from "./library.module.scss";
 import Helmet from "react-helmet";
 
 export default function Library({ data }) {
-  const books  = data.allGoogleSheet.nodes[0].LIBRARY.reverse();
+  const books = data.allGoogleSheet.nodes[0].LIBRARY.reverse();
   return (
     <Layout>
       <Helmet title="Charlie Harrington's Library" />
@@ -29,76 +29,42 @@ export default function Library({ data }) {
                 width="165"
               />
               <div className={s.title}>
-                <a href={book.reviewLink} rel="noopener noreferrer" target="_blank">
+                {book.isFavorite ? (
+                  <span className="favBook" role="img" aria-label="start">
+                    ⭐
+                  </span>
+                ) : (
+                  <span />
+                )}
+                <a
+                  href={book.amazonLink ? book.amazonLink : book.reviewLink}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   {book.title}
                 </a>
               </div>
               <div>
-                {book.author}
+                <h3><strong>{book.author}</strong></h3>
               </div>
-              <div>{book.review}</div>
+              <div>
+                <strong>Published:</strong> {book.yearPublished}
+              </div>
+              <div>
+                <strong>Book Age at Reading:</strong> {book.yearsBetween}
+              </div>
+              <div>
+                <strong>Genre:</strong> {book.genre}
+              </div>
+              {book.topic ? <div>
+                <strong>Topic:</strong> {book.topic}
+              </div> : <span />}
+              {book.review ? <hr /> : <span />}
+              <div className={s.review}>{book.review}</div>
             </div>
           );
         })}
       </div>
-      <table className={s.table}>
-        <thead>
-          <tr>
-            <th>Cover</th>
-            <th>Title</th>
-            <th>Author(s)</th>
-            <th>Date Read</th>
-            <th>
-              My&nbsp;
-              <a
-                href="https://twitter.com/search?q=%233sentence%20%40whatrocks"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                #3sentence
-              </a>
-              &nbsp;review
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          {books.map((book, i) => {
-            return (
-              <tr key={i}>
-                <td>
-                  <img
-                    alt={book.title}
-                    className={s.bookCover}
-                    src={book.coverUrl}
-                    height="250"
-                    width="165"
-                  />
-                </td>
-                <td className={s.title}>
-                  <a
-                    href={book.reviewLink}
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    {book.title}
-                  </a>
-                </td>
-                <td>
-                  {book.author}
-                </td>
-                <td>
-                  {new Date(book.dateRead).toLocaleDateString("en-US", {
-                    day: "numeric",
-                    month: "long",
-                    year: "numeric",
-                  })}
-                </td>
-                <td>{book.review}</td>
-              </tr>
-            );
-          })}
-        </tbody>
-      </table>
       <br />
       <p>
         <span role="img" aria-label="books">
@@ -129,8 +95,15 @@ export const pageQuery = graphql`
           parent
           review
           reviewLink
+          amazonLink
           title
           yearPublished
+          yearsBetween
+          isFavorite
+          isFiction
+          isReread
+          genre
+          topic
         }
       }
     }

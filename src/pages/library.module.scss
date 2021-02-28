@@ -10,12 +10,12 @@ $border-color: #eee;
     letter-spacing: .5rem;
 }
 
-.table {
-    display: none;
-}
-
 .cards {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .card {
@@ -27,8 +27,10 @@ $border-color: #eee;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem 0;
+    margin: 1rem;
     padding: 1rem;
+    min-width: 200px;
+    min-height: 430px;
 }
 
 .date {
@@ -37,70 +39,26 @@ $border-color: #eee;
 }
 
 @media (min-width: 50em) {  
-    .table {
-        display: table;
-    }
-    .cards {
-        display: none;
+    .card {
+        width: 450px;
     }
 }
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    border-spacing: 0;
-    display: table;
-    border-color: grey;
-}
-
-thead {
-    background-color: transparent;
-    display: table-header-group;
-    vertical-align: middle;
-    border-color: inherit;
-}
-
-th {
-    border: 1px solid $border-color;
-    padding: .5em .75em;
-    text-align: left;
-    vertical-align: top;
-    border-width: 0 0 2px;
-}
-
-td {
-    padding: .5em .75em;
-    border: 1px solid $border-color;
-    border-width: 0 0 1px;
-    vertical-align: middle;
-}
-
-tfoot {
-    display: table-footer-group;
-    vertical-align: middle;
-    border-color: inherit;
-    background-color: transparent;
-}
-
-tbody {
-    display: table-row-group;
-    vertical-align: middle;
-    border-color: inherit;
-}
-
-tr {
-    display: table-row;
-    vertical-align: inherit;
-    border-color: inherit;
-}
-
 
 .title {
+    margin-top: 0.5rem;
     font-weight: 600;
-    font-size: 1.15rem;
+    font-size: 1.4rem;
 }
 
 .bookCover {
     margin-top: 0.5rem;
     height: 250px;
+}
+
+.favorite {
+    border: 1px solid turquoise;
+}
+
+.review {
+    text-align: left;
 }

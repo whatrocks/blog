@@ -129,6 +129,7 @@ module.exports = {
         }, 
       }
     },
+    "gatsby-plugin-use-query-params",
     {
       resolve: `gatsby-source-filesystem`,
       options: {

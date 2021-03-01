@@ -1,17 +1,54 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { graphql } from "gatsby";
 import Layout from "../layouts";
 import s from "./library.module.scss";
 import Helmet from "react-helmet";
+import Select from "react-select";
+import { useQueryParam, StringParam } from "use-query-params";
+
+function filterBooks(books, genre) {
+  if (!genre) {
+    return books
+  }
+  return books.filter((book) => book.genre === genre);
+}
 
 export default function Library({ data }) {
-  const books = data.allGoogleSheet.nodes[0].LIBRARY.reverse();
+  // initial data loading
+  const ogBooks = data.allGoogleSheet.nodes[0].LIBRARY.slice().reverse();
+
+  const [filteredBooks, setFilteredBooks] = useState(ogBooks);
+  const [genres, setGenres] = useState([]);
+  const [genre, setGenre] = useQueryParam("genre", StringParam);
+
+  useEffect(() => {
+      setFilteredBooks(filterBooks(ogBooks, genre));
+  }, [genre]);
+
+  // populate the form
+  if (!genres.length) {
+    setGenres([...new Set(ogBooks.map((book) => book.genre))]);
+  }
+
   return (
     <Layout>
       <Helmet title="Charlie Harrington's Library" />
       <h1 className={s.pageTitle}>What I've Been Reading</h1>
+      <Select
+        value={{value: genre, label: genre}}
+        placeholder="Filter by genre"
+        isClearable={true}
+        options={genres.map((genre) => {
+          return { value: genre, label: genre };
+        })}
+        onChange={(val) => {
+          setGenre(val ? val.value : null);
+          const filtered = filterBooks(ogBooks, val ? val.value: "")
+          setFilteredBooks(filtered)
+        }}
+      />
       <div className={s.cards}>
-        {books.map((book, i) => {
+        {filteredBooks.map((book, i) => {
           return (
             <div className={s.card} key={i}>
               <div className={s.date}>
@@ -45,7 +82,9 @@ export default function Library({ data }) {
                 </a>
               </div>
               <div>
-                <h3><strong>{book.author}</strong></h3>
+                <h3>
+                  <strong>{book.author}</strong>
+                </h3>
               </div>
               <div>
                 <strong>Published:</strong> {book.yearPublished}
@@ -56,9 +95,13 @@ export default function Library({ data }) {
               <div>
                 <strong>Genre:</strong> {book.genre}
               </div>
-              {book.topic ? <div>
-                <strong>Topic:</strong> {book.topic}
-              </div> : <span />}
+              {book.topic ? (
+                <div>
+                  <strong>Topic:</strong> {book.topic}
+                </div>
+              ) : (
+                <span />
+              )}
               {book.review ? <hr /> : <span />}
               <div className={s.review}>{book.review}</div>
             </div>

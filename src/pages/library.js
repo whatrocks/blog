@@ -6,11 +6,17 @@ import Helmet from "react-helmet";
 import Select from "react-select";
 import { useQueryParam, StringParam } from "use-query-params";
 
-function filterBooks(books, genre) {
-  if (!genre) {
-    return books
+function filterBooks(books, filteredBooks, genre, topic) {
+  if (!genre && !topic) {
+    return books;
   }
-  return books.filter((book) => book.genre === genre);
+  if (!topic && genre) {
+    return books.filter((book) => book.genre === genre);  
+  }
+  if (!genre && topic) {
+    return books.filter((book) => book.topic === topic);   
+  }
+  return filteredBooks.filter((book) => book.genre === genre && book.topic === topic);
 }
 
 export default function Library({ data }) {
@@ -19,34 +25,58 @@ export default function Library({ data }) {
 
   const [filteredBooks, setFilteredBooks] = useState(ogBooks);
   const [genres, setGenres] = useState([]);
+  const [topics, setTopics] = useState([]);
+
   const [genre, setGenre] = useQueryParam("genre", StringParam);
+  const [topic, setTopic] = useQueryParam("topic", StringParam);
 
   useEffect(() => {
-      setFilteredBooks(filterBooks(ogBooks, genre));
-  }, [genre]);
+    // set book list
+    setFilteredBooks(filterBooks(ogBooks, filteredBooks, genre, topic));
+  }, [genre, topic]);
 
   // populate the form
   if (!genres.length) {
     setGenres([...new Set(ogBooks.map((book) => book.genre))]);
+  }
+  if (!topics.length) {
+    setTopics([...new Set(ogBooks.map((book) => book.topic))]);
   }
 
   return (
     <Layout>
       <Helmet title="Charlie Harrington's Library" />
       <h1 className={s.pageTitle}>What I've Been Reading</h1>
-      <Select
-        value={{value: genre, label: genre}}
-        placeholder="Filter by genre"
-        isClearable={true}
-        options={genres.map((genre) => {
-          return { value: genre, label: genre };
-        })}
-        onChange={(val) => {
-          setGenre(val ? val.value : null);
-          const filtered = filterBooks(ogBooks, val ? val.value: "")
-          setFilteredBooks(filtered)
-        }}
-      />
+      <div className={s.filterForm}>
+        <Select
+          className={s.filterItem}
+          value={genre ? { value: genre, label: genre } : null}
+          placeholder="Genre"
+          isClearable={true}
+          options={genres.map((genre) => {
+            return { value: genre, label: genre };
+          })}
+          onChange={(val) => {
+            setGenre(val ? val.value : null);
+            const filtered = filterBooks(ogBooks, val ? val.value : "");
+            setFilteredBooks(filtered);
+          }}
+        />
+        <Select
+          className={s.filterItem}
+          value={topic ? { value: topic, label: topic } : null}
+          placeholder="Topic"
+          isClearable={true}
+          options={topics.map((topic) => {
+            return { value: topic, label: topic };
+          })}
+          onChange={(val) => {
+            setTopic(val ? val.value : null);
+            const filtered = filterBooks(ogBooks, val ? val.value : "");
+            setFilteredBooks(filtered);
+          }}
+        />
+      </div>
       <div className={s.cards}>
         {filteredBooks.map((book, i) => {
           return (

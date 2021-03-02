@@ -62,3 +62,15 @@ $border-color: #eee;
 .review {
     text-align: left;
 }
+
+.filterItem {
+    width: 400px;
+    margin: 0 1rem;
+}
+
+.filterForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

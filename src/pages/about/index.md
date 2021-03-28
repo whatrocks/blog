@@ -9,7 +9,7 @@ image: ""
 description: "about"
 ---
 
-Hello! My name is Charlie Harrington. I'm a software developer and writer living in San Francisco, California. I grew up in Red Bank, New Jersey, and it ain't no sin to be glad you're alive.
+Hello! My name is Charlie Harrington. I'm a computer programmer and writer living in San Francisco, California. I grew up in Red Bank, New Jersey, and it ain't no sin to be glad you're alive.
 
 I'm an engineering manager at [Cruise](https://www.getcruise.com), building software to deliver fully-autonomous vehicles aka self-driving cars. You can see Cruise autonomous vehicles driving around San Francisco right now! Like *right now*, look outside!
 

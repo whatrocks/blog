@@ -13,15 +13,16 @@ Hello! My name is Charlie Harrington. I'm a computer programmer and writer livin
 
 I'm an engineering manager at [Cruise](https://www.getcruise.com), building software to deliver fully-autonomous vehicles aka self-driving cars. You can see Cruise autonomous vehicles driving around San Francisco right now! Like *right now*, look outside!
 
-I love [old computers](/my-new-old-apple-iie-computer), [books of all kinds](/library), [building little things](/afternoon-with-arduino), [playing music](/school-supplies), and [running around in the Great Outdoors](/rim-2-rim-2-rim). Here's a grainy photo of me playing *Let It Be* on banjo: 
+I love [old computers](/my-new-old-apple-iie-computer), [books of all kinds](/library), [playing music](/school-supplies), and [the Great Outdoors](/rim-2-rim-2-rim). Here's a grainy photo of me playing *Let It Be* on banjo: 
 
 ![charlie](./images/ch.jpg)
 
 I'm also in the middle of ~~writing~~ ~~editing~~ re-editing a novel about robots. If you like robots and adventures and being a kid and summer reading and box fans, then this could be the book for you!
 
-### You can follow me elsewhere as @whatrocks
+### Join me elsewhere on the Internet
 
 * [Twitter](https://twitter.com/whatrocks)
+* [Twitch](https://twitch.tv/what_rocks)
 * [GitHub](https://github.com/whatrocks)
 * [Instagram](https://instagram.com/whatrocks)
 * [Goodreads](https://www.goodreads.com/whatrocks)

@@ -19,13 +19,14 @@ I love [old computers](/my-new-old-apple-iie-computer), [books of all kinds](/li
 
 I'm also in the middle of ~~writing~~ ~~editing~~ re-editing a novel about robots. If you like robots and adventures and being a kid and summer reading and box fans, then this could be the book for you!
 
-### Join me elsewhere on the Internet
+### Elsewhere on the Internet
 
 * [Twitter](https://twitter.com/whatrocks)
 * [Twitch](https://twitch.tv/what_rocks)
 * [GitHub](https://github.com/whatrocks)
 * [Instagram](https://instagram.com/whatrocks)
 * [Goodreads](https://www.goodreads.com/whatrocks)
+* [LinkedIn](https://www.linkedin.com/in/charlieharrington)
 
 Thank you for visiting my site.
 

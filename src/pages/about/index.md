@@ -23,6 +23,7 @@ I'm also in the middle of ~~writing~~ ~~editing~~ re-editing a novel about robot
 
 * [Twitter](https://twitter.com/whatrocks)
 * [Twitch](https://twitch.tv/what_rocks)
+* [YouTube](https://www.youtube.com/channel/UCqk3WloxX7Ya5bYSqYNA2Lg)
 * [GitHub](https://github.com/whatrocks)
 * [Instagram](https://instagram.com/whatrocks)
 * [Goodreads](https://www.goodreads.com/whatrocks)
